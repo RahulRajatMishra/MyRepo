@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="5">
+	<!--<listeners>
+		<listener
+			class-name="com.paramountplus.genericUtility.ListenerImplementation" />
+	</listeners>-->
+
+	<test name="myListPage">
+		<parameter name="browserName" value="chrome" />
+		<parameter name="author" value="Rahul" />
+		<classes>
+			<!--<class name="myListPage.VerifyMyListShowsSelectedContent" />
+			<class name="myListPage.VerifyEditMyListContent" />
+			<class name="myListPage.VerifyRecentAdditionToMyList" />-->
+			<class name="myListPage.VerifyNonWatchlistSelectedShow" />
+			<!--<class name="myListPage.VerifyWatchlistSelectedShow"/>-->
+		</classes>
+
+	</test>
+
+</suite> 

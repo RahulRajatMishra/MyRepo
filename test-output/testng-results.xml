@@ -1,0 +1,1403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="34" total="58" passed="24" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Started- HomePage]]>
+    </line>
+    <line>
+      <![CDATA[Test started- verifyFooterLogo]]>
+    </line>
+    <line>
+      <![CDATA[Test completed successfully- verifyFooterLogo]]>
+    </line>
+    <line>
+      <![CDATA[Test started- homePage]]>
+    </line>
+    <line>
+      <![CDATA[Test completed successfully- homePage]]>
+    </line>
+    <line>
+      <![CDATA[Test started- verifyJustAddedBadge]]>
+    </line>
+    <line>
+      <![CDATA[Test completed successfully- verifyJustAddedBadge]]>
+    </line>
+    <line>
+      <![CDATA[Test started- keepWatchingCarouserl]]>
+    </line>
+    <line>
+      <![CDATA[Test completed successfully- keepWatchingCarouserl]]>
+    </line>
+    <line>
+      <![CDATA[Test started- verifyNewBadge]]>
+    </line>
+    <line>
+      <![CDATA[Test completed successfully- verifyNewBadge]]>
+    </line>
+    <line>
+      <![CDATA[Test started- verifyNoMyListCarousel]]>
+    </line>
+    <line>
+      <![CDATA[Test completed successfully- verifyNoMyListCarousel]]>
+    </line>
+    <line>
+      <![CDATA[Test started- verifyMyListCarouselIsDisplayed]]>
+    </line>
+    <line>
+      <![CDATA[Test completed successfully- verifyMyListCarouselIsDisplayed]]>
+    </line>
+    <line>
+      <![CDATA[Finished- HomePage]]>
+    </line>
+    <line>
+      <![CDATA[Started- myListPage]]>
+    </line>
+    <line>
+      <![CDATA[Test started- VerifySelectedContentOnMyList]]>
+    </line>
+    <line>
+      <![CDATA[Test completed successfully- VerifySelectedContentOnMyList]]>
+    </line>
+    <line>
+      <![CDATA[Test started- editMyList]]>
+    </line>
+    <line>
+      <![CDATA[Test completed successfully- editMyList]]>
+    </line>
+    <line>
+      <![CDATA[Test started- verifyRecentAdditionToMylist]]>
+    </line>
+    <line>
+      <![CDATA[Test completed successfully- verifyRecentAdditionToMylist]]>
+    </line>
+    <line>
+      <![CDATA[Test started- verifyNonWatchlistSelectedShow]]>
+    </line>
+    <line>
+      <![CDATA[Test completed successfully- verifyNonWatchlistSelectedShow]]>
+    </line>
+    <line>
+      <![CDATA[Test started- verifyWatchlistSelectedShow]]>
+    </line>
+    <line>
+      <![CDATA[Test completed successfully- verifyWatchlistSelectedShow]]>
+    </line>
+    <line>
+      <![CDATA[Finished- myListPage]]>
+    </line>
+    <line>
+      <![CDATA[Started- newAccount]]>
+    </line>
+    <line>
+      <![CDATA[Test started- planPage]]>
+    </line>
+    <line>
+      <![CDATA[Test completed successfully- planPage]]>
+    </line>
+    <line>
+      <![CDATA[Finished- newAccount]]>
+    </line>
+    <line>
+      <![CDATA[Started- searchResult]]>
+    </line>
+    <line>
+      <![CDATA[Test started- preSearchPlaceholder]]>
+    </line>
+    <line>
+      <![CDATA[Test completed successfully- preSearchPlaceholder]]>
+    </line>
+    <line>
+      <![CDATA[Test started- performSearchAndVerifyResult]]>
+    </line>
+    <line>
+      <![CDATA[Test completed successfully- performSearchAndVerifyResult]]>
+    </line>
+    <line>
+      <![CDATA[Finished- searchResult]]>
+    </line>
+    <line>
+      <![CDATA[Started- showsPage]]>
+    </line>
+    <line>
+      <![CDATA[Test started- verifyKidsCategoryPosition]]>
+    </line>
+    <line>
+      <![CDATA[Test completed successfully- verifyKidsCategoryPosition]]>
+    </line>
+    <line>
+      <![CDATA[Finished- showsPage]]>
+    </line>
+    <line>
+      <![CDATA[Started- upsellPage]]>
+    </line>
+    <line>
+      <![CDATA[Test started- signInCTA]]>
+    </line>
+    <line>
+      <![CDATA[Test completed successfully- signInCTA]]>
+    </line>
+    <line>
+      <![CDATA[Test started- verifySudentUpsellCopy]]>
+    </line>
+    <line>
+      <![CDATA[Test completed successfully- verifySudentUpsellCopy]]>
+    </line>
+    <line>
+      <![CDATA[Finished- upsellPage]]>
+    </line>
+    <line>
+      <![CDATA[Started- userProfile]]>
+    </line>
+    <line>
+      <![CDATA[Test started- verifyAdultUserProfilePicker]]>
+    </line>
+    <line>
+      <![CDATA[Test completed successfully- verifyAdultUserProfilePicker]]>
+    </line>
+    <line>
+      <![CDATA[Test started- verifyKidsUserProfilePicker]]>
+    </line>
+    <line>
+      <![CDATA[Test completed successfully- verifyKidsUserProfilePicker]]>
+    </line>
+    <line>
+      <![CDATA[Test started- newProfileShowPicker]]>
+    </line>
+    <line>
+      <![CDATA[Test completed successfully- newProfileShowPicker]]>
+    </line>
+    <line>
+      <![CDATA[Test started- deleteNewProfile]]>
+    </line>
+    <line>
+      <![CDATA[Test completed successfully- deleteNewProfile]]>
+    </line>
+    <line>
+      <![CDATA[Test started- noShowPickerForKidsProfile]]>
+    </line>
+    <line>
+      <![CDATA[Test completed successfully- noShowPickerForKidsProfile]]>
+    </line>
+    <line>
+      <![CDATA[Test started- deleteKidsUserProfile]]>
+    </line>
+    <line>
+      <![CDATA[Test completed successfully- deleteKidsUserProfile]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-06-02T00:40:04 IST" name="AllTest" finished-at="2023-06-02T01:03:45 IST" duration-ms="1421310">
+    <groups>
+      <group name="Regression">
+        <method signature="VerifyFooterParamountLogo.verifyFooterLogo()[pri:0, instance:homePage.VerifyFooterParamountLogo@65c7a252]" name="verifyFooterLogo" class="homePage.VerifyFooterParamountLogo"/>
+        <method signature="VerifyJustAddedBadge.verifyJustAddedBadge()[pri:0, instance:homePage.VerifyJustAddedBadge@41a0aa7d]" name="verifyJustAddedBadge" class="homePage.VerifyJustAddedBadge"/>
+        <method signature="VerifyKeepWatchingCarousel.keepWatchingCarouserl()[pri:0, instance:homePage.VerifyKeepWatchingCarousel@2794eab6]" name="keepWatchingCarouserl" class="homePage.VerifyKeepWatchingCarousel"/>
+        <method signature="VerifyMyListCarouselDisplayed.verifyMyListCarouselIsDisplayed()[pri:0, instance:homePage.VerifyMyListCarouselDisplayed@13e344d]" name="verifyMyListCarouselIsDisplayed" class="homePage.VerifyMyListCarouselDisplayed"/>
+        <method signature="VerifyMyListCarouselNotDisplayed.verifyNoMyListCarousel()[pri:0, instance:homePage.VerifyMyListCarouselNotDisplayed@45099dd3]" name="verifyNoMyListCarousel" class="homePage.VerifyMyListCarouselNotDisplayed"/>
+        <method signature="VerifyNewBadge.verifyNewBadge()[pri:0, instance:homePage.VerifyNewBadge@6340e5f0]" name="verifyNewBadge" class="homePage.VerifyNewBadge"/>
+        <method signature="VerifyPreSearchPlaceholder.preSearchPlaceholder()[pri:0, instance:searchResult.VerifyPreSearchPlaceholder@2d901eb0]" name="preSearchPlaceholder" class="searchResult.VerifyPreSearchPlaceholder"/>
+        <method signature="VerifySearchResult.performSearchAndVerifyResult()[pri:0, instance:searchResult.VerifySearchResult@3ba987b8]" name="performSearchAndVerifyResult" class="searchResult.VerifySearchResult"/>
+        <method signature="VerifyKidsCategoryPosition.verifyKidsCategoryPosition()[pri:0, instance:showsPage.VerifyKidsCategoryPosition@18271936]" name="verifyKidsCategoryPosition" class="showsPage.VerifyKidsCategoryPosition"/>
+        <method signature="VerifySignInCTA.signInCTA()[pri:0, instance:upsellPage.VerifySignInCTA@5b218417]" name="signInCTA" class="upsellPage.VerifySignInCTA"/>
+        <method signature="VerifyStudentsUpsellCopy.verifySudentUpsellCopy()[pri:0, instance:upsellPage.VerifyStudentsUpsellCopy@645aa696]" name="verifySudentUpsellCopy" class="upsellPage.VerifyStudentsUpsellCopy"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="VerifyFooterParamountLogo.verifyFooterLogo()[pri:0, instance:homePage.VerifyFooterParamountLogo@65c7a252]" name="verifyFooterLogo" class="homePage.VerifyFooterParamountLogo"/>
+        <method signature="VerifyHomePage.homePage()[pri:0, instance:homePage.VerifyHomePage@e350b40]" name="homePage" class="homePage.VerifyHomePage"/>
+        <method signature="VerifyJustAddedBadge.verifyJustAddedBadge()[pri:0, instance:homePage.VerifyJustAddedBadge@41a0aa7d]" name="verifyJustAddedBadge" class="homePage.VerifyJustAddedBadge"/>
+        <method signature="VerifyKeepWatchingCarousel.keepWatchingCarouserl()[pri:0, instance:homePage.VerifyKeepWatchingCarousel@2794eab6]" name="keepWatchingCarouserl" class="homePage.VerifyKeepWatchingCarousel"/>
+        <method signature="VerifyMyListCarouselDisplayed.verifyMyListCarouselIsDisplayed()[pri:0, instance:homePage.VerifyMyListCarouselDisplayed@13e344d]" name="verifyMyListCarouselIsDisplayed" class="homePage.VerifyMyListCarouselDisplayed"/>
+        <method signature="VerifyMyListCarouselNotDisplayed.verifyNoMyListCarousel()[pri:0, instance:homePage.VerifyMyListCarouselNotDisplayed@45099dd3]" name="verifyNoMyListCarousel" class="homePage.VerifyMyListCarouselNotDisplayed"/>
+        <method signature="VerifyNewBadge.verifyNewBadge()[pri:0, instance:homePage.VerifyNewBadge@6340e5f0]" name="verifyNewBadge" class="homePage.VerifyNewBadge"/>
+        <method signature="VerifyEditMyListContent.editMyList()[pri:0, instance:myListPage.VerifyEditMyListContent@6bbe85a8]" name="editMyList" class="myListPage.VerifyEditMyListContent"/>
+        <method signature="VerifyMyListShowsSelectedContent.VerifySelectedContentOnMyList()[pri:0, instance:myListPage.VerifyMyListShowsSelectedContent@5149d738]" name="VerifySelectedContentOnMyList" class="myListPage.VerifyMyListShowsSelectedContent"/>
+        <method signature="VerifyNonWatchlistSelectedShow.verifyNonWatchlistSelectedShow()[pri:0, instance:myListPage.VerifyNonWatchlistSelectedShow@4be29ed9]" name="verifyNonWatchlistSelectedShow" class="myListPage.VerifyNonWatchlistSelectedShow"/>
+        <method signature="VerifyRecentAdditionToMyList.verifyRecentAdditionToMylist()[pri:0, instance:myListPage.VerifyRecentAdditionToMyList@3a7442c7]" name="verifyRecentAdditionToMylist" class="myListPage.VerifyRecentAdditionToMyList"/>
+        <method signature="VerifyPlanPage.planPage()[pri:0, instance:newAccount.VerifyPlanPage@15043a2f]" name="planPage" class="newAccount.VerifyPlanPage"/>
+        <method signature="VerifySearchResult.performSearchAndVerifyResult()[pri:0, instance:searchResult.VerifySearchResult@3ba987b8]" name="performSearchAndVerifyResult" class="searchResult.VerifySearchResult"/>
+        <method signature="VerifyKidsCategoryPosition.verifyKidsCategoryPosition()[pri:0, instance:showsPage.VerifyKidsCategoryPosition@18271936]" name="verifyKidsCategoryPosition" class="showsPage.VerifyKidsCategoryPosition"/>
+        <method signature="VerifySignInCTA.signInCTA()[pri:0, instance:upsellPage.VerifySignInCTA@5b218417]" name="signInCTA" class="upsellPage.VerifySignInCTA"/>
+        <method signature="VerifyStudentsUpsellCopy.verifySudentUpsellCopy()[pri:0, instance:upsellPage.VerifyStudentsUpsellCopy@645aa696]" name="verifySudentUpsellCopy" class="upsellPage.VerifyStudentsUpsellCopy"/>
+        <method signature="VerifyAdultUserProfile.verifyAdultUserProfilePicker()[pri:0, instance:userProfile.VerifyAdultUserProfile@5386659f]" name="verifyAdultUserProfilePicker" class="userProfile.VerifyAdultUserProfile"/>
+        <method signature="VerifyDeleteKidsProfile.deleteKidsUserProfile()[pri:0, instance:userProfile.VerifyDeleteKidsProfile@7ce69770]" name="deleteKidsUserProfile" class="userProfile.VerifyDeleteKidsProfile"/>
+        <method signature="VerifyDeleteNewProfile.deleteNewProfile()[pri:0, instance:userProfile.VerifyDeleteNewProfile@1caa0244]" name="deleteNewProfile" class="userProfile.VerifyDeleteNewProfile"/>
+        <method signature="VerifyKidsUserProfile.verifyKidsUserProfilePicker()[pri:0, instance:userProfile.VerifyKidsUserProfile@14028087]" name="verifyKidsUserProfilePicker" class="userProfile.VerifyKidsUserProfile"/>
+        <method signature="VerifyNewProfileShowPicker.newProfileShowPicker()[pri:0, instance:userProfile.VerifyNewProfileShowPicker@cecf639]" name="newProfileShowPicker" class="userProfile.VerifyNewProfileShowPicker"/>
+        <method signature="VerifyNoShowPickerForKidsProfile.noShowPickerForKidsProfile()[pri:0, instance:userProfile.VerifyNoShowPickerForKidsProfile@7ce026d3]" name="noShowPickerForKidsProfile" class="userProfile.VerifyNoShowPickerForKidsProfile"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2023-06-02T00:40:04 IST" name="HomePage" finished-at="2023-06-02T00:50:33 IST" duration-ms="629104">
+      <class name="homePage.VerifyNewBadge">
+        <test-method is-config="true" signature="beforeClass(org.testng.ITestContext,java.lang.String)[pri:0, instance:homePage.VerifyNewBadge@6340e5f0]" started-at="2023-06-02T00:44:08 IST" name="beforeClass" finished-at="2023-06-02T00:44:16 IST" duration-ms="8169" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@74af4b0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="verifyNewBadge()[pri:0, instance:homePage.VerifyNewBadge@6340e5f0]" started-at="2023-06-02T00:44:16 IST" name="verifyNewBadge" description="C2402827- Verify_that_the_new_content_has_content_badges_with_ &quot;new&quot; _text_on_it" finished-at="2023-06-02T00:45:59 IST" duration-ms="102788" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test started- verifyNewBadge]]>
+            </line>
+            <line>
+              <![CDATA[Test completed successfully- verifyNewBadge]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyNewBadge -->
+        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:homePage.VerifyNewBadge@6340e5f0]" started-at="2023-06-02T00:45:59 IST" name="afterMethod" finished-at="2023-06-02T00:45:59 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void homePage.VerifyNewBadge.verifyNewBadge() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=verifyNewBadge status=SUCCESS method=VerifyNewBadge.verifyNewBadge()[pri:0, instance:homePage.VerifyNewBadge@6340e5f0] output=Test started- verifyNewBadge]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:homePage.VerifyNewBadge@6340e5f0]" started-at="2023-06-02T00:45:59 IST" name="afterClass" finished-at="2023-06-02T00:45:59 IST" duration-ms="449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- homePage.VerifyNewBadge -->
+      <class name="homePage.VerifyMyListCarouselDisplayed">
+        <test-method is-config="true" signature="beforeClass(org.testng.ITestContext,java.lang.String)[pri:0, instance:homePage.VerifyMyListCarouselDisplayed@13e344d]" started-at="2023-06-02T00:48:35 IST" name="beforeClass" finished-at="2023-06-02T00:48:44 IST" duration-ms="9656" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@74af4b0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="verifyMyListCarouselIsDisplayed()[pri:0, instance:homePage.VerifyMyListCarouselDisplayed@13e344d]" started-at="2023-06-02T00:48:44 IST" name="verifyMyListCarouselIsDisplayed" description="C1534304-At_least_1_show/movie_is_selected_for_watchlist" finished-at="2023-06-02T00:50:32 IST" duration-ms="108222" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test started- verifyMyListCarouselIsDisplayed]]>
+            </line>
+            <line>
+              <![CDATA[Test completed successfully- verifyMyListCarouselIsDisplayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyMyListCarouselIsDisplayed -->
+        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:homePage.VerifyMyListCarouselDisplayed@13e344d]" started-at="2023-06-02T00:50:32 IST" name="afterMethod" finished-at="2023-06-02T00:50:32 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void homePage.VerifyMyListCarouselDisplayed.verifyMyListCarouselIsDisplayed() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=verifyMyListCarouselIsDisplayed status=SUCCESS method=VerifyMyListCarouselDisplayed.verifyMyListCarouselIsDisplayed()[pri:0, instance:homePage.VerifyMyListCarouselDisplayed@13e344d] output=Test started- verifyMyListCarouselIsDisplayed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:homePage.VerifyMyListCarouselDisplayed@13e344d]" started-at="2023-06-02T00:50:32 IST" name="afterClass" finished-at="2023-06-02T00:50:33 IST" duration-ms="496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- homePage.VerifyMyListCarouselDisplayed -->
+      <class name="homePage.VerifyMyListCarouselNotDisplayed">
+        <test-method is-config="true" signature="beforeClass(org.testng.ITestContext,java.lang.String)[pri:0, instance:homePage.VerifyMyListCarouselNotDisplayed@45099dd3]" started-at="2023-06-02T00:45:59 IST" name="beforeClass" finished-at="2023-06-02T00:46:09 IST" duration-ms="9274" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@74af4b0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="verifyNoMyListCarousel()[pri:0, instance:homePage.VerifyMyListCarouselNotDisplayed@45099dd3]" started-at="2023-06-02T00:46:09 IST" name="verifyNoMyListCarousel" description="C1533531-If_no_shows/movies_were_added_to_Watchlist" finished-at="2023-06-02T00:48:34 IST" duration-ms="145409" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test started- verifyNoMyListCarousel]]>
+            </line>
+            <line>
+              <![CDATA[Test completed successfully- verifyNoMyListCarousel]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyNoMyListCarousel -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:homePage.VerifyMyListCarouselNotDisplayed@45099dd3]" started-at="2023-06-02T00:48:34 IST" name="afterClass" finished-at="2023-06-02T00:48:35 IST" duration-ms="459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:homePage.VerifyMyListCarouselNotDisplayed@45099dd3]" started-at="2023-06-02T00:48:34 IST" name="afterMethod" finished-at="2023-06-02T00:48:34 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void homePage.VerifyMyListCarouselNotDisplayed.verifyNoMyListCarousel() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=verifyNoMyListCarousel status=SUCCESS method=VerifyMyListCarouselNotDisplayed.verifyNoMyListCarousel()[pri:0, instance:homePage.VerifyMyListCarouselNotDisplayed@45099dd3] output=Test started- verifyNoMyListCarousel]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- homePage.VerifyMyListCarouselNotDisplayed -->
+      <class name="homePage.VerifyKeepWatchingCarousel">
+        <test-method is-config="true" signature="beforeClass(org.testng.ITestContext,java.lang.String)[pri:0, instance:homePage.VerifyKeepWatchingCarousel@2794eab6]" started-at="2023-06-02T00:43:26 IST" name="beforeClass" finished-at="2023-06-02T00:43:35 IST" duration-ms="9220" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@74af4b0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="keepWatchingCarouserl()[pri:0, instance:homePage.VerifyKeepWatchingCarousel@2794eab6]" started-at="2023-06-02T00:43:35 IST" name="keepWatchingCarouserl" description="C1860892-User_Navigates_to_Show_Detail_Page" finished-at="2023-06-02T00:44:08 IST" duration-ms="32848" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test started- keepWatchingCarouserl]]>
+            </line>
+            <line>
+              <![CDATA[Test completed successfully- keepWatchingCarouserl]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- keepWatchingCarouserl -->
+        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:homePage.VerifyKeepWatchingCarousel@2794eab6]" started-at="2023-06-02T00:44:08 IST" name="afterMethod" finished-at="2023-06-02T00:44:08 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void homePage.VerifyKeepWatchingCarousel.keepWatchingCarouserl() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=keepWatchingCarouserl status=SUCCESS method=VerifyKeepWatchingCarousel.keepWatchingCarouserl()[pri:0, instance:homePage.VerifyKeepWatchingCarousel@2794eab6] output=Test started- keepWatchingCarouserl]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:homePage.VerifyKeepWatchingCarousel@2794eab6]" started-at="2023-06-02T00:44:08 IST" name="afterClass" finished-at="2023-06-02T00:44:08 IST" duration-ms="320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- homePage.VerifyKeepWatchingCarousel -->
+      <class name="homePage.VerifyJustAddedBadge">
+        <test-method is-config="true" signature="beforeClass(org.testng.ITestContext,java.lang.String)[pri:0, instance:homePage.VerifyJustAddedBadge@41a0aa7d]" started-at="2023-06-02T00:41:35 IST" name="beforeClass" finished-at="2023-06-02T00:41:43 IST" duration-ms="8508" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@74af4b0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="verifyJustAddedBadge()[pri:0, instance:homePage.VerifyJustAddedBadge@41a0aa7d]" started-at="2023-06-02T00:41:43 IST" name="verifyJustAddedBadge" description="C2402828- Verify_that_New_Movie_and_New_Series_has_updated_ &quot;Just Added&quot; _text_to_it" finished-at="2023-06-02T00:43:25 IST" duration-ms="101665" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test started- verifyJustAddedBadge]]>
+            </line>
+            <line>
+              <![CDATA[Test completed successfully- verifyJustAddedBadge]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyJustAddedBadge -->
+        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:homePage.VerifyJustAddedBadge@41a0aa7d]" started-at="2023-06-02T00:43:25 IST" name="afterMethod" finished-at="2023-06-02T00:43:25 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void homePage.VerifyJustAddedBadge.verifyJustAddedBadge() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=verifyJustAddedBadge status=SUCCESS method=VerifyJustAddedBadge.verifyJustAddedBadge()[pri:0, instance:homePage.VerifyJustAddedBadge@41a0aa7d] output=Test started- verifyJustAddedBadge]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:homePage.VerifyJustAddedBadge@41a0aa7d]" started-at="2023-06-02T00:43:25 IST" name="afterClass" finished-at="2023-06-02T00:43:26 IST" duration-ms="448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- homePage.VerifyJustAddedBadge -->
+      <class name="homePage.VerifyFooterParamountLogo">
+        <test-method is-config="true" signature="beforeClass(org.testng.ITestContext,java.lang.String)[pri:0, instance:homePage.VerifyFooterParamountLogo@65c7a252]" started-at="2023-06-02T00:40:04 IST" name="beforeClass" finished-at="2023-06-02T00:40:17 IST" duration-ms="13425" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@74af4b0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="verifyFooterLogo()[pri:0, instance:homePage.VerifyFooterParamountLogo@65c7a252]" started-at="2023-06-02T00:40:17 IST" name="verifyFooterLogo" description="C1693084-Header_disappears_and_P+_logo_appears_on_the_navigation_bar" finished-at="2023-06-02T00:40:51 IST" duration-ms="34126" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test started- verifyFooterLogo]]>
+            </line>
+            <line>
+              <![CDATA[Test completed successfully- verifyFooterLogo]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyFooterLogo -->
+        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:homePage.VerifyFooterParamountLogo@65c7a252]" started-at="2023-06-02T00:40:51 IST" name="afterMethod" finished-at="2023-06-02T00:40:51 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void homePage.VerifyFooterParamountLogo.verifyFooterLogo() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=verifyFooterLogo status=SUCCESS method=VerifyFooterParamountLogo.verifyFooterLogo()[pri:0, instance:homePage.VerifyFooterParamountLogo@65c7a252] output=Test started- verifyFooterLogo]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:homePage.VerifyFooterParamountLogo@65c7a252]" started-at="2023-06-02T00:40:51 IST" name="afterClass" finished-at="2023-06-02T00:40:52 IST" duration-ms="310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- homePage.VerifyFooterParamountLogo -->
+      <class name="homePage.VerifyHomePage">
+        <test-method is-config="true" signature="beforeClass(org.testng.ITestContext,java.lang.String)[pri:0, instance:homePage.VerifyHomePage@e350b40]" started-at="2023-06-02T00:40:52 IST" name="beforeClass" finished-at="2023-06-02T00:41:01 IST" duration-ms="9656" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@74af4b0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="homePage()[pri:0, instance:homePage.VerifyHomePage@e350b40]" started-at="2023-06-02T00:41:01 IST" name="homePage" description="C1595116-Navigate_to_Homepage" finished-at="2023-06-02T00:41:35 IST" duration-ms="33318" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test started- homePage]]>
+            </line>
+            <line>
+              <![CDATA[Test completed successfully- homePage]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- homePage -->
+        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:homePage.VerifyHomePage@e350b40]" started-at="2023-06-02T00:41:35 IST" name="afterMethod" finished-at="2023-06-02T00:41:35 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void homePage.VerifyHomePage.homePage() throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=homePage status=SUCCESS method=VerifyHomePage.homePage()[pri:0, instance:homePage.VerifyHomePage@e350b40] output=Test started- homePage]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:homePage.VerifyHomePage@e350b40]" started-at="2023-06-02T00:41:35 IST" name="afterClass" finished-at="2023-06-02T00:41:35 IST" duration-ms="299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- homePage.VerifyHomePage -->
+    </test> <!-- HomePage -->
+    <test started-at="2023-06-02T00:50:33 IST" name="myListPage" finished-at="2023-06-02T00:55:02 IST" duration-ms="269509">
+      <class name="myListPage.VerifyNonWatchlistSelectedShow">
+        <test-method is-config="true" signature="beforeClass(org.testng.ITestContext,java.lang.String)[pri:0, instance:myListPage.VerifyNonWatchlistSelectedShow@4be29ed9]" started-at="2023-06-02T00:53:28 IST" name="beforeClass" finished-at="2023-06-02T00:53:37 IST" duration-ms="8916" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@45bb5862]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="verifyNonWatchlistSelectedShow()[pri:0, instance:myListPage.VerifyNonWatchlistSelectedShow@4be29ed9]" started-at="2023-06-02T00:53:37 IST" name="verifyNonWatchlistSelectedShow" description="C1533413-Navigate_to_a_non-watchlist_selected_show_page_&amp;_C1533533- Add_Show_to_the_Watchlist" finished-at="2023-06-02T00:54:19 IST" duration-ms="42002" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test started- verifyNonWatchlistSelectedShow]]>
+            </line>
+            <line>
+              <![CDATA[Test completed successfully- verifyNonWatchlistSelectedShow]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyNonWatchlistSelectedShow -->
+        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:myListPage.VerifyNonWatchlistSelectedShow@4be29ed9]" started-at="2023-06-02T00:54:19 IST" name="afterMethod" finished-at="2023-06-02T00:54:19 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void myListPage.VerifyNonWatchlistSelectedShow.verifyNonWatchlistSelectedShow() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=verifyNonWatchlistSelectedShow status=SUCCESS method=VerifyNonWatchlistSelectedShow.verifyNonWatchlistSelectedShow()[pri:0, instance:myListPage.VerifyNonWatchlistSelectedShow@4be29ed9] output=Test started- verifyNonWatchlistSelectedShow]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:myListPage.VerifyNonWatchlistSelectedShow@4be29ed9]" started-at="2023-06-02T00:54:19 IST" name="afterClass" finished-at="2023-06-02T00:54:19 IST" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- myListPage.VerifyNonWatchlistSelectedShow -->
+      <class name="myListPage.VerifyRecentAdditionToMyList">
+        <test-method is-config="true" signature="beforeClass(org.testng.ITestContext,java.lang.String)[pri:0, instance:myListPage.VerifyRecentAdditionToMyList@3a7442c7]" started-at="2023-06-02T00:52:32 IST" name="beforeClass" finished-at="2023-06-02T00:52:42 IST" duration-ms="10141" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@45bb5862]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="verifyRecentAdditionToMylist()[pri:0, instance:myListPage.VerifyRecentAdditionToMyList@3a7442c7]" started-at="2023-06-02T00:52:42 IST" name="verifyRecentAdditionToMylist" description="C2187966- Verify_recently_added_shows/Movies_show_first_under_My_List" finished-at="2023-06-02T00:53:28 IST" duration-ms="45535" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test started- verifyRecentAdditionToMylist]]>
+            </line>
+            <line>
+              <![CDATA[Test completed successfully- verifyRecentAdditionToMylist]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyRecentAdditionToMylist -->
+        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:myListPage.VerifyRecentAdditionToMyList@3a7442c7]" started-at="2023-06-02T00:53:28 IST" name="afterMethod" finished-at="2023-06-02T00:53:28 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void myListPage.VerifyRecentAdditionToMyList.verifyRecentAdditionToMylist() throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=verifyRecentAdditionToMylist status=SUCCESS method=VerifyRecentAdditionToMyList.verifyRecentAdditionToMylist()[pri:0, instance:myListPage.VerifyRecentAdditionToMyList@3a7442c7] output=Test started- verifyRecentAdditionToMylist]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:myListPage.VerifyRecentAdditionToMyList@3a7442c7]" started-at="2023-06-02T00:53:28 IST" name="afterClass" finished-at="2023-06-02T00:53:28 IST" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- myListPage.VerifyRecentAdditionToMyList -->
+      <class name="myListPage.VerifyWatchlistSelectedShow">
+        <test-method is-config="true" signature="beforeClass(org.testng.ITestContext,java.lang.String)[pri:0, instance:myListPage.VerifyWatchlistSelectedShow@75437611]" started-at="2023-06-02T00:54:19 IST" name="beforeClass" finished-at="2023-06-02T00:54:29 IST" duration-ms="9931" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@45bb5862]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="verifyWatchlistSelectedShow()[pri:0, instance:myListPage.VerifyWatchlistSelectedShow@75437611]" started-at="2023-06-02T00:54:29 IST" name="verifyWatchlistSelectedShow" finished-at="2023-06-02T00:55:02 IST" duration-ms="33080" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test started- verifyWatchlistSelectedShow]]>
+            </line>
+            <line>
+              <![CDATA[Test completed successfully- verifyWatchlistSelectedShow]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyWatchlistSelectedShow -->
+        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:myListPage.VerifyWatchlistSelectedShow@75437611]" started-at="2023-06-02T00:55:02 IST" name="afterMethod" finished-at="2023-06-02T00:55:02 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void myListPage.VerifyWatchlistSelectedShow.verifyWatchlistSelectedShow() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=verifyWatchlistSelectedShow status=SUCCESS method=VerifyWatchlistSelectedShow.verifyWatchlistSelectedShow()[pri:0, instance:myListPage.VerifyWatchlistSelectedShow@75437611] output=Test started- verifyWatchlistSelectedShow]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:myListPage.VerifyWatchlistSelectedShow@75437611]" started-at="2023-06-02T00:55:02 IST" name="afterClass" finished-at="2023-06-02T00:55:02 IST" duration-ms="267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- myListPage.VerifyWatchlistSelectedShow -->
+      <class name="myListPage.VerifyEditMyListContent">
+        <test-method is-config="true" signature="beforeClass(org.testng.ITestContext,java.lang.String)[pri:0, instance:myListPage.VerifyEditMyListContent@6bbe85a8]" started-at="2023-06-02T00:51:43 IST" name="beforeClass" finished-at="2023-06-02T00:51:53 IST" duration-ms="9609" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@45bb5862]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="editMyList()[pri:0, instance:myListPage.VerifyEditMyListContent@6bbe85a8]" started-at="2023-06-02T00:51:53 IST" name="editMyList" description="C2197010 &amp; C2197009- User_can_edit_content_tile_on_My_list_by_selecting_edit_option &amp; Empty_My_list_Page_has_no_content_tile_selected" finished-at="2023-06-02T00:52:32 IST" duration-ms="38934" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test started- editMyList]]>
+            </line>
+            <line>
+              <![CDATA[Test completed successfully- editMyList]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- editMyList -->
+        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:myListPage.VerifyEditMyListContent@6bbe85a8]" started-at="2023-06-02T00:52:32 IST" name="afterMethod" finished-at="2023-06-02T00:52:32 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void myListPage.VerifyEditMyListContent.editMyList() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=editMyList status=SUCCESS method=VerifyEditMyListContent.editMyList()[pri:0, instance:myListPage.VerifyEditMyListContent@6bbe85a8] output=Test started- editMyList]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:myListPage.VerifyEditMyListContent@6bbe85a8]" started-at="2023-06-02T00:52:32 IST" name="afterClass" finished-at="2023-06-02T00:52:32 IST" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- myListPage.VerifyEditMyListContent -->
+      <class name="myListPage.VerifyMyListShowsSelectedContent">
+        <test-method is-config="true" signature="beforeClass(org.testng.ITestContext,java.lang.String)[pri:0, instance:myListPage.VerifyMyListShowsSelectedContent@5149d738]" started-at="2023-06-02T00:50:33 IST" name="beforeClass" finished-at="2023-06-02T00:50:43 IST" duration-ms="10094" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@45bb5862]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="VerifySelectedContentOnMyList()[pri:0, instance:myListPage.VerifyMyListShowsSelectedContent@5149d738]" started-at="2023-06-02T00:50:43 IST" name="VerifySelectedContentOnMyList" description="C2197007-Verify_that_user_My_list_page_has_selected_content_tile" finished-at="2023-06-02T00:51:43 IST" duration-ms="60026" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test started- VerifySelectedContentOnMyList]]>
+            </line>
+            <line>
+              <![CDATA[Test completed successfully- VerifySelectedContentOnMyList]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifySelectedContentOnMyList -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:myListPage.VerifyMyListShowsSelectedContent@5149d738]" started-at="2023-06-02T00:51:43 IST" name="afterClass" finished-at="2023-06-02T00:51:43 IST" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:myListPage.VerifyMyListShowsSelectedContent@5149d738]" started-at="2023-06-02T00:51:43 IST" name="afterMethod" finished-at="2023-06-02T00:51:43 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void myListPage.VerifyMyListShowsSelectedContent.VerifySelectedContentOnMyList() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=VerifySelectedContentOnMyList status=SUCCESS method=VerifyMyListShowsSelectedContent.VerifySelectedContentOnMyList()[pri:0, instance:myListPage.VerifyMyListShowsSelectedContent@5149d738] output=Test started- VerifySelectedContentOnMyList]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- myListPage.VerifyMyListShowsSelectedContent -->
+    </test> <!-- myListPage -->
+    <test started-at="2023-06-02T00:55:02 IST" name="newAccount" finished-at="2023-06-02T00:55:50 IST" duration-ms="47370">
+      <class name="newAccount.VerifyPlanPage">
+        <test-method is-config="true" signature="beforeClass(org.testng.ITestContext,java.lang.String)[pri:0, instance:newAccount.VerifyPlanPage@15043a2f]" started-at="2023-06-02T00:55:02 IST" name="beforeClass" finished-at="2023-06-02T00:55:11 IST" duration-ms="8781" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1504db11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="planPage()[pri:0, instance:newAccount.VerifyPlanPage@15043a2f]" started-at="2023-06-02T00:55:11 IST" name="planPage" description="PlanPage" finished-at="2023-06-02T00:55:50 IST" duration-ms="38394" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test started- planPage]]>
+            </line>
+            <line>
+              <![CDATA[Test completed successfully- planPage]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- planPage -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:newAccount.VerifyPlanPage@15043a2f]" started-at="2023-06-02T00:55:50 IST" name="afterClass" finished-at="2023-06-02T00:55:50 IST" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:newAccount.VerifyPlanPage@15043a2f]" started-at="2023-06-02T00:55:50 IST" name="afterMethod" finished-at="2023-06-02T00:55:50 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void newAccount.VerifyPlanPage.planPage() throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=planPage status=SUCCESS method=VerifyPlanPage.planPage()[pri:0, instance:newAccount.VerifyPlanPage@15043a2f] output=Test started- planPage]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- newAccount.VerifyPlanPage -->
+    </test> <!-- newAccount -->
+    <test started-at="2023-06-02T00:55:50 IST" name="searchResult" finished-at="2023-06-02T00:57:58 IST" duration-ms="128622">
+      <class name="searchResult.VerifyPreSearchPlaceholder">
+        <test-method is-config="true" signature="beforeClass(org.testng.ITestContext,java.lang.String)[pri:0, instance:searchResult.VerifyPreSearchPlaceholder@2d901eb0]" started-at="2023-06-02T00:55:50 IST" name="beforeClass" finished-at="2023-06-02T00:55:58 IST" duration-ms="8442" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5a77e0e4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="preSearchPlaceholder()[pri:0, instance:searchResult.VerifyPreSearchPlaceholder@2d901eb0]" started-at="2023-06-02T00:55:58 IST" name="preSearchPlaceholder" description="C2402834 - Verify_Search_bar_pre-search_placeholder" finished-at="2023-06-02T00:56:30 IST" duration-ms="31509" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test started- preSearchPlaceholder]]>
+            </line>
+            <line>
+              <![CDATA[Test completed successfully- preSearchPlaceholder]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preSearchPlaceholder -->
+        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:searchResult.VerifyPreSearchPlaceholder@2d901eb0]" started-at="2023-06-02T00:56:30 IST" name="afterMethod" finished-at="2023-06-02T00:56:30 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void searchResult.VerifyPreSearchPlaceholder.preSearchPlaceholder() throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=preSearchPlaceholder status=SUCCESS method=VerifyPreSearchPlaceholder.preSearchPlaceholder()[pri:0, instance:searchResult.VerifyPreSearchPlaceholder@2d901eb0] output=Test started- preSearchPlaceholder]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:searchResult.VerifyPreSearchPlaceholder@2d901eb0]" started-at="2023-06-02T00:56:30 IST" name="afterClass" finished-at="2023-06-02T00:56:30 IST" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- searchResult.VerifyPreSearchPlaceholder -->
+      <class name="searchResult.VerifySearchResult">
+        <test-method is-config="true" signature="beforeClass(org.testng.ITestContext,java.lang.String)[pri:0, instance:searchResult.VerifySearchResult@3ba987b8]" started-at="2023-06-02T00:56:30 IST" name="beforeClass" finished-at="2023-06-02T00:56:39 IST" duration-ms="9177" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5a77e0e4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="performSearchAndVerifyResult()[pri:0, instance:searchResult.VerifySearchResult@3ba987b8]" started-at="2023-06-02T00:56:39 IST" name="performSearchAndVerifyResult" description="C2277658 &amp; C2277660- Navigate_to_the_Search_Page_and_Enter_Search" finished-at="2023-06-02T00:57:58 IST" duration-ms="78940" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test started- performSearchAndVerifyResult]]>
+            </line>
+            <line>
+              <![CDATA[Test completed successfully- performSearchAndVerifyResult]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- performSearchAndVerifyResult -->
+        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:searchResult.VerifySearchResult@3ba987b8]" started-at="2023-06-02T00:57:58 IST" name="afterMethod" finished-at="2023-06-02T00:57:58 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void searchResult.VerifySearchResult.performSearchAndVerifyResult() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=performSearchAndVerifyResult status=SUCCESS method=VerifySearchResult.performSearchAndVerifyResult()[pri:0, instance:searchResult.VerifySearchResult@3ba987b8] output=Test started- performSearchAndVerifyResult]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:searchResult.VerifySearchResult@3ba987b8]" started-at="2023-06-02T00:57:58 IST" name="afterClass" finished-at="2023-06-02T00:57:58 IST" duration-ms="293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- searchResult.VerifySearchResult -->
+    </test> <!-- searchResult -->
+    <test started-at="2023-06-02T00:57:58 IST" name="showsPage" finished-at="2023-06-02T00:58:40 IST" duration-ms="41126">
+      <class name="showsPage.VerifyKidsCategoryPosition">
+        <test-method is-config="true" signature="beforeClass(org.testng.ITestContext,java.lang.String)[pri:0, instance:showsPage.VerifyKidsCategoryPosition@18271936]" started-at="2023-06-02T00:57:58 IST" name="beforeClass" finished-at="2023-06-02T00:58:08 IST" duration-ms="10014" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4cc070c2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="verifyKidsCategoryPosition()[pri:0, instance:showsPage.VerifyKidsCategoryPosition@18271936]" started-at="2023-06-02T00:58:08 IST" name="verifyKidsCategoryPosition" description="C2251311- Verify_that_the_kids_section_is_8th_on_the_Nav_bar_of_show_browse_page" finished-at="2023-06-02T00:58:39 IST" duration-ms="30857" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test started- verifyKidsCategoryPosition]]>
+            </line>
+            <line>
+              <![CDATA[Test completed successfully- verifyKidsCategoryPosition]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyKidsCategoryPosition -->
+        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:showsPage.VerifyKidsCategoryPosition@18271936]" started-at="2023-06-02T00:58:39 IST" name="afterMethod" finished-at="2023-06-02T00:58:39 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void showsPage.VerifyKidsCategoryPosition.verifyKidsCategoryPosition() throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=verifyKidsCategoryPosition status=SUCCESS method=VerifyKidsCategoryPosition.verifyKidsCategoryPosition()[pri:0, instance:showsPage.VerifyKidsCategoryPosition@18271936] output=Test started- verifyKidsCategoryPosition]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:showsPage.VerifyKidsCategoryPosition@18271936]" started-at="2023-06-02T00:58:39 IST" name="afterClass" finished-at="2023-06-02T00:58:40 IST" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- showsPage.VerifyKidsCategoryPosition -->
+    </test> <!-- showsPage -->
+    <test started-at="2023-06-02T00:58:40 IST" name="upsellPage" finished-at="2023-06-02T00:59:04 IST" duration-ms="24333">
+      <class name="upsellPage.VerifySignInCTA">
+        <test-method is-config="true" signature="beforeClass(org.testng.ITestContext,java.lang.String)[pri:0, instance:upsellPage.VerifySignInCTA@5b218417]" started-at="2023-06-02T00:58:40 IST" name="beforeClass" finished-at="2023-06-02T00:58:49 IST" duration-ms="9093" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@53a74970]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="signInCTA()[pri:0, instance:upsellPage.VerifySignInCTA@5b218417]" started-at="2023-06-02T00:58:49 IST" name="signInCTA" description="Navigate_to_upsell_page_and_verify_Sign_in_CTA - C2355862 &amp; C2355863" finished-at="2023-06-02T00:58:49 IST" duration-ms="68" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test started- signInCTA]]>
+            </line>
+            <line>
+              <![CDATA[Test completed successfully- signInCTA]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- signInCTA -->
+        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:upsellPage.VerifySignInCTA@5b218417]" started-at="2023-06-02T00:58:49 IST" name="afterMethod" finished-at="2023-06-02T00:58:49 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void upsellPage.VerifySignInCTA.signInCTA()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=signInCTA status=SUCCESS method=VerifySignInCTA.signInCTA()[pri:0, instance:upsellPage.VerifySignInCTA@5b218417] output=Test started- signInCTA]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:upsellPage.VerifySignInCTA@5b218417]" started-at="2023-06-02T00:58:49 IST" name="afterClass" finished-at="2023-06-02T00:58:49 IST" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- upsellPage.VerifySignInCTA -->
+      <class name="upsellPage.VerifyStudentsUpsellCopy">
+        <test-method is-config="true" signature="beforeClass(org.testng.ITestContext,java.lang.String)[pri:0, instance:upsellPage.VerifyStudentsUpsellCopy@645aa696]" started-at="2023-06-02T00:58:49 IST" name="beforeClass" finished-at="2023-06-02T00:58:58 IST" duration-ms="9014" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@53a74970]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="verifySudentUpsellCopy()[pri:0, instance:upsellPage.VerifyStudentsUpsellCopy@645aa696]" started-at="2023-06-02T00:58:58 IST" name="verifySudentUpsellCopy" description="C2112629-Upsell_copy_ header_Students_get_25%_off" finished-at="2023-06-02T00:59:04 IST" duration-ms="5756" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test started- verifySudentUpsellCopy]]>
+            </line>
+            <line>
+              <![CDATA[Test completed successfully- verifySudentUpsellCopy]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifySudentUpsellCopy -->
+        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:upsellPage.VerifyStudentsUpsellCopy@645aa696]" started-at="2023-06-02T00:59:04 IST" name="afterMethod" finished-at="2023-06-02T00:59:04 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void upsellPage.VerifyStudentsUpsellCopy.verifySudentUpsellCopy()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=verifySudentUpsellCopy status=SUCCESS method=VerifyStudentsUpsellCopy.verifySudentUpsellCopy()[pri:0, instance:upsellPage.VerifyStudentsUpsellCopy@645aa696] output=Test started- verifySudentUpsellCopy]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:upsellPage.VerifyStudentsUpsellCopy@645aa696]" started-at="2023-06-02T00:59:04 IST" name="afterClass" finished-at="2023-06-02T00:59:04 IST" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- upsellPage.VerifyStudentsUpsellCopy -->
+    </test> <!-- upsellPage -->
+    <test started-at="2023-06-02T00:59:04 IST" name="userProfile" finished-at="2023-06-02T01:03:45 IST" duration-ms="281214">
+      <class name="userProfile.VerifyDeleteNewProfile">
+        <test-method is-config="true" signature="beforeClass(org.testng.ITestContext,java.lang.String)[pri:0, instance:userProfile.VerifyDeleteNewProfile@1caa0244]" started-at="2023-06-02T01:01:39 IST" name="beforeClass" finished-at="2023-06-02T01:01:48 IST" duration-ms="9627" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@60c8cc46]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="deleteNewProfile()[pri:0, instance:userProfile.VerifyDeleteNewProfile@1caa0244]" started-at="2023-06-02T01:01:48 IST" name="deleteNewProfile" finished-at="2023-06-02T01:02:19 IST" duration-ms="30732" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test started- deleteNewProfile]]>
+            </line>
+            <line>
+              <![CDATA[Test completed successfully- deleteNewProfile]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteNewProfile -->
+        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:userProfile.VerifyDeleteNewProfile@1caa0244]" started-at="2023-06-02T01:02:19 IST" name="afterMethod" finished-at="2023-06-02T01:02:19 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void userProfile.VerifyDeleteNewProfile.deleteNewProfile() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=deleteNewProfile status=SUCCESS method=VerifyDeleteNewProfile.deleteNewProfile()[pri:0, instance:userProfile.VerifyDeleteNewProfile@1caa0244] output=Test started- deleteNewProfile]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:userProfile.VerifyDeleteNewProfile@1caa0244]" started-at="2023-06-02T01:02:19 IST" name="afterClass" finished-at="2023-06-02T01:02:19 IST" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- userProfile.VerifyDeleteNewProfile -->
+      <class name="userProfile.VerifyDeleteKidsProfile">
+        <test-method is-config="true" signature="beforeClass(org.testng.ITestContext,java.lang.String)[pri:0, instance:userProfile.VerifyDeleteKidsProfile@7ce69770]" started-at="2023-06-02T01:03:08 IST" name="beforeClass" finished-at="2023-06-02T01:03:16 IST" duration-ms="8701" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@60c8cc46]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="deleteKidsUserProfile()[pri:0, instance:userProfile.VerifyDeleteKidsProfile@7ce69770]" started-at="2023-06-02T01:03:16 IST" name="deleteKidsUserProfile" finished-at="2023-06-02T01:03:45 IST" duration-ms="28659" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test started- deleteKidsUserProfile]]>
+            </line>
+            <line>
+              <![CDATA[Test completed successfully- deleteKidsUserProfile]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteKidsUserProfile -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:userProfile.VerifyDeleteKidsProfile@7ce69770]" started-at="2023-06-02T01:03:45 IST" name="afterClass" finished-at="2023-06-02T01:03:45 IST" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:userProfile.VerifyDeleteKidsProfile@7ce69770]" started-at="2023-06-02T01:03:45 IST" name="afterMethod" finished-at="2023-06-02T01:03:45 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void userProfile.VerifyDeleteKidsProfile.deleteKidsUserProfile() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=deleteKidsUserProfile status=SUCCESS method=VerifyDeleteKidsProfile.deleteKidsUserProfile()[pri:0, instance:userProfile.VerifyDeleteKidsProfile@7ce69770] output=Test started- deleteKidsUserProfile]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- userProfile.VerifyDeleteKidsProfile -->
+      <class name="userProfile.VerifyKidsUserProfile">
+        <test-method is-config="true" signature="beforeClass(org.testng.ITestContext,java.lang.String)[pri:0, instance:userProfile.VerifyKidsUserProfile@14028087]" started-at="2023-06-02T01:00:00 IST" name="beforeClass" finished-at="2023-06-02T01:00:10 IST" duration-ms="10194" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@60c8cc46]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="verifyKidsUserProfilePicker()[pri:0, instance:userProfile.VerifyKidsUserProfile@14028087]" started-at="2023-06-02T01:00:10 IST" name="verifyKidsUserProfilePicker" description="C2402831- Verify_kids_user_profile_is_selected" finished-at="2023-06-02T01:00:44 IST" duration-ms="33522" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test started- verifyKidsUserProfilePicker]]>
+            </line>
+            <line>
+              <![CDATA[Test completed successfully- verifyKidsUserProfilePicker]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyKidsUserProfilePicker -->
+        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:userProfile.VerifyKidsUserProfile@14028087]" started-at="2023-06-02T01:00:44 IST" name="afterMethod" finished-at="2023-06-02T01:00:44 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void userProfile.VerifyKidsUserProfile.verifyKidsUserProfilePicker() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=verifyKidsUserProfilePicker status=SUCCESS method=VerifyKidsUserProfile.verifyKidsUserProfilePicker()[pri:0, instance:userProfile.VerifyKidsUserProfile@14028087] output=Test started- verifyKidsUserProfilePicker]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:userProfile.VerifyKidsUserProfile@14028087]" started-at="2023-06-02T01:00:44 IST" name="afterClass" finished-at="2023-06-02T01:00:44 IST" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- userProfile.VerifyKidsUserProfile -->
+      <class name="userProfile.VerifyNewProfileShowPicker">
+        <test-method is-config="true" signature="beforeClass(org.testng.ITestContext,java.lang.String)[pri:0, instance:userProfile.VerifyNewProfileShowPicker@cecf639]" started-at="2023-06-02T01:00:44 IST" name="beforeClass" finished-at="2023-06-02T01:00:54 IST" duration-ms="9876" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@60c8cc46]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="newProfileShowPicker()[pri:0, instance:userProfile.VerifyNewProfileShowPicker@cecf639]" started-at="2023-06-02T01:00:54 IST" name="newProfileShowPicker" description="C2355860-&amp;-C1543386-&amp;-C1543387-&amp;-C1556664= Navigate_to_New_Profile_Show_Picker_&amp;_Select_multiple_shows_&amp;_Click_the_Next_button_&amp;_User_is_landed_on_who&#039;s_watching_page_after_the_show_picker-New_Profile" finished-at="2023-06-02T01:01:38 IST" duration-ms="44488" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test started- newProfileShowPicker]]>
+            </line>
+            <line>
+              <![CDATA[Test completed successfully- newProfileShowPicker]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- newProfileShowPicker -->
+        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:userProfile.VerifyNewProfileShowPicker@cecf639]" started-at="2023-06-02T01:01:38 IST" name="afterMethod" finished-at="2023-06-02T01:01:38 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void userProfile.VerifyNewProfileShowPicker.newProfileShowPicker() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=newProfileShowPicker status=SUCCESS method=VerifyNewProfileShowPicker.newProfileShowPicker()[pri:0, instance:userProfile.VerifyNewProfileShowPicker@cecf639] output=Test started- newProfileShowPicker]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:userProfile.VerifyNewProfileShowPicker@cecf639]" started-at="2023-06-02T01:01:38 IST" name="afterClass" finished-at="2023-06-02T01:01:39 IST" duration-ms="300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- userProfile.VerifyNewProfileShowPicker -->
+      <class name="userProfile.VerifyAdultUserProfile">
+        <test-method is-config="true" signature="initialiseExtentReports()[pri:0, instance:userProfile.VerifyAdultUserProfile@5386659f]" started-at="2023-06-02T00:40:03 IST" name="initialiseExtentReports" finished-at="2023-06-02T00:40:04 IST" duration-ms="293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseExtentReports -->
+        <test-method is-config="true" signature="beforeClass(org.testng.ITestContext,java.lang.String)[pri:0, instance:userProfile.VerifyAdultUserProfile@5386659f]" started-at="2023-06-02T00:59:04 IST" name="beforeClass" finished-at="2023-06-02T00:59:18 IST" duration-ms="13877" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@60c8cc46]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="verifyAdultUserProfilePicker()[pri:0, instance:userProfile.VerifyAdultUserProfile@5386659f]" started-at="2023-06-02T00:59:18 IST" name="verifyAdultUserProfilePicker" description="C2402830- Verify_adult_user_profile_is_selected" finished-at="2023-06-02T01:00:00 IST" duration-ms="41891" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test started- verifyAdultUserProfilePicker]]>
+            </line>
+            <line>
+              <![CDATA[Test completed successfully- verifyAdultUserProfilePicker]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyAdultUserProfilePicker -->
+        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:userProfile.VerifyAdultUserProfile@5386659f]" started-at="2023-06-02T01:00:00 IST" name="afterMethod" finished-at="2023-06-02T01:00:00 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void userProfile.VerifyAdultUserProfile.verifyAdultUserProfilePicker() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=verifyAdultUserProfilePicker status=SUCCESS method=VerifyAdultUserProfile.verifyAdultUserProfilePicker()[pri:0, instance:userProfile.VerifyAdultUserProfile@5386659f] output=Test started- verifyAdultUserProfilePicker]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:userProfile.VerifyAdultUserProfile@5386659f]" started-at="2023-06-02T01:00:00 IST" name="afterClass" finished-at="2023-06-02T01:00:00 IST" duration-ms="335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="generateExtentReports()[pri:0, instance:userProfile.VerifyAdultUserProfile@5386659f]" started-at="2023-06-02T01:03:45 IST" name="generateExtentReports" finished-at="2023-06-02T01:03:46 IST" duration-ms="410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateExtentReports -->
+      </class> <!-- userProfile.VerifyAdultUserProfile -->
+      <class name="userProfile.VerifyNoShowPickerForKidsProfile">
+        <test-method is-config="true" signature="beforeClass(org.testng.ITestContext,java.lang.String)[pri:0, instance:userProfile.VerifyNoShowPickerForKidsProfile@7ce026d3]" started-at="2023-06-02T01:02:19 IST" name="beforeClass" finished-at="2023-06-02T01:02:29 IST" duration-ms="9496" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@60c8cc46]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="noShowPickerForKidsProfile()[pri:0, instance:userProfile.VerifyNoShowPickerForKidsProfile@7ce026d3]" started-at="2023-06-02T01:02:29 IST" name="noShowPickerForKidsProfile" description="C1693080 - Kids profile Should not see the show picker" finished-at="2023-06-02T01:03:07 IST" duration-ms="38566" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test started- noShowPickerForKidsProfile]]>
+            </line>
+            <line>
+              <![CDATA[Test completed successfully- noShowPickerForKidsProfile]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- noShowPickerForKidsProfile -->
+        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:userProfile.VerifyNoShowPickerForKidsProfile@7ce026d3]" started-at="2023-06-02T01:03:07 IST" name="afterMethod" finished-at="2023-06-02T01:03:07 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void userProfile.VerifyNoShowPickerForKidsProfile.noShowPickerForKidsProfile() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=noShowPickerForKidsProfile status=SUCCESS method=VerifyNoShowPickerForKidsProfile.noShowPickerForKidsProfile()[pri:0, instance:userProfile.VerifyNoShowPickerForKidsProfile@7ce026d3] output=Test started- noShowPickerForKidsProfile]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:userProfile.VerifyNoShowPickerForKidsProfile@7ce026d3]" started-at="2023-06-02T01:03:07 IST" name="afterClass" finished-at="2023-06-02T01:03:08 IST" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- userProfile.VerifyNoShowPickerForKidsProfile -->
+    </test> <!-- userProfile -->
+  </suite> <!-- AllTest -->
+</testng-results>

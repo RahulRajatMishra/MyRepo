@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AllTest">
+
+	<test name="HomePage">
+		<parameter name="browserName" value="chrome" />
+		<parameter name="author" value="Rahul" />
+		<classes>
+			<class name="homePage.VerifyFooterParamountLogo" />
+			<class name="homePage.VerifyHomePage" />
+			<class name="homePage.VerifyJustAddedBadge" />
+			<class name="homePage.VerifyKeepWatchingCarousel" />
+			<class name="homePage.VerifyNewBadge" />
+			<class name="homePage.VerifyMyListCarouselNotDisplayed" />
+			<class name="homePage.VerifyMyListCarouselDisplayed" />
+		</classes>
+	</test>
+
+	<test name="myListPage">
+		<parameter name="browserName" value="chrome" />
+		<parameter name="author" value="Rahul" />
+		<classes>
+			<class name="myListPage.VerifyMyListShowsSelectedContent" />
+			<class name="myListPage.VerifyEditMyListContent" />
+			<class name="myListPage.VerifyRecentAdditionToMyList" />
+			<class name="myListPage.VerifyNonWatchlistSelectedShow" />
+			<class name="myListPage.VerifyWatchlistSelectedShow" />
+		</classes>
+	</test>
+
+	<test name="newAccount">
+		<parameter name="browserName" value="chrome" />
+		<parameter name="author" value="Rahul" />
+		<classes>
+			<class name="newAccount.VerifyPlanPage" />
+		</classes>
+	</test>
+
+	<test name="searchResult">
+		<parameter name="browserName" value="chrome" />
+		<parameter name="author" value="Rahul" />
+		<classes>
+			<class name="searchResult.VerifyPreSearchPlaceholder" />
+			<class name="searchResult.VerifySearchResult" />
+		</classes>
+	</test>
+
+	<test name="showsPage">
+		<parameter name="browserName" value="chrome" />
+		<parameter name="author" value="Rahul" />
+		<classes>
+			<class name="showsPage.VerifyKidsCategoryPosition" />
+		</classes>
+	</test>
+
+	<test name="upsellPage">
+		<parameter name="browserName" value="chrome" />
+		<parameter name="author" value="Rahul" />
+		<classes>
+			<class name="upsellPage.VerifySignInCTA" />
+			<class name="upsellPage.VerifyStudentsUpsellCopy" />
+		</classes>
+	</test>
+
+	<test name="userProfile">
+		<parameter name="browserName" value="chrome" />
+		<parameter name="author" value="Rahul" />
+		<classes>
+			<class name="userProfile.VerifyAdultUserProfile" />
+			<class name="userProfile.VerifyKidsUserProfile" />
+			<class name="userProfile.VerifyNewProfileShowPicker" />
+			<class name="userProfile.VerifyDeleteNewProfile" />
+			<class name="userProfile.VerifyNoShowPickerForKidsProfile" />
+			<class name="userProfile.VerifyDeleteKidsProfile" />
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener
+			class-name="com.paramountplus.genericUtility.ListenerImplementation"></listener>
+	</listeners>
+	<test name="HomePage">
+		<parameter name="browserName" value="chrome" />
+		<parameter name="author" value="Rahul" />
+		<classes>
+			<!--<class name="homePage.VerifyFooterParamountLogo" />-->
+			<!--<class name="homePage.VerifyHomePage" />-->
+			<!--<class name="homePage.VerifyJustAddedBadge"/>-->
+			<!--<class name="homePage.VerifyKeepWatchingCarousel" />-->
+			<class name="homePage.VerifyNewBadge" />
+			<!--<class name="homePage.VerifyMyListCarouselNotDisplayed" />
+			<class name="homePage.VerifyMyListCarouselDisplayed" />-->
+		</classes>
+	</test>
+</suite> <!--
+Suite -->
