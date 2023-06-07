@@ -54,10 +54,12 @@ public class WhosWatchingPage {
 	public void selectMainProfile()
 	{
 		try {
-			wLib.waitForElementToBeVisible(driver, WhosWatchingHeader);
-			getMainProfile().click();
-			LoggerUtility.info("Who is watching page displayed");
-			LoggerUtility.info("User landed on home page");
+			if(WhosWatchingHeader.isDisplayed())
+			{
+				getMainProfile().click();
+				LoggerUtility.info("Who is watching page displayed");
+				LoggerUtility.info("User landed on home page");
+			}
 		}
 		catch(Exception e)
 		{

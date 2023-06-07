@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="MoviesPage">
+		<parameter name="browserName" value="chrome" />
+		<parameter name="author" value="Rahul" />
+		<classes>
+			<!--<class name="moviesPage.VerifyNonWatchlistSelectedMovie" />-->
+			<class name="moviesPage.VerifyWatchlistSelectedMovie" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->

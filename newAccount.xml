@@ -5,7 +5,7 @@
 		<listener
 			class-name="com.paramountplus.genericUtility.ListenerImplementation" />
 	</listeners>
-	<test thread-count="5" name="Test">
+	<test name="NewAccount">
 		<parameter name="browserName" value="chrome" />
 		<parameter name="author" value="Rahul" />
 		<classes>

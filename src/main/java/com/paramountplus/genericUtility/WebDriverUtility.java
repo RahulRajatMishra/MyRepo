@@ -39,7 +39,7 @@ public class WebDriverUtility {
 
 	public void waitForPageToLoad(WebDriver driver)
 	{
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(45));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 	}
 	/**
 	 * wait for page to load before identifying any assynchronized [Java script actions] element in DOM

@@ -57,7 +57,6 @@ public class BaseClass {
 	public JavaUtility jLib= new JavaUtility();
 	public ExcelUtility eLib= new ExcelUtility();
 	public FileUtility fLib= new FileUtility();
-	//	public LoginUtility lLib= new LoginUtility();
 	public WebDriver driver;
 	public static WebDriver sdriver;
 	public static String screenshotSubFolderName;
@@ -107,23 +106,26 @@ public class BaseClass {
 		prefs.put("profile", profile);
 
 		chromeOptions.setExperimentalOption("prefs", prefs);
-		fireFoxOptions.setCapability("prefs", prefs);
+//		fireFoxOptions.setCapability("prefs", prefs);
 		edgeOptions.setExperimentalOption("prefs", prefs);
 
 		// Launching browser based on the parameter passed
 		switch(browserName.toLowerCase())
 		{
 		case "chrome":
-			//          chromeOptions.addArguments("--headless=new");
+			//			chromeOptions.addArguments("--headless=new");
 			//			chromeOptions.addArguments("--incognito");
 			chromeOptions.addArguments("--remote-allow-origins=*");
 			//			chromeOptions.addArguments("--disable-notifications");
 			//			chromeOptions.addArguments("disable-geolocation");
+			WebDriverManager.chromedriver().setup();
 			driver= new ChromeDriver(chromeOptions);
 			LoggerUtility.info("Chrome browser launched");
 			break;
 		case "firefox":
 			//			fireFoxOptions.addArguments("-headless");
+			fireFoxOptions.addPreference("dom.webnotifications.enabled", false);
+			fireFoxOptions.addPreference("geo.enabled", false);
 			driver= new FirefoxDriver(fireFoxOptions);
 			LoggerUtility.info("Firefox browser launched");
 			break;

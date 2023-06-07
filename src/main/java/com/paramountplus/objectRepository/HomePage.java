@@ -84,6 +84,27 @@ public class HomePage {
 	@FindBy(xpath="//section[@id='showtime-shows-&-movies']/div/div/div/div/div/div/div")
 	private List<WebElement> allItemsInShowtimeShowsMoviesCarousel;
 	
+	@FindBy(css="a[aria-label='Next Slides'][aa-link*='showtime']")
+	private WebElement showtimeShowsAndMoviesNextSlideLink;
+	
+	@FindBy(css="section#horror-movies")
+	private WebElement horrorMoviesCarousel;
+	
+	@FindBy(css="section#horror-movies div div div div div div div a")
+	private List<WebElement> allItemsInHorrorMoviesCarousel;
+	
+	@FindBy(css="section#animated-movies")
+	private WebElement annimatedMoviesCarousel;
+	
+	@FindBy(css="section#animated-movies div div div div div div div a")
+	private List<WebElement> allItemsInAnnimatedMoviesCarousel;
+	
+	@FindBy(css="section#sci-fi-movies")
+	private WebElement sciFiMoviesCarousel;
+	
+	@FindBy(css="section#sci-fi-movies div div div div div div div a")
+	private WebElement allItemsInSciFiMoviesCarousel;
+	
 	public HomePage(WebDriver driver)
 	{
 		PageFactory.initElements(driver, this);
@@ -162,6 +183,32 @@ public class HomePage {
 	}
 	public List<WebElement> getAllItemsInMyListCarousel() {
 		return allItemsInMyListCarousel;
+	}
+	public WebElement getHorrorMoviesCarousel() {
+		return horrorMoviesCarousel;
+	}
+
+	public List<WebElement> getAllItemsInHorrorMoviesCarousel() {
+		return allItemsInHorrorMoviesCarousel;
+	}
+
+	public WebElement getAnnimatedMoviesCarousel() {
+		return annimatedMoviesCarousel;
+	}
+
+	public List<WebElement> getAllItemsInAnnimatedMoviesCarousel() {
+		return allItemsInAnnimatedMoviesCarousel;
+	}
+
+	public WebElement getSciFiMoviesCarousel() {
+		return sciFiMoviesCarousel;
+	}
+
+	public WebElement getAllItemsInSciFiMoviesCarousel() {
+		return allItemsInSciFiMoviesCarousel;
+	}
+	public WebElement getShowtimeShowsAndMoviesNextSlideLink() {
+		return showtimeShowsAndMoviesNextSlideLink;
 	}
 
 	// Library functions

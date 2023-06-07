@@ -6,15 +6,14 @@
 			class-name="com.paramountplus.genericUtility.ListenerImplementation" />
 	</listeners>-->
 
-	<test name="myListPage">
+	<test name="MyListPage">
 		<parameter name="browserName" value="chrome" />
 		<parameter name="author" value="Rahul" />
 		<classes>
 			<!--<class name="myListPage.VerifyMyListShowsSelectedContent" />
-			<class name="myListPage.VerifyEditMyListContent" />
-			<class name="myListPage.VerifyRecentAdditionToMyList" />-->
-			<class name="myListPage.VerifyNonWatchlistSelectedShow" />
-			<!--<class name="myListPage.VerifyWatchlistSelectedShow"/>-->
+			<class name="myListPage.VerifyEditMyListContent" />-->
+			<class name="myListPage.VerifyRecentAdditionToMyList" />
+			
 		</classes>
 
 	</test>

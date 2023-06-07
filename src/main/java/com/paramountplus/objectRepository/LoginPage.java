@@ -96,7 +96,7 @@ public class LoginPage {
 		{
 			try {
 				getContinueButton().click();
-				if(!getContinueButton().isDisplayed())
+				if(!getSignUpLink().isDisplayed())
 				{
 					break;
 				}
