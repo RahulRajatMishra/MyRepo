@@ -3,7 +3,7 @@
 <suite name="AllTest">
 
 	<test name="HomePage">
-		<parameter name="browserName" value="firefox" />
+		<parameter name="browserName" value="chrome" />
 		<parameter name="author" value="Rahul" />
 		<classes>
 			<class name="homePage.VerifyFooterParamountLogo" />
@@ -13,11 +13,12 @@
 			<class name="homePage.VerifyNewBadge" />
 			<class name="homePage.VerifyMyListCarouselNotDisplayed" />
 			<class name="homePage.VerifyMyListCarouselDisplayed" />
+			<class name="homePage.VerifyGoAddFreeCTA"/>
 		</classes>
 	</test>
 
 	<test name="MyListPage">
-		<parameter name="browserName" value="firefox" />
+		<parameter name="browserName" value="chrome" />
 		<parameter name="author" value="Rahul" />
 		<classes>
 			<class name="myListPage.VerifyMyListShowsSelectedContent" />
@@ -27,7 +28,7 @@
 	</test>
 
 	<test name="NewAccount">
-		<parameter name="browserName" value="firefox" />
+		<parameter name="browserName" value="chrome" />
 		<parameter name="author" value="Rahul" />
 		<classes>
 			<class name="newAccount.VerifyPlanPage" />
@@ -35,7 +36,7 @@
 	</test>
 
 	<test name="SearchResult">
-		<parameter name="browserName" value="firefox" />
+		<parameter name="browserName" value="chrome" />
 		<parameter name="author" value="Rahul" />
 		<classes>
 			<class name="searchResult.VerifyPreSearchPlaceholder" />
@@ -44,17 +45,20 @@
 	</test>
 
 	<test name="ShowsPage">
-		<parameter name="browserName" value="firefox" />
+		<parameter name="browserName" value="chrome" />
 		<parameter name="author" value="Rahul" />
 		<classes>
 			<class name="showsPage.VerifyKidsCategoryPosition" />
 			<class name="showsPage.VerifyNonWatchlistSelectedShow" />
 			<class name="showsPage.VerifyWatchlistSelectedShow" />
+			<class name="showsPage.VerifyAnonymousUserSeeRainmaker" />
+			<class name="showsPage.VerifyRegisteredUserSeeRainmaker"/>
+			<class name="showsPage.VerifyHideRainmaker" />
 		</classes>
 	</test>
 
 	<test name="MoviesPage">
-		<parameter name="browserName" value="firefox" />
+		<parameter name="browserName" value="chrome" />
 		<parameter name="author" value="Rahul" />
 		<classes>
 			<class name="moviesPage.VerifyNonWatchlistSelectedMovie" />
@@ -63,7 +67,7 @@
 	</test>
 
 	<test name="UpsellPage">
-		<parameter name="browserName" value="firefox" />
+		<parameter name="browserName" value="chrome" />
 		<parameter name="author" value="Rahul" />
 		<classes>
 			<class name="upsellPage.VerifySignInCTA" />
@@ -72,7 +76,7 @@
 	</test>
 
 	<test name="UserProfile">
-		<parameter name="browserName" value="firefox" />
+		<parameter name="browserName" value="chrome" />
 		<parameter name="author" value="Rahul" />
 		<classes>
 			<class name="userProfile.VerifyAdultUserProfile" />
@@ -81,6 +85,7 @@
 			<class name="userProfile.VerifyDeleteNewProfile" />
 			<class name="userProfile.VerifyNoShowPickerForKidsProfile" />
 			<class name="userProfile.VerifyDeleteKidsProfile" />
+			<class name="homePage.VerifyGoAddFreeCTA"></class>
 		</classes>
 	</test>
 </suite>

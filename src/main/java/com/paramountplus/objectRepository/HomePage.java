@@ -105,6 +105,9 @@ public class HomePage {
 	@FindBy(css="section#sci-fi-movies div div div div div div div a")
 	private WebElement allItemsInSciFiMoviesCarousel;
 	
+	@FindBy(css="#user-profiles-menu-trigger li:nth-child(2) a div")
+	private WebElement goAddFreeCTA;
+	
 	public HomePage(WebDriver driver)
 	{
 		PageFactory.initElements(driver, this);
@@ -209,6 +212,9 @@ public class HomePage {
 	}
 	public WebElement getShowtimeShowsAndMoviesNextSlideLink() {
 		return showtimeShowsAndMoviesNextSlideLink;
+	}	
+	public WebElement getGoAddFreeCTA() {
+		return goAddFreeCTA;
 	}
 
 	// Library functions

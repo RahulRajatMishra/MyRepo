@@ -20,9 +20,15 @@ public class PlanPage {
 	@FindBy(xpath="//a[contains(@aa-link,'global header|user|sign out|')]")
 	private WebElement signOutButton;
 
-	@FindBy(xpath="//div[contains(text(),'First, pick your plan. Cancel anytime')]")
+	@FindBy(xpath="//div[contains(text(),'pick your plan')]")
 	private WebElement pickYourPlanText;
 
+	@FindBy(xpath="//a[@aria-label='Paramount+ Home']")
+	private WebElement paramountPlusLogo;
+	
+	@FindBy(xpath="//div[normalize-space(text())='Continue']")
+	private WebElement continuebtn;
+	
 	public PlanPage(WebDriver driver)
 	{
 		PageFactory.initElements(driver, this);
@@ -39,6 +45,15 @@ public class PlanPage {
 	public WebElement getPickYourPlanText() {
 		return pickYourPlanText;
 	}
+	
+	public WebElement getParamountPlusLogo() {
+		return paramountPlusLogo;
+	}
+
+	public WebElement getContinuebtn() {
+		return continuebtn;
+	}
+
 	//Library functions
 	//	Sign out to the application
 	public void logout()

@@ -9,9 +9,8 @@
 		<parameter name="browserName" value="chrome" />
 		<parameter name="author" value="Rahul" />
 		<classes>
-			<class name="newAccount.VerifyPlanPage" />
+			<!--<class name="newAccount.VerifyPlanPage" />-->
+			<class name="newAccount.VerifyCreateEssentialUser"/>
 		</classes>
-	</test> <!--
-	Test -->
-</suite> <!--
-Suite -->
+	</test> 
+</suite> 

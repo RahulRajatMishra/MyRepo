@@ -25,6 +25,15 @@ public class ShowsDetailsPage {
 	@FindBy(xpath="//a[@title='Remove from watchlist']")
 	private WebElement removeFromWatchlistbtn;
 
+	@FindBy(css=".rainmaker-logo")
+	private WebElement rainmakerLogo;
+	
+	@FindBy(css="#js-rainmaker-close-out")
+	private WebElement closeRainmakerbtn;
+	
+	@FindBy(xpath="//div[normalize-space(text())='TRY IT FREE']")
+	private WebElement tryItFreeCTA;
+	
 	public ShowsDetailsPage(WebDriver driver) 
 	{
 		PageFactory.initElements(driver, this);
@@ -53,4 +62,17 @@ public class ShowsDetailsPage {
 	public WebElement getRemoveFromWatchlistbtn() {
 		return removeFromWatchlistbtn;
 	}
+
+	public WebElement getRainmakerLogo() {
+		return rainmakerLogo;
+	}
+
+	public WebElement getCloseRainmakerbtn() {
+		return closeRainmakerbtn;
+	}
+
+	public WebElement getTryItFreeCTA() {
+		return tryItFreeCTA;
+	}
+	
 }

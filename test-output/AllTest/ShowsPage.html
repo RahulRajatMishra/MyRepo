@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>ShowsPage</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/2/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>5/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Jun 08 03:44:50 IST 2023</td>
+<td>Started on:</td><td>Fri Jun 16 23:21:29 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>202 seconds (202654 ms)</td>
+<tr><td>Total time:</td><td>499 seconds (499034 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,39 +75,37 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='showsPage.VerifyWatchlistSelectedShow.verifyWatchlistSelectedShow()'><b>verifyWatchlistSelectedShow</b><br>Test class: showsPage.VerifyWatchlistSelectedShow<br>Test method: C1533416-Navigate_to_a_selected-watchlist_show_page_&_C1534294-Remove_Show_from_the_Watchlist<br/>
-<a href="#Output-2122624820" onClick='toggleBox("Output-2122624820", this, "Show output", "Hide output");'>Show output</a>
+<td title='showsPage.VerifyKidsCategoryPosition.verifyKidsCategoryPosition()'><b>verifyKidsCategoryPosition</b><br>Test class: showsPage.VerifyKidsCategoryPosition<br>Test method: C2251311- Verify_that_the_kids_section_is_8th_on_the_Nav_bar_of_show_browse_page<br/>
+<a href="#Output-202438568" onClick='toggleBox("Output-202438568", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-2122624820" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-2122624820">
-Test started- verifyWatchlistSelectedShow<br/>
-Test failed- verifyWatchlistSelectedShow<br/>
+<a href="#Output-202438568" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-202438568">
+Test started- verifyKidsCategoryPosition<br/>
+Test failed- verifyKidsCategoryPosition<br/>
 </div>
 </td>
-<td><div><pre>java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
-	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
-	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
-	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
-	at java.base/java.util.Objects.checkIndex(Objects.java:359)
-	at java.base/java.util.ArrayList.get(ArrayList.java:427)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:40)
-	at jdk.proxy2/jdk.proxy2.$Proxy38.get(Unknown Source)
-	at showsPage.VerifyWatchlistSelectedShow.verifyWatchlistSelectedShow(VerifyWatchlistSelectedShow.java:28)
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to contain &quot;shows&quot;. Current url: &quot;https://stage.paramountplus.com/browse/&quot; (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\RAHULR~1.360\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:61864}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61864/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9fe08b776014762fb374e2f3d6aec166
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at com.paramountplus.genericUtility.WebDriverUtility.waitTillcurrectURLContains(WebDriverUtility.java:515)
+	at showsPage.VerifyKidsCategoryPosition.verifyKidsCategoryPosition(VerifyKidsCategoryPosition.java:29)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2122624820", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2122624820'><pre>java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
-	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
-	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
-	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
-	at java.base/java.util.Objects.checkIndex(Objects.java:359)
-	at java.base/java.util.ArrayList.get(ArrayList.java:427)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:40)
-	at jdk.proxy2/jdk.proxy2.$Proxy38.get(Unknown Source)
-	at showsPage.VerifyWatchlistSelectedShow.verifyWatchlistSelectedShow(VerifyWatchlistSelectedShow.java:28)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace202438568", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace202438568'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to contain &quot;shows&quot;. Current url: &quot;https://stage.paramountplus.com/browse/&quot; (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\RAHULR~1.360\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:61864}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61864/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9fe08b776014762fb374e2f3d6aec166
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at com.paramountplus.genericUtility.WebDriverUtility.waitTillcurrectURLContains(WebDriverUtility.java:515)
+	at showsPage.VerifyKidsCategoryPosition.verifyKidsCategoryPosition(VerifyKidsCategoryPosition.java:29)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -137,101 +135,8 @@ Test failed- verifyWatchlistSelectedShow<br/>
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>56</td>
-<td>showsPage.VerifyWatchlistSelectedShow@3ba987b8</td></tr>
-<tr>
-<td title='showsPage.VerifyNonWatchlistSelectedShow.verifyNonWatchlistSelectedShow()'><b>verifyNonWatchlistSelectedShow</b><br>Test class: showsPage.VerifyNonWatchlistSelectedShow<br>Test method: C1533413-Navigate_to_a_non-watchlist_selected_show_page_&_C1533533- Add_Show_to_the_Watchlist<br/>
-<a href="#Output-391491302" onClick='toggleBox("Output-391491302", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-391491302" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-391491302">
-Test started- verifyNonWatchlistSelectedShow<br/>
-Test failed- verifyNonWatchlistSelectedShow<br/>
-</div>
-</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@title=&apos;Add to watchlist&apos;]
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [885cb8d5-12d6-4035-a128-c9148f2a6c0b, findElement {using=xpath, value=//a[@title=&apos;Add to watchlist&apos;]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 113.0.2, moz:accessibilityChecks: false, moz:buildID: 20230522134052, moz:debuggerAddress: 127.0.0.1:23284, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 63852, moz:profile: C:\Users\RAHULR~1.360\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:23284/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 885cb8d5-12d6-4035-a128-c9148f2a6c0b
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at jdk.proxy2/jdk.proxy2.$Proxy37.isDisplayed(Unknown Source)
-	at showsPage.VerifyNonWatchlistSelectedShow.verifyNonWatchlistSelectedShow(VerifyNonWatchlistSelectedShow.java:43)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace391491302", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace391491302'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@title=&apos;Add to watchlist&apos;]
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [885cb8d5-12d6-4035-a128-c9148f2a6c0b, findElement {using=xpath, value=//a[@title=&apos;Add to watchlist&apos;]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 113.0.2, moz:accessibilityChecks: false, moz:buildID: 20230522134052, moz:debuggerAddress: 127.0.0.1:23284, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 63852, moz:profile: C:\Users\RAHULR~1.360\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:23284/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 885cb8d5-12d6-4035-a128-c9148f2a6c0b
-	at jdk.internal.reflect.GeneratedConstructorAccessor26.newInstance(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at jdk.proxy2/jdk.proxy2.$Proxy37.isDisplayed(Unknown Source)
-	at showsPage.VerifyNonWatchlistSelectedShow.verifyNonWatchlistSelectedShow(VerifyNonWatchlistSelectedShow.java:43)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>59</td>
-<td>showsPage.VerifyNonWatchlistSelectedShow@2d901eb0</td></tr>
+<td>93</td>
+<td>showsPage.VerifyKidsCategoryPosition@18271936</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -241,18 +146,70 @@ Session ID: 885cb8d5-12d6-4035-a128-c9148f2a6c0b
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='showsPage.VerifyKidsCategoryPosition.verifyKidsCategoryPosition()'><b>verifyKidsCategoryPosition</b><br>Test class: showsPage.VerifyKidsCategoryPosition<br>Test method: C2251311- Verify_that_the_kids_section_is_8th_on_the_Nav_bar_of_show_browse_page<br/>
-<a href="#Output-1882860489" onClick='toggleBox("Output-1882860489", this, "Show output", "Hide output");'>Show output</a>
+<td title='showsPage.VerifyRegisteredUserSeeRainmaker.verifyRegisteredUserSeeRainmaker()'><b>verifyRegisteredUserSeeRainmaker</b><br>Test class: showsPage.VerifyRegisteredUserSeeRainmaker<br>Test method: C1503125_Navigate_to_Shows_page_&_C1503129_Show_page_Registered_user_See_Rainmaker_&_C1503139_'X'_to_dismiss_&_C1503140_Try_it_Free CTA<br/>
+<a href="#Output-1856828350" onClick='toggleBox("Output-1856828350", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1882860489" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1882860489">
-Test started- verifyKidsCategoryPosition<br/>
-Test completed successfully- verifyKidsCategoryPosition<br/>
+<a href="#Output-1856828350" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1856828350">
+Test started- verifyRegisteredUserSeeRainmaker<br/>
+Test completed successfully- verifyRegisteredUserSeeRainmaker<br/>
 </div>
 </td>
 <td></td>
-<td>47</td>
-<td>showsPage.VerifyKidsCategoryPosition@35dab4eb</td></tr>
+<td>45</td>
+<td>showsPage.VerifyRegisteredUserSeeRainmaker@68c9133c</td></tr>
+<tr>
+<td title='showsPage.VerifyWatchlistSelectedShow.verifyWatchlistSelectedShow()'><b>verifyWatchlistSelectedShow</b><br>Test class: showsPage.VerifyWatchlistSelectedShow<br>Test method: C1533416-Navigate_to_a_selected-watchlist_show_page_&_C1534294-Remove_Show_from_the_Watchlist<br/>
+<a href="#Output-1514502817" onClick='toggleBox("Output-1514502817", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1514502817" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1514502817">
+Test started- verifyWatchlistSelectedShow<br/>
+Test completed successfully- verifyWatchlistSelectedShow<br/>
+</div>
+</td>
+<td></td>
+<td>74</td>
+<td>showsPage.VerifyWatchlistSelectedShow@8458f04</td></tr>
+<tr>
+<td title='showsPage.VerifyAnonymousUserSeeRainmaker.verifyShowPageRainmaker()'><b>verifyShowPageRainmaker</b><br>Test class: showsPage.VerifyAnonymousUserSeeRainmaker<br>Test method: C1503125_Navigate_to_Shows_page_&_C1503127_Show_page_Anonymous_user_See_Rainmaker_&_C1503131_'X'_to_dismiss_&_C1503137_Try_it_Free CTA<br/>
+<a href="#Output-575233839" onClick='toggleBox("Output-575233839", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-575233839" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-575233839">
+Test started- verifyShowPageRainmaker<br/>
+Test completed successfully- verifyShowPageRainmaker<br/>
+</div>
+</td>
+<td></td>
+<td>37</td>
+<td>showsPage.VerifyAnonymousUserSeeRainmaker@48075da3</td></tr>
+<tr>
+<td title='showsPage.VerifyNonWatchlistSelectedShow.verifyNonWatchlistSelectedShow()'><b>verifyNonWatchlistSelectedShow</b><br>Test class: showsPage.VerifyNonWatchlistSelectedShow<br>Test method: C1533413-Navigate_to_a_non-watchlist_selected_show_page_&_C1533533- Add_Show_to_the_Watchlist<br/>
+<a href="#Output-772801497" onClick='toggleBox("Output-772801497", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-772801497" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-772801497">
+Test started- verifyNonWatchlistSelectedShow<br/>
+Test completed successfully- verifyNonWatchlistSelectedShow<br/>
+</div>
+</td>
+<td></td>
+<td>73</td>
+<td>showsPage.VerifyNonWatchlistSelectedShow@606e4010</td></tr>
+<tr>
+<td title='showsPage.VerifyHideRainmaker.verifyHideRainmaker()'><b>verifyHideRainmaker</b><br>Test class: showsPage.VerifyHideRainmaker<br/>
+<a href="#Output-319123198" onClick='toggleBox("Output-319123198", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-319123198" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-319123198">
+Test started- verifyHideRainmaker<br/>
+Test completed successfully- verifyHideRainmaker<br/>
+</div>
+</td>
+<td></td>
+<td>113</td>
+<td>showsPage.VerifyHideRainmaker@16eb3ea3</td></tr>
 </table><p>
 </body>
 </html>

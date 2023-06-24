@@ -1,124 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [AllTest]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="HomePage(failed)">
-    <parameter name="author" value="Rahul"/>
-    <parameter name="browserName" value="firefox"/>
-    <classes>
-      <class name="homePage.VerifyNewBadge">
-        <methods>
-          <include name="verifyNewBadge"/>
-          <include name="initialiseExtentReports"/>
-          <include name="afterClass"/>
-          <include name="afterMethod"/>
-          <include name="generateExtentReports"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- homePage.VerifyNewBadge -->
-    </classes>
-  </test> <!-- HomePage(failed) -->
-  <test thread-count="5" name="MyListPage(failed)">
-    <parameter name="author" value="Rahul"/>
-    <parameter name="browserName" value="firefox"/>
-    <classes>
-      <class name="myListPage.VerifyMyListShowsSelectedContent">
-        <methods>
-          <include name="VerifySelectedContentOnMyList"/>
-          <include name="initialiseExtentReports"/>
-          <include name="afterClass"/>
-          <include name="afterMethod"/>
-          <include name="generateExtentReports"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- myListPage.VerifyMyListShowsSelectedContent -->
-      <class name="myListPage.VerifyRecentAdditionToMyList">
-        <methods>
-          <include name="initialiseExtentReports"/>
-          <include name="afterClass"/>
-          <include name="afterMethod"/>
-          <include name="generateExtentReports"/>
-          <include name="beforeClass"/>
-          <include name="verifyRecentAdditionToMylist"/>
-        </methods>
-      </class> <!-- myListPage.VerifyRecentAdditionToMyList -->
-      <class name="myListPage.VerifyEditMyListContent">
-        <methods>
-          <include name="initialiseExtentReports"/>
-          <include name="afterClass"/>
-          <include name="afterMethod"/>
-          <include name="generateExtentReports"/>
-          <include name="editMyList"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- myListPage.VerifyEditMyListContent -->
-    </classes>
-  </test> <!-- MyListPage(failed) -->
-  <test thread-count="5" name="SearchResult(failed)">
-    <parameter name="author" value="Rahul"/>
-    <parameter name="browserName" value="firefox"/>
-    <classes>
-      <class name="searchResult.VerifySearchResult">
-        <methods>
-          <include name="initialiseExtentReports"/>
-          <include name="performSearchAndVerifyResult"/>
-          <include name="afterClass"/>
-          <include name="afterMethod"/>
-          <include name="generateExtentReports"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- searchResult.VerifySearchResult -->
-    </classes>
-  </test> <!-- SearchResult(failed) -->
   <test thread-count="5" name="ShowsPage(failed)">
     <parameter name="author" value="Rahul"/>
-    <parameter name="browserName" value="firefox"/>
+    <parameter name="browserName" value="chrome"/>
     <classes>
-      <class name="showsPage.VerifyWatchlistSelectedShow">
-        <methods>
-          <include name="verifyWatchlistSelectedShow"/>
-          <include name="initialiseExtentReports"/>
-          <include name="afterClass"/>
-          <include name="afterMethod"/>
-          <include name="generateExtentReports"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- showsPage.VerifyWatchlistSelectedShow -->
-      <class name="showsPage.VerifyNonWatchlistSelectedShow">
+      <class name="showsPage.VerifyKidsCategoryPosition">
         <methods>
           <include name="initialiseExtentReports"/>
           <include name="afterClass"/>
           <include name="afterMethod"/>
           <include name="generateExtentReports"/>
+          <include name="verifyKidsCategoryPosition"/>
           <include name="beforeClass"/>
-          <include name="verifyNonWatchlistSelectedShow"/>
         </methods>
-      </class> <!-- showsPage.VerifyNonWatchlistSelectedShow -->
+      </class> <!-- showsPage.VerifyKidsCategoryPosition -->
     </classes>
   </test> <!-- ShowsPage(failed) -->
-  <test thread-count="5" name="MoviesPage(failed)">
+  <test thread-count="5" name="UserProfile(failed)">
     <parameter name="author" value="Rahul"/>
-    <parameter name="browserName" value="firefox"/>
+    <parameter name="browserName" value="chrome"/>
     <classes>
-      <class name="moviesPage.VerifyWatchlistSelectedMovie">
-        <methods>
-          <include name="initialiseExtentReports"/>
-          <include name="afterClass"/>
-          <include name="verifyWatchlistSelectedMovie"/>
-          <include name="afterMethod"/>
-          <include name="generateExtentReports"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- moviesPage.VerifyWatchlistSelectedMovie -->
-      <class name="moviesPage.VerifyNonWatchlistSelectedMovie">
+      <class name="userProfile.VerifyAdultUserProfile">
         <methods>
           <include name="initialiseExtentReports"/>
           <include name="afterClass"/>
           <include name="afterMethod"/>
-          <include name="verifyNonWatchlistSelectMovie"/>
+          <include name="verifyAdultUserProfilePicker"/>
           <include name="generateExtentReports"/>
           <include name="beforeClass"/>
         </methods>
-      </class> <!-- moviesPage.VerifyNonWatchlistSelectedMovie -->
+      </class> <!-- userProfile.VerifyAdultUserProfile -->
     </classes>
-  </test> <!-- MoviesPage(failed) -->
+  </test> <!-- UserProfile(failed) -->
 </suite> <!-- Failed suite [AllTest] -->

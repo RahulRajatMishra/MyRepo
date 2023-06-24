@@ -3,6 +3,7 @@ package com.paramountplus.genericUtility;
 import java.io.File;
 import java.io.IOException;
 import java.lang.reflect.Method;
+import java.time.Duration;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.HashMap;
@@ -114,7 +115,7 @@ public class BaseClass {
 		{
 		case "chrome":
 			//			chromeOptions.addArguments("--headless=new");
-			//			chromeOptions.addArguments("--incognito");
+//						chromeOptions.addArguments("--incognito");
 			chromeOptions.addArguments("--remote-allow-origins=*");
 			//			chromeOptions.addArguments("--disable-notifications");
 			//			chromeOptions.addArguments("disable-geolocation");
@@ -151,9 +152,12 @@ public class BaseClass {
 
 		wLib.maximizeWindow(driver);
 		//		wLib.ClearBrowserCache(driver);
-		wLib.waitForPageToLoad(driver);
 		wLib.pageLoadTimeout(driver);
+		WebDriverUtility.waitForPageToLoad(driver, Duration.ofSeconds(30));
+		wLib.waitForPageToLoad(driver);
+		
 		driver.get(url);
+		wLib.executeJavaScript(driver, "let d = new Date(); d.setDate(d.getDate()+365); document.cookie = \"ovvuid=growth-qa-65b30329-0043-450c-b148-c6db0175acaf;path=/;expires=\"+d;");
 		LoggerUtility.info("Upsell page displayed");
 	}
 	//	@Parameters({"userName", "pwd"})

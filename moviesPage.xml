@@ -8,7 +8,5 @@
 			<!--<class name="moviesPage.VerifyNonWatchlistSelectedMovie" />-->
 			<class name="moviesPage.VerifyWatchlistSelectedMovie" />
 		</classes>
-	</test> <!--
-	Test -->
-</suite> <!--
-Suite -->
+	</test> 
+</suite>

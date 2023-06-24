@@ -13,10 +13,10 @@
 			<!--<class name="homePage.VerifyHomePage" />-->
 			<!--<class name="homePage.VerifyJustAddedBadge"/>-->
 			<!--<class name="homePage.VerifyKeepWatchingCarousel" />-->
-			<class name="homePage.VerifyNewBadge" />
+			<!--<class name="homePage.VerifyNewBadge" /> -->
 			<!--<class name="homePage.VerifyMyListCarouselNotDisplayed" />
 			<class name="homePage.VerifyMyListCarouselDisplayed" />-->
+			<class name="homePage.VerifyGoAddFreeCTA"/>
 		</classes>
 	</test>
-</suite> <!--
-Suite -->
+</suite> 

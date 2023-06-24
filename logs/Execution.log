@@ -6375,3 +6375,1256 @@
 [INFO ]2023-06-08 03:56:39.544[main]LoggerUtility-User landed on home page
 [INFO ]2023-06-08 03:56:41.362[main]LoggerUtility-OlderKids6871 profile is deleted, TEST PASSED
 [INFO ]2023-06-08 03:56:44.372[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-09 03:47:19.246[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-09 03:47:30.082[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-09 03:47:35.479[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-09 03:47:35.888[main]LoggerUtility-Bundle user- Signed in successfully
+[INFO ]2023-06-09 03:48:04.148[main]LoggerUtility-Who is watching page displayed
+[INFO ]2023-06-09 03:48:04.149[main]LoggerUtility-User landed on home page
+[INFO ]2023-06-09 03:48:10.123[main]LoggerUtility-Switch your plan page is displayed
+[INFO ]2023-06-09 03:48:10.267[main]LoggerUtility-"Essential", "Premium", "Essential with Shotime" and "Premiun with Showtime" plans are displayed
+[INFO ]2023-06-09 03:48:10.615[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-09 03:54:26.011[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-09 03:54:35.049[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-09 03:55:25.591[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-09 03:55:26.185[main]LoggerUtility-Bundle user- Signed in successfully
+[ERROR]2023-06-09 03:56:26.899[main]LoggerUtility-Who is watching page not displayed
+[INFO ]2023-06-09 03:56:26.900[main]LoggerUtility-User landed on home page
+[INFO ]2023-06-09 03:56:26.986[main]LoggerUtility-Footer ParamountPlus logo is displayed
+[INFO ]2023-06-09 03:56:27.371[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-09 03:56:28.490[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-09 03:56:36.003[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-09 03:57:04.271[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-09 03:57:04.915[main]LoggerUtility-Bundle user- Signed in successfully
+[ERROR]2023-06-09 03:57:35.607[main]LoggerUtility-Who is watching page not displayed
+[INFO ]2023-06-09 03:57:35.607[main]LoggerUtility-User landed on home page
+[INFO ]2023-06-09 03:57:35.643[main]LoggerUtility-Home page displayed
+[INFO ]2023-06-09 03:57:36.072[main]LoggerUtility-Signed out successfully
+[INFO ]2023-06-09 03:57:36.507[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-09 03:57:37.911[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-09 03:58:23.148[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-09 03:58:44.798[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-09 03:58:45.257[main]LoggerUtility-Bundle user- Signed in successfully
+[INFO ]2023-06-09 03:58:58.424[main]LoggerUtility-Who is watching page displayed
+[INFO ]2023-06-09 03:58:58.425[main]LoggerUtility-User landed on home page
+[INFO ]2023-06-09 04:00:04.133[main]LoggerUtility- *Just Added* badge displayed
+[INFO ]2023-06-09 04:00:04.183[main]LoggerUtility-Just Added badge is displayed on / 61456629|getdisplayIDAbove|5|show||The Equalizer|default|default|JUST ADDED|false|61456629 /
+[INFO ]2023-06-09 04:00:04.595[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-09 04:00:05.839[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-09 04:00:13.581[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-09 04:00:39.126[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-09 04:00:39.733[main]LoggerUtility-Bundle user- Signed in successfully
+[ERROR]2023-06-09 04:01:29.235[main]LoggerUtility-Who is watching page not displayed
+[INFO ]2023-06-09 04:01:29.235[main]LoggerUtility-User landed on home page
+[INFO ]2023-06-09 04:01:29.329[main]LoggerUtility-Keep watching carousel displayed on homepage- TEST PASSED
+[INFO ]2023-06-09 04:01:29.775[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-09 04:01:31.184[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-09 04:01:39.043[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-09 04:01:44.275[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-09 04:01:44.781[main]LoggerUtility-Bundle user- Signed in successfully
+[INFO ]2023-06-09 04:02:14.736[main]LoggerUtility-Who is watching page displayed
+[INFO ]2023-06-09 04:02:14.737[main]LoggerUtility-User landed on home page
+[INFO ]2023-06-09 04:03:40.240[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-09 04:03:41.563[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-09 04:04:18.661[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-09 04:04:18.799[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-09 04:04:21.641[main]LoggerUtility-Bundle user- Signed in successfully
+[ERROR]2023-06-09 04:04:36.652[main]LoggerUtility-Who is watching page not displayed
+[INFO ]2023-06-09 04:04:36.652[main]LoggerUtility-User landed on home page
+[INFO ]2023-06-09 04:05:00.747[main]LoggerUtility-My List carousel is not displayed- TEST PASSED
+[INFO ]2023-06-09 04:05:01.176[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-09 04:05:02.805[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-09 04:05:09.891[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-09 04:05:35.764[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-09 04:05:36.508[main]LoggerUtility-Non-bundle user- Signed in successfully
+[ERROR]2023-06-09 04:06:02.244[main]LoggerUtility-Who is watching page not displayed
+[INFO ]2023-06-09 04:06:02.245[main]LoggerUtility-User landed on home page
+[INFO ]2023-06-09 04:07:08.791[main]LoggerUtility-The watchlist carousel is displayed on the Homepage at the top of the page with the title "My List"
+[INFO ]2023-06-09 04:07:09.137[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-09 04:07:10.410[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-09 04:07:18.113[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-09 04:07:28.618[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-09 04:07:29.087[main]LoggerUtility-Bundle user- Signed in successfully
+[ERROR]2023-06-09 04:07:44.151[main]LoggerUtility-Who is watching page not displayed
+[INFO ]2023-06-09 04:07:44.151[main]LoggerUtility-User landed on home page
+[INFO ]2023-06-09 04:07:47.003[main]LoggerUtility-My list page is displayed
+[INFO ]2023-06-09 04:08:02.554[main]LoggerUtility-Added item displays on my list- TEST PASSED
+[INFO ]2023-06-09 04:08:02.826[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-09 04:08:04.200[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-09 04:08:14.239[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-09 04:08:24.578[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-09 04:08:25.091[main]LoggerUtility-Bundle user- Signed in successfully
+[ERROR]2023-06-09 04:08:49.645[main]LoggerUtility-Who is watching page not displayed
+[INFO ]2023-06-09 04:08:49.645[main]LoggerUtility-User landed on home page
+[INFO ]2023-06-09 04:08:51.973[main]LoggerUtility-My List page is displayed
+[INFO ]2023-06-09 04:08:54.157[main]LoggerUtility-Item removed 
+[INFO ]2023-06-09 04:08:54.172[main]LoggerUtility-My list is empty-TEST PASSED
+[INFO ]2023-06-09 04:08:54.448[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-09 04:08:55.773[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-09 04:09:04.665[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-09 04:09:15.332[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-09 04:09:15.782[main]LoggerUtility-Bundle user- Signed in successfully
+[ERROR]2023-06-09 04:09:39.673[main]LoggerUtility-Who is watching page not displayed
+[INFO ]2023-06-09 04:09:39.673[main]LoggerUtility-User landed on home page
+[INFO ]2023-06-09 04:09:41.993[main]LoggerUtility-My list page displayed
+[INFO ]2023-06-09 04:10:03.021[main]LoggerUtility-Recently added item shows as the first item on my list- PASSED
+[INFO ]2023-06-09 04:10:36.556[main]LoggerUtility-My list is empty
+[INFO ]2023-06-09 04:10:36.853[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-09 04:10:38.144[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-09 04:10:45.896[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-09 04:11:10.625[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-09 04:11:11.242[main]LoggerUtility- Ex-subscriber- Signed in successfully
+[INFO ]2023-06-09 04:11:14.899[main]LoggerUtility-<---Plan page displayed--->
+[INFO ]2023-06-09 04:11:15.135[main]LoggerUtility-Signed out successfully
+[INFO ]2023-06-09 04:11:15.424[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-09 04:11:16.734[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-09 04:11:23.687[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-09 04:11:50.597[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-09 04:11:51.289[main]LoggerUtility-Bundle user- Signed in successfully
+[ERROR]2023-06-09 04:12:06.350[main]LoggerUtility-Who is watching page not displayed
+[INFO ]2023-06-09 04:12:06.350[main]LoggerUtility-User landed on home page
+[INFO ]2023-06-09 04:12:07.724[main]LoggerUtility-Search page is displayed
+[INFO ]2023-06-09 04:12:07.751[main]LoggerUtility-Placeholder value is verified- Test passed
+[INFO ]2023-06-09 04:12:08.028[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-09 04:12:09.375[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-09 04:12:17.185[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-09 04:12:44.656[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-09 04:12:45.514[main]LoggerUtility-Bundle user- Signed in successfully
+[ERROR]2023-06-09 04:13:00.566[main]LoggerUtility-Who is watching page not displayed
+[INFO ]2023-06-09 04:13:00.576[main]LoggerUtility-User landed on home page
+[INFO ]2023-06-09 04:13:06.682[main]LoggerUtility-Search page populate with the result- Test passed
+[INFO ]2023-06-09 04:13:07.027[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-09 04:13:08.864[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-09 04:13:17.432[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-09 04:13:42.669[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-09 04:13:43.534[main]LoggerUtility-Bundle user- Signed in successfully
+[ERROR]2023-06-09 04:13:58.594[main]LoggerUtility-Who is watching page not displayed
+[INFO ]2023-06-09 04:13:58.595[main]LoggerUtility-User landed on home page
+[INFO ]2023-06-09 04:13:59.476[main]LoggerUtility-Shows page displayed
+[INFO ]2023-06-09 04:13:59.544[main]LoggerUtility-Kids subnav is displayed at 8th position
+[INFO ]2023-06-09 04:13:59.836[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-09 04:14:01.600[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-09 04:14:09.649[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-09 04:14:48.764[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-09 04:14:49.404[main]LoggerUtility-Bundle user- Signed in successfully
+[ERROR]2023-06-09 04:15:20.899[main]LoggerUtility-Who is watching page not displayed
+[INFO ]2023-06-09 04:15:20.899[main]LoggerUtility-User landed on home page
+[INFO ]2023-06-09 04:15:25.859[main]LoggerUtility-First show is selected
+[INFO ]2023-06-09 04:15:26.123[main]LoggerUtility-Watch Now CTA is displayed
+[INFO ]2023-06-09 04:15:26.515[main]LoggerUtility-"plus Sign" is displayed next to watch now CTA
+[INFO ]2023-06-09 04:15:26.550[main]LoggerUtility-My List is displayed next to plus Sign- TEST PASSED
+[INFO ]2023-06-09 04:15:27.452[main]LoggerUtility-Added to Watchlist
+[INFO ]2023-06-09 04:15:27.855[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-09 04:15:29.329[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-09 04:15:38.142[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-09 04:16:02.301[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-09 04:16:02.950[main]LoggerUtility-Bundle user- Signed in successfully
+[ERROR]2023-06-09 04:16:31.809[main]LoggerUtility-Who is watching page not displayed
+[INFO ]2023-06-09 04:16:31.809[main]LoggerUtility-User landed on home page
+[INFO ]2023-06-09 04:16:41.295[main]LoggerUtility-Navigate to a selected-watchlist show page
+[INFO ]2023-06-09 04:16:41.340[main]LoggerUtility-Watch Now CTA is displayed
+[INFO ]2023-06-09 04:16:41.370[main]LoggerUtility-The selected show page opens with a "check mark"
+[INFO ]2023-06-09 04:16:41.400[main]LoggerUtility-My List is displayed next to check mark Sign- TEST PASSED
+[INFO ]2023-06-09 04:16:41.587[main]LoggerUtility-Remove from watchlist button is displayed
+[INFO ]2023-06-09 04:16:41.667[main]LoggerUtility-Item is removed from watchlist
+[INFO ]2023-06-09 04:16:42.152[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-09 04:16:43.850[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-09 04:16:51.556[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-09 04:17:44.410[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-09 04:17:45.023[main]LoggerUtility-Bundle user- Signed in successfully
+[ERROR]2023-06-09 04:18:42.464[main]LoggerUtility-Who is watching page not displayed
+[INFO ]2023-06-09 04:18:42.464[main]LoggerUtility-User landed on home page
+[INFO ]2023-06-09 04:18:54.537[main]LoggerUtility-User is taken to movie details page
+[INFO ]2023-06-09 04:18:54.574[main]LoggerUtility-Watch now CTA is displayed
+[INFO ]2023-06-09 04:18:54.606[main]LoggerUtility-My List CTA is displayed
+[INFO ]2023-06-09 04:18:54.772[main]LoggerUtility-Movie is not in watchlist-"plus Sign" displayed
+[INFO ]2023-06-09 04:18:55.630[main]LoggerUtility-Movie is added to watchlist- TEST PASSED
+[INFO ]2023-06-09 04:18:55.973[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-09 04:18:57.297[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-09 04:19:06.173[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-09 04:19:29.827[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-09 04:19:30.486[main]LoggerUtility-Bundle user- Signed in successfully
+[ERROR]2023-06-09 04:19:45.513[main]LoggerUtility-Who is watching page not displayed
+[INFO ]2023-06-09 04:19:45.513[main]LoggerUtility-User landed on home page
+[INFO ]2023-06-09 04:19:48.227[main]LoggerUtility-Navigate to a selected-watchlist movie details page
+[INFO ]2023-06-09 04:19:49.861[main]LoggerUtility-Watch Now CTA is displayed
+[INFO ]2023-06-09 04:19:51.377[main]LoggerUtility-The selected movie page opens with a "check mark"
+[INFO ]2023-06-09 04:19:51.548[main]LoggerUtility-Remove from watchlist button is displayed
+[INFO ]2023-06-09 04:19:51.562[main]LoggerUtility-My List is displayed next to check mark Sign- TEST PASSED
+[INFO ]2023-06-09 04:19:51.612[main]LoggerUtility-Item is removed from watchlist
+[INFO ]2023-06-09 04:19:51.958[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-09 04:19:53.308[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-09 04:20:00.938[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-09 04:20:00.972[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-09 04:20:01.005[main]LoggerUtility-Sign in CTA is displayed in the top right hand corner- TEST PASSED
+[INFO ]2023-06-09 04:20:01.194[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-09 04:20:02.452[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-09 04:20:10.114[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-09 04:20:15.713[main]LoggerUtility-Header and sub-header text verified- TEST PASSED
+[INFO ]2023-06-09 04:20:15.960[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-09 04:20:17.332[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-09 04:20:24.488[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-09 04:20:49.766[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-09 04:20:50.404[main]LoggerUtility-Non-bundle user- Signed in successfully
+[ERROR]2023-06-09 04:21:05.490[main]LoggerUtility-Who is watching page not displayed
+[INFO ]2023-06-09 04:21:05.490[main]LoggerUtility-User landed on home page
+[INFO ]2023-06-09 04:21:08.329[main]LoggerUtility-AdultUser profile is selected, PASSED
+[INFO ]2023-06-09 04:21:08.666[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-09 04:21:10.009[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-09 04:21:20.365[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-09 04:21:43.128[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-09 04:21:44.005[main]LoggerUtility-Bundle user- Signed in successfully
+[ERROR]2023-06-09 04:21:59.043[main]LoggerUtility-Who is watching page not displayed
+[INFO ]2023-06-09 04:21:59.043[main]LoggerUtility-User landed on home page
+[INFO ]2023-06-09 04:22:02.402[main]LoggerUtility-KidsUser profile is selected, TEST PASSED
+[INFO ]2023-06-09 04:22:02.705[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-09 04:22:04.181[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-09 04:22:11.606[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-09 04:22:40.354[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-09 04:22:41.082[main]LoggerUtility-Bundle user- Signed in successfully
+[ERROR]2023-06-09 04:22:56.113[main]LoggerUtility-Who is watching page not displayed
+[INFO ]2023-06-09 04:22:56.113[main]LoggerUtility-User landed on home page
+[INFO ]2023-06-09 04:22:56.636[main]LoggerUtility-Add profile page is displayed
+[INFO ]2023-06-09 04:22:56.830[main]LoggerUtility-Test7925 profile is created
+[INFO ]2023-06-09 04:22:58.498[main]LoggerUtility-User is taken to the New Account Show Picker page- C2355860-Test passed
+[INFO ]2023-06-09 04:22:59.425[main]LoggerUtility-Three shows selected- C1543386-Test passed
+[INFO ]2023-06-09 04:22:59.668[main]LoggerUtility-Clicked on next CTA- C1543387 - Test Passed
+[INFO ]2023-06-09 04:23:05.402[main]LoggerUtility-User is landed on who's watching page
+[INFO ]2023-06-09 04:23:14.335[main]LoggerUtility-test7925 profile added successfully, TEST PASSED
+[INFO ]2023-06-09 04:23:14.726[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-09 04:23:16.157[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-09 04:23:24.293[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-09 04:23:29.068[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-09 04:23:29.662[main]LoggerUtility-Bundle user- Signed in successfully
+[INFO ]2023-06-09 04:24:21.048[main]LoggerUtility-Who is watching page displayed
+[INFO ]2023-06-09 04:24:21.048[main]LoggerUtility-User landed on home page
+[INFO ]2023-06-09 04:24:22.774[main]LoggerUtility-Test7925 Profile is Deleted, TEST PASSED
+[INFO ]2023-06-09 04:24:23.079[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-09 04:24:24.599[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-09 04:24:33.281[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-09 04:25:00.693[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-09 04:25:01.338[main]LoggerUtility-Bundle user- Signed in successfully
+[ERROR]2023-06-09 04:25:34.013[main]LoggerUtility-Who is watching page not displayed
+[INFO ]2023-06-09 04:25:34.014[main]LoggerUtility-User landed on home page
+[INFO ]2023-06-09 04:25:35.530[main]LoggerUtility-OlderKids664 profile is created
+[INFO ]2023-06-09 04:25:35.593[main]LoggerUtility-User is landed on who's watching page
+[INFO ]2023-06-09 04:25:37.779[main]LoggerUtility-automation does not contains olderkids
+[INFO ]2023-06-09 04:25:37.791[main]LoggerUtility-AdultUser does not contains olderkids
+[INFO ]2023-06-09 04:25:37.805[main]LoggerUtility-KidsUser does not contains olderkids
+[INFO ]2023-06-09 04:25:42.677[main]LoggerUtility-olderkids664 Profile created- No show picker page shown- TEST PASSED
+[INFO ]2023-06-09 04:25:43.036[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-09 04:25:44.430[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-09 04:25:54.396[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-09 04:26:18.193[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-09 04:26:18.852[main]LoggerUtility-Bundle user- Signed in successfully
+[ERROR]2023-06-09 04:26:51.400[main]LoggerUtility-Who is watching page not displayed
+[INFO ]2023-06-09 04:26:51.400[main]LoggerUtility-User landed on home page
+[INFO ]2023-06-09 04:26:52.558[main]LoggerUtility-OlderKids664 profile is deleted, TEST PASSED
+[INFO ]2023-06-09 04:26:52.923[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-09 04:26:54.244[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-09 04:27:03.095[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-09 04:27:08.589[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-09 04:27:09.128[main]LoggerUtility-Bundle user- Signed in successfully
+[INFO ]2023-06-09 04:27:33.971[main]LoggerUtility-Who is watching page displayed
+[INFO ]2023-06-09 04:27:33.971[main]LoggerUtility-User landed on home page
+[INFO ]2023-06-09 04:27:39.737[main]LoggerUtility-Switch your plan page is displayed
+[INFO ]2023-06-09 04:27:39.855[main]LoggerUtility-"Essential", "Premium", "Essential with Showtime" and "Premium with Showtime" plans are displayed
+[INFO ]2023-06-09 04:27:39.919[main]LoggerUtility-Essential and Premium plan have different price
+[INFO ]2023-06-09 04:27:40.285[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-09 23:52:03.605[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-09 23:53:29.942[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-09 23:53:39.681[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-09 23:54:05.700[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-09 23:54:06.270[main]LoggerUtility- Ex-subscriber- Signed in successfully
+[INFO ]2023-06-09 23:54:07.645[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-10 00:15:15.694[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-10 00:15:23.053[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-10 00:15:50.542[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-10 00:15:51.093[main]LoggerUtility- Ex-subscriber- Signed in successfully
+[INFO ]2023-06-10 00:15:52.124[main]LoggerUtility-Navigated to shows page
+[INFO ]2023-06-10 00:16:07.832[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-10 00:19:21.675[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-10 00:19:30.031[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-10 00:19:53.832[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-10 00:19:54.360[main]LoggerUtility- Ex-subscriber- Signed in successfully
+[INFO ]2023-06-10 00:19:55.388[main]LoggerUtility-Navigated to shows page
+[INFO ]2023-06-10 00:20:11.756[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-10 00:27:37.755[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-10 00:27:46.220[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-10 00:27:46.812[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-10 00:29:04.665[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-10 00:29:12.584[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-10 00:29:20.086[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-10 00:33:10.679[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-10 00:33:18.100[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-10 00:33:44.595[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-10 00:33:45.156[main]LoggerUtility- Ex-subscriber- Signed in successfully
+[INFO ]2023-06-10 00:35:30.083[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-10 00:35:37.923[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-10 00:36:19.104[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-10 00:36:19.643[main]LoggerUtility- Ex-subscriber- Signed in successfully
+[INFO ]2023-06-10 00:36:20.671[main]LoggerUtility-Navigated to shows page
+[INFO ]2023-06-10 00:36:36.716[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-12 09:32:28.289[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-12 09:33:10.982[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-12 09:34:08.587[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-12 09:34:09.158[main]LoggerUtility- Ex-subscriber- Signed in successfully
+[INFO ]2023-06-12 09:34:10.415[main]LoggerUtility-Navigated to shows page
+[INFO ]2023-06-12 09:34:26.749[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-12 09:36:26.647[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-12 09:36:47.350[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-12 09:37:22.014[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-12 09:37:22.609[main]LoggerUtility- Ex-subscriber- Signed in successfully
+[INFO ]2023-06-12 09:37:23.788[main]LoggerUtility-Navigated to shows page
+[INFO ]2023-06-12 09:37:47.943[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-12 09:44:39.481[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-12 09:45:15.527[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-12 09:45:50.429[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-12 09:48:12.480[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-12 09:48:38.047[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-12 09:48:46.717[main]LoggerUtility-Navigated to shows page
+[INFO ]2023-06-12 09:49:23.762[main]LoggerUtility-Navigated to Show deatail page
+[INFO ]2023-06-12 09:49:23.854[main]LoggerUtility-The Rainmaker is displayed
+[INFO ]2023-06-12 09:49:24.246[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-12 09:56:56.703[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-12 09:57:15.812[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-12 09:57:22.169[main]LoggerUtility-Navigated to shows page
+[INFO ]2023-06-12 09:57:39.261[main]LoggerUtility-Navigated to Show deatail page
+[INFO ]2023-06-12 09:57:39.957[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-12 09:59:01.696[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-12 09:59:19.076[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-12 09:59:30.207[main]LoggerUtility-Navigated to shows page
+[INFO ]2023-06-12 09:59:52.036[main]LoggerUtility-Navigated to Show deatail page
+[INFO ]2023-06-12 09:59:52.156[main]LoggerUtility-The Rainmaker is displayed
+[INFO ]2023-06-12 09:59:52.188[main]LoggerUtility-"X" is displayed on the left side
+[INFO ]2023-06-12 09:59:52.208[main]LoggerUtility-Try It Free CTA is displayed on the right
+[INFO ]2023-06-12 09:59:52.522[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-12 10:38:14.037[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-12 10:38:27.908[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-12 10:38:34.222[main]LoggerUtility-Navigated to shows page
+[INFO ]2023-06-12 10:39:13.259[main]LoggerUtility-Navigated to Show deatail page
+[INFO ]2023-06-12 10:39:13.344[main]LoggerUtility-The Rainmaker is displayed
+[INFO ]2023-06-12 10:39:13.380[main]LoggerUtility-"X" is displayed on the left side
+[INFO ]2023-06-12 10:39:29.023[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-12 10:41:42.073[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-12 10:42:57.450[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-12 10:44:28.881[main]LoggerUtility-Navigated to shows page
+[INFO ]2023-06-12 10:44:30.521[main]LoggerUtility-Navigated to Show deatail page
+[INFO ]2023-06-12 10:44:34.458[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-12 10:45:49.020[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-12 10:47:04.165[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-12 10:48:17.216[main]LoggerUtility-Navigated to shows page
+[INFO ]2023-06-12 10:48:19.331[main]LoggerUtility-Navigated to Show deatail page
+[INFO ]2023-06-12 10:48:25.533[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-12 10:52:10.347[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-12 10:52:24.217[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-12 10:52:41.926[main]LoggerUtility-Navigated to shows page
+[INFO ]2023-06-12 10:53:21.216[main]LoggerUtility-Navigated to Show deatail page
+[INFO ]2023-06-12 10:53:21.374[main]LoggerUtility-The Rainmaker is displayed
+[INFO ]2023-06-12 10:53:21.409[main]LoggerUtility-"X" is displayed on the left side
+[INFO ]2023-06-12 10:53:21.446[main]LoggerUtility-Try It Free CTA is displayed on the right- TEST PASSED
+[INFO ]2023-06-12 10:53:22.246[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-12 11:04:10.893[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-12 11:04:55.786[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-12 11:05:31.115[main]LoggerUtility-Navigated to shows page
+[INFO ]2023-06-12 11:05:31.718[main]LoggerUtility-Navigated to Show deatail page
+[INFO ]2023-06-12 11:05:34.995[main]LoggerUtility-The Rainmaker is displayed
+[INFO ]2023-06-12 11:05:35.024[main]LoggerUtility-"X" is displayed on the left side
+[INFO ]2023-06-12 11:06:05.805[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-12 11:10:43.189[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-12 11:13:34.309[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-12 11:14:00.512[main]LoggerUtility-Navigated to shows page
+[INFO ]2023-06-12 11:14:58.161[main]LoggerUtility-Navigated to Show deatail page
+[INFO ]2023-06-12 11:14:58.819[main]LoggerUtility-The Rainmaker is displayed
+[INFO ]2023-06-12 11:14:58.840[main]LoggerUtility-"X" is displayed on the left side
+[INFO ]2023-06-12 11:15:29.469[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-12 11:18:28.086[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-12 11:19:17.425[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-12 11:20:24.587[main]LoggerUtility-Navigated to shows page
+[INFO ]2023-06-12 11:20:25.668[main]LoggerUtility-Navigated to Show deatail page
+[INFO ]2023-06-12 11:20:44.680[main]LoggerUtility-The Rainmaker is displayed
+[INFO ]2023-06-12 11:20:44.710[main]LoggerUtility-"X" is displayed on the left side
+[INFO ]2023-06-12 11:20:44.731[main]LoggerUtility-Try It Free CTA is displayed on the right- TEST PASSED
+[INFO ]2023-06-12 11:20:45.373[main]LoggerUtility-Rainmaker is closed
+[INFO ]2023-06-12 11:20:58.135[main]LoggerUtility-User is taken to the upsell page
+[INFO ]2023-06-12 11:20:58.636[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-14 21:31:50.552[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-14 21:31:59.062[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-14 21:32:40.108[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-14 21:32:40.764[main]LoggerUtility- Ex-subscriber- Signed in successfully
+[INFO ]2023-06-14 21:32:42.906[main]LoggerUtility-Navigated to shows page
+[INFO ]2023-06-14 21:32:45.329[main]LoggerUtility-Navigated to Show deatail page
+[INFO ]2023-06-14 21:33:31.858[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-14 23:00:39.764[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-14 23:00:48.654[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-14 23:01:13.902[main]LoggerUtility-Navigated to shows page
+[INFO ]2023-06-14 23:01:15.849[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-15 00:01:16.660[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-15 00:01:26.025[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-15 00:01:30.767[main]LoggerUtility-Navigated to shows page
+[INFO ]2023-06-15 00:01:35.751[main]LoggerUtility-Navigated to Show deatail page
+[INFO ]2023-06-15 00:03:06.920[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-15 03:13:03.921[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-15 03:13:12.229[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-15 03:13:39.942[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-15 03:13:40.532[main]LoggerUtility-Bundle user- Signed in successfully
+[ERROR]2023-06-15 03:14:10.590[main]LoggerUtility-Who is watching page not displayed
+[INFO ]2023-06-15 03:14:10.591[main]LoggerUtility-User landed on home page
+[INFO ]2023-06-15 03:14:17.893[main]LoggerUtility-Navigated to shows page
+[INFO ]2023-06-15 03:14:20.982[main]LoggerUtility-Navigated to show detail page
+[INFO ]2023-06-15 03:14:52.135[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-15 03:32:43.402[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-15 03:32:51.371[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-15 03:33:21.748[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-15 03:33:22.348[main]LoggerUtility-Bundle user- Signed in successfully
+[INFO ]2023-06-15 03:33:52.956[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-15 03:35:51.494[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-15 03:36:00.258[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-15 03:36:27.621[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-15 03:36:28.217[main]LoggerUtility-Bundle user- Signed in successfully
+[INFO ]2023-06-15 03:36:35.456[main]LoggerUtility-Navigated to shows page
+[INFO ]2023-06-15 03:36:39.033[main]LoggerUtility-Navigated to show detail page
+[INFO ]2023-06-15 03:36:39.332[main]LoggerUtility-The Rainmaker is not displayed_TEST PASSED
+[INFO ]2023-06-15 03:36:39.646[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-15 03:41:05.112[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-15 03:41:13.326[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-15 03:41:40.919[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-15 03:41:41.613[main]LoggerUtility-Bundle user- Signed in successfully
+[ERROR]2023-06-15 03:42:11.684[main]LoggerUtility-Who is watching page not displayed
+[INFO ]2023-06-15 03:42:11.685[main]LoggerUtility-User landed on home page
+[INFO ]2023-06-15 03:42:19.025[main]LoggerUtility-Navigated to shows page
+[INFO ]2023-06-15 03:42:21.357[main]LoggerUtility-Navigated to show detail page
+[INFO ]2023-06-15 03:42:52.336[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-15 03:44:30.400[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-15 03:44:39.443[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-15 03:45:04.344[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-15 03:45:04.987[main]LoggerUtility-Bundle user- Signed in successfully
+[ERROR]2023-06-15 03:45:35.066[main]LoggerUtility-Who is watching page not displayed
+[INFO ]2023-06-15 03:45:35.066[main]LoggerUtility-User landed on home page
+[INFO ]2023-06-15 03:45:44.065[main]LoggerUtility-Navigated to shows page
+[INFO ]2023-06-15 03:45:46.777[main]LoggerUtility-Navigated to show detail page
+[INFO ]2023-06-15 03:46:17.168[main]LoggerUtility-The Rainmaker is not displayed_TEST PASSED
+[INFO ]2023-06-15 03:46:17.546[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-15 03:54:33.974[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-15 03:54:42.159[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-15 03:55:06.387[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-15 03:55:06.983[main]LoggerUtility-Bundle user- Signed in successfully
+[INFO ]2023-06-15 03:55:13.531[main]LoggerUtility-Navigated to shows page
+[INFO ]2023-06-15 03:55:25.214[main]LoggerUtility-Navigated to Show deatail page
+[INFO ]2023-06-15 03:55:25.354[main]LoggerUtility-The Rainmaker is displayed
+[INFO ]2023-06-15 03:55:25.389[main]LoggerUtility-"X" is displayed on the left side
+[INFO ]2023-06-15 03:55:25.423[main]LoggerUtility-Try It Free CTA is displayed on the right- TEST PASSED
+[INFO ]2023-06-15 03:55:26.070[main]LoggerUtility-Rainmaker is closed
+[INFO ]2023-06-15 03:55:34.324[main]LoggerUtility-User is taken to the upsell page
+[INFO ]2023-06-15 03:55:34.672[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-16 22:44:22.861[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-16 22:44:32.059[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-16 22:44:59.167[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-16 22:44:59.744[main]LoggerUtility-Bundle user- Signed in successfully
+[ERROR]2023-06-16 22:45:29.801[main]LoggerUtility-Who is watching page not displayed
+[INFO ]2023-06-16 22:45:29.801[main]LoggerUtility-User landed on home page
+[INFO ]2023-06-16 22:45:29.885[main]LoggerUtility-Footer ParamountPlus logo is displayed
+[INFO ]2023-06-16 22:45:30.333[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-16 22:45:31.543[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-16 22:45:40.746[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-16 22:46:08.492[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-16 22:46:09.053[main]LoggerUtility-Bundle user- Signed in successfully
+[ERROR]2023-06-16 22:46:57.122[main]LoggerUtility-Who is watching page not displayed
+[INFO ]2023-06-16 22:46:57.123[main]LoggerUtility-User landed on home page
+[INFO ]2023-06-16 22:46:57.158[main]LoggerUtility-Home page displayed
+[INFO ]2023-06-16 22:46:57.510[main]LoggerUtility-Signed out successfully
+[INFO ]2023-06-16 22:46:57.979[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-16 22:46:59.187[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-16 22:47:07.654[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-16 22:47:35.541[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-16 22:47:36.143[main]LoggerUtility-Bundle user- Signed in successfully
+[ERROR]2023-06-16 22:48:06.210[main]LoggerUtility-Who is watching page not displayed
+[INFO ]2023-06-16 22:48:06.210[main]LoggerUtility-User landed on home page
+[INFO ]2023-06-16 22:49:09.771[main]LoggerUtility- *Just Added* badge displayed
+[INFO ]2023-06-16 22:49:09.821[main]LoggerUtility-Just Added badge is displayed on / 61456629|getdisplayIDAbove|5|show||The Equalizer|default|default|JUST ADDED|false|61456629 /
+[INFO ]2023-06-16 22:49:10.317[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-16 22:49:11.545[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-16 22:49:21.092[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-16 22:49:48.453[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-16 22:49:49.200[main]LoggerUtility-Bundle user- Signed in successfully
+[ERROR]2023-06-16 22:50:19.232[main]LoggerUtility-Who is watching page not displayed
+[INFO ]2023-06-16 22:50:19.233[main]LoggerUtility-User landed on home page
+[INFO ]2023-06-16 23:00:34.515[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-16 23:00:42.831[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-16 23:01:07.912[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-16 23:01:08.497[main]LoggerUtility-Bundle user- Signed in successfully
+[ERROR]2023-06-16 23:01:38.572[main]LoggerUtility-Who is watching page not displayed
+[INFO ]2023-06-16 23:01:38.573[main]LoggerUtility-User landed on home page
+[INFO ]2023-06-16 23:01:38.677[main]LoggerUtility-Footer ParamountPlus logo is displayed
+[INFO ]2023-06-16 23:01:39.053[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-16 23:01:40.330[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-16 23:01:47.545[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-16 23:02:12.527[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-16 23:02:13.081[main]LoggerUtility-Bundle user- Signed in successfully
+[ERROR]2023-06-16 23:02:43.132[main]LoggerUtility-Who is watching page not displayed
+[INFO ]2023-06-16 23:02:43.132[main]LoggerUtility-User landed on home page
+[INFO ]2023-06-16 23:02:43.168[main]LoggerUtility-Home page displayed
+[INFO ]2023-06-16 23:02:43.525[main]LoggerUtility-Signed out successfully
+[INFO ]2023-06-16 23:02:43.902[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-16 23:02:45.107[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-16 23:02:54.415[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-16 23:03:22.840[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-16 23:03:23.414[main]LoggerUtility-Bundle user- Signed in successfully
+[ERROR]2023-06-16 23:03:53.454[main]LoggerUtility-Who is watching page not displayed
+[INFO ]2023-06-16 23:03:53.454[main]LoggerUtility-User landed on home page
+[INFO ]2023-06-16 23:04:56.936[main]LoggerUtility- *Just Added* badge displayed
+[INFO ]2023-06-16 23:04:56.968[main]LoggerUtility-Just Added badge is displayed on / 61456629|getdisplayIDAbove|5|show||The Equalizer|default|default|JUST ADDED|false|61456629 /
+[INFO ]2023-06-16 23:04:57.421[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-16 23:04:58.592[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-16 23:05:07.809[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-16 23:05:37.818[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-16 23:05:38.432[main]LoggerUtility-Bundle user- Signed in successfully
+[ERROR]2023-06-16 23:06:08.440[main]LoggerUtility-Who is watching page not displayed
+[INFO ]2023-06-16 23:06:08.440[main]LoggerUtility-User landed on home page
+[INFO ]2023-06-16 23:06:08.518[main]LoggerUtility-Keep watching carousel displayed on homepage- TEST PASSED
+[INFO ]2023-06-16 23:06:08.836[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-16 23:06:10.063[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-16 23:06:18.998[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-16 23:06:45.065[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-16 23:06:45.627[main]LoggerUtility-Bundle user- Signed in successfully
+[ERROR]2023-06-16 23:07:15.689[main]LoggerUtility-Who is watching page not displayed
+[INFO ]2023-06-16 23:07:15.690[main]LoggerUtility-User landed on home page
+[INFO ]2023-06-16 23:08:19.173[main]LoggerUtility- *New* badge displayed
+[INFO ]2023-06-16 23:08:19.213[main]LoggerUtility-New badge is displayed on / 61456196|getdisplayIDAbove|3|show||Frasier|default|trending|NEW SEASON|false|61456196 /
+[INFO ]2023-06-16 23:08:19.610[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-16 23:08:20.906[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-16 23:08:30.729[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-16 23:08:36.260[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-16 23:08:36.571[main]LoggerUtility-Bundle user- Signed in successfully
+[INFO ]2023-06-16 23:09:05.060[main]LoggerUtility-Who is watching page displayed
+[INFO ]2023-06-16 23:09:05.060[main]LoggerUtility-User landed on home page
+[INFO ]2023-06-16 23:10:41.532[main]LoggerUtility-My List carousel is not displayed- TEST PASSED
+[INFO ]2023-06-16 23:10:42.010[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-16 23:10:43.299[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-16 23:10:52.292[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-16 23:11:18.985[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-16 23:11:19.606[main]LoggerUtility-Non-bundle user- Signed in successfully
+[ERROR]2023-06-16 23:11:49.626[main]LoggerUtility-Who is watching page not displayed
+[INFO ]2023-06-16 23:11:49.626[main]LoggerUtility-User landed on home page
+[INFO ]2023-06-16 23:12:53.203[main]LoggerUtility-The watchlist carousel is displayed on the Homepage at the top of the page with the title "My List"
+[INFO ]2023-06-16 23:12:53.601[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-16 23:12:54.811[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-16 23:13:03.918[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-16 23:13:10.003[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-16 23:13:10.434[main]LoggerUtility-Bundle user- Signed in successfully
+[INFO ]2023-06-16 23:13:39.626[main]LoggerUtility-Who is watching page displayed
+[INFO ]2023-06-16 23:13:39.626[main]LoggerUtility-User landed on home page
+[INFO ]2023-06-16 23:13:44.602[main]LoggerUtility-Switch your plan page is displayed
+[INFO ]2023-06-16 23:13:44.900[main]LoggerUtility-"Essential", "Premium", "Essential with Showtime" and "Premium with Showtime" plans are displayed
+[INFO ]2023-06-16 23:13:44.952[main]LoggerUtility-Essential and Premium plan have different price
+[INFO ]2023-06-16 23:13:45.198[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-16 23:13:46.514[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-16 23:13:55.802[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-16 23:14:23.582[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-16 23:14:24.187[main]LoggerUtility-Bundle user- Signed in successfully
+[ERROR]2023-06-16 23:14:54.237[main]LoggerUtility-Who is watching page not displayed
+[INFO ]2023-06-16 23:14:54.237[main]LoggerUtility-User landed on home page
+[INFO ]2023-06-16 23:14:58.241[main]LoggerUtility-My list page is displayed
+[INFO ]2023-06-16 23:15:14.167[main]LoggerUtility-Added item displays on my list- TEST PASSED
+[INFO ]2023-06-16 23:15:14.532[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-16 23:15:15.863[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-16 23:15:25.239[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-16 23:15:52.743[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-16 23:15:53.293[main]LoggerUtility-Bundle user- Signed in successfully
+[ERROR]2023-06-16 23:16:23.308[main]LoggerUtility-Who is watching page not displayed
+[INFO ]2023-06-16 23:16:23.308[main]LoggerUtility-User landed on home page
+[INFO ]2023-06-16 23:16:27.352[main]LoggerUtility-My List page is displayed
+[INFO ]2023-06-16 23:16:30.637[main]LoggerUtility-Item removed 
+[INFO ]2023-06-16 23:16:30.736[main]LoggerUtility-My list is empty-TEST PASSED
+[INFO ]2023-06-16 23:16:31.146[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-16 23:16:32.343[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-16 23:16:42.078[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-16 23:17:07.312[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-16 23:17:07.966[main]LoggerUtility-Bundle user- Signed in successfully
+[ERROR]2023-06-16 23:17:37.972[main]LoggerUtility-Who is watching page not displayed
+[INFO ]2023-06-16 23:17:37.972[main]LoggerUtility-User landed on home page
+[INFO ]2023-06-16 23:17:41.056[main]LoggerUtility-My list page displayed
+[INFO ]2023-06-16 23:18:08.319[main]LoggerUtility-Recently added item shows as the first item on my list- PASSED
+[INFO ]2023-06-16 23:18:12.179[main]LoggerUtility-My list is empty
+[INFO ]2023-06-16 23:18:12.553[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-16 23:18:13.826[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-16 23:18:23.106[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-16 23:18:53.155[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-16 23:18:53.752[main]LoggerUtility- Ex-subscriber- Signed in successfully
+[INFO ]2023-06-16 23:18:57.408[main]LoggerUtility-<---Plan page displayed--->
+[INFO ]2023-06-16 23:18:57.623[main]LoggerUtility-Signed out successfully
+[INFO ]2023-06-16 23:18:57.868[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-16 23:18:59.114[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-16 23:19:09.407[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-16 23:19:32.882[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-16 23:19:33.563[main]LoggerUtility-Bundle user- Signed in successfully
+[ERROR]2023-06-16 23:20:03.632[main]LoggerUtility-Who is watching page not displayed
+[INFO ]2023-06-16 23:20:03.632[main]LoggerUtility-User landed on home page
+[INFO ]2023-06-16 23:20:12.374[main]LoggerUtility-Search page is displayed
+[INFO ]2023-06-16 23:20:12.399[main]LoggerUtility-Placeholder value is verified- Test passed
+[INFO ]2023-06-16 23:20:13.075[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-16 23:20:14.414[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-16 23:20:22.899[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-16 23:20:50.130[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-16 23:20:50.706[main]LoggerUtility-Bundle user- Signed in successfully
+[ERROR]2023-06-16 23:21:20.727[main]LoggerUtility-Who is watching page not displayed
+[INFO ]2023-06-16 23:21:20.727[main]LoggerUtility-User landed on home page
+[INFO ]2023-06-16 23:21:29.276[main]LoggerUtility-Search page populate with the result- Test passed
+[INFO ]2023-06-16 23:21:29.577[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-16 23:21:30.814[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-16 23:21:39.353[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-16 23:22:03.380[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-16 23:22:04.084[main]LoggerUtility-Bundle user- Signed in successfully
+[ERROR]2023-06-16 23:22:34.112[main]LoggerUtility-Who is watching page not displayed
+[INFO ]2023-06-16 23:22:34.112[main]LoggerUtility-User landed on home page
+[INFO ]2023-06-16 23:23:13.717[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-16 23:23:14.910[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-16 23:23:23.188[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-16 23:23:50.045[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-16 23:23:50.658[main]LoggerUtility-Bundle user- Signed in successfully
+[ERROR]2023-06-16 23:24:20.709[main]LoggerUtility-Who is watching page not displayed
+[INFO ]2023-06-16 23:24:20.710[main]LoggerUtility-User landed on home page
+[INFO ]2023-06-16 23:24:35.661[main]LoggerUtility-First show is selected
+[INFO ]2023-06-16 23:24:35.690[main]LoggerUtility-Watch Now CTA is displayed
+[INFO ]2023-06-16 23:24:35.853[main]LoggerUtility-"plus Sign" is displayed next to watch now CTA
+[INFO ]2023-06-16 23:24:35.872[main]LoggerUtility-My List is displayed next to plus Sign- TEST PASSED
+[INFO ]2023-06-16 23:24:36.617[main]LoggerUtility-Added to Watchlist
+[INFO ]2023-06-16 23:24:36.981[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-16 23:24:38.184[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-16 23:24:46.472[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-16 23:25:13.654[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-16 23:25:14.199[main]LoggerUtility-Bundle user- Signed in successfully
+[ERROR]2023-06-16 23:25:44.247[main]LoggerUtility-Who is watching page not displayed
+[INFO ]2023-06-16 23:25:44.247[main]LoggerUtility-User landed on home page
+[INFO ]2023-06-16 23:26:00.677[main]LoggerUtility-Navigate to a selected-watchlist show page
+[INFO ]2023-06-16 23:26:00.704[main]LoggerUtility-Watch Now CTA is displayed
+[INFO ]2023-06-16 23:26:00.724[main]LoggerUtility-The selected show page opens with a "check mark"
+[INFO ]2023-06-16 23:26:00.744[main]LoggerUtility-My List is displayed next to check mark Sign- TEST PASSED
+[INFO ]2023-06-16 23:26:00.910[main]LoggerUtility-Remove from watchlist button is displayed
+[INFO ]2023-06-16 23:26:00.957[main]LoggerUtility-Item is removed from watchlist
+[INFO ]2023-06-16 23:26:01.380[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-16 23:26:02.565[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-16 23:26:10.647[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-16 23:26:13.967[main]LoggerUtility-Navigated to shows page
+[INFO ]2023-06-16 23:26:41.424[main]LoggerUtility-Navigated to Show deatail page
+[INFO ]2023-06-16 23:26:41.531[main]LoggerUtility-The Rainmaker is displayed
+[INFO ]2023-06-16 23:26:41.554[main]LoggerUtility-"X" is displayed on the left side
+[INFO ]2023-06-16 23:26:41.576[main]LoggerUtility-Try It Free CTA is displayed on the right- TEST PASSED
+[INFO ]2023-06-16 23:26:42.210[main]LoggerUtility-Rainmaker is closed
+[INFO ]2023-06-16 23:26:47.801[main]LoggerUtility-User is taken to the upsell page
+[INFO ]2023-06-16 23:26:48.115[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-16 23:26:49.290[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-16 23:26:59.475[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-16 23:27:22.494[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-16 23:27:23.056[main]LoggerUtility-Registered User- Signed in successfully
+[INFO ]2023-06-16 23:27:29.821[main]LoggerUtility-Navigated to shows page
+[INFO ]2023-06-16 23:27:32.287[main]LoggerUtility-Navigated to Show deatail page
+[INFO ]2023-06-16 23:27:33.138[main]LoggerUtility-The Rainmaker is displayed
+[INFO ]2023-06-16 23:27:33.158[main]LoggerUtility-"X" is displayed on the left side
+[INFO ]2023-06-16 23:27:33.177[main]LoggerUtility-Try It Free CTA is displayed on the right- TEST PASSED
+[INFO ]2023-06-16 23:27:33.792[main]LoggerUtility-Rainmaker is closed
+[INFO ]2023-06-16 23:27:45.436[main]LoggerUtility-User is taken to the upsell page
+[INFO ]2023-06-16 23:27:45.804[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-16 23:27:46.926[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-16 23:27:54.713[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-16 23:28:21.596[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-16 23:28:22.166[main]LoggerUtility-Bundle user- Signed in successfully
+[ERROR]2023-06-16 23:29:06.941[main]LoggerUtility-Who is watching page not displayed
+[INFO ]2023-06-16 23:29:06.941[main]LoggerUtility-User landed on home page
+[INFO ]2023-06-16 23:29:15.883[main]LoggerUtility-Navigated to shows page
+[INFO ]2023-06-16 23:29:17.882[main]LoggerUtility-Navigated to show detail page
+[INFO ]2023-06-16 23:29:48.192[main]LoggerUtility-The Rainmaker is not displayed_TEST PASSED
+[INFO ]2023-06-16 23:29:48.617[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-16 23:29:49.612[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-16 23:29:57.444[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-16 23:30:22.102[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-16 23:30:22.650[main]LoggerUtility-Bundle user- Signed in successfully
+[ERROR]2023-06-16 23:30:52.686[main]LoggerUtility-Who is watching page not displayed
+[INFO ]2023-06-16 23:30:52.686[main]LoggerUtility-User landed on home page
+[INFO ]2023-06-16 23:31:04.102[main]LoggerUtility-User is taken to movie details page
+[INFO ]2023-06-16 23:31:04.126[main]LoggerUtility-Watch now CTA is displayed
+[INFO ]2023-06-16 23:31:04.150[main]LoggerUtility-My List CTA is displayed
+[INFO ]2023-06-16 23:31:04.295[main]LoggerUtility-Movie is not in watchlist-"plus Sign" displayed
+[INFO ]2023-06-16 23:31:05.061[main]LoggerUtility-Movie is added to watchlist- TEST PASSED
+[INFO ]2023-06-16 23:31:05.370[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-16 23:31:06.470[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-16 23:31:14.111[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-16 23:31:40.687[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-16 23:31:41.260[main]LoggerUtility-Bundle user- Signed in successfully
+[ERROR]2023-06-16 23:32:11.286[main]LoggerUtility-Who is watching page not displayed
+[INFO ]2023-06-16 23:32:11.286[main]LoggerUtility-User landed on home page
+[INFO ]2023-06-16 23:32:26.658[main]LoggerUtility-Navigate to a selected-watchlist movie details page
+[INFO ]2023-06-16 23:32:26.682[main]LoggerUtility-Watch Now CTA is displayed
+[INFO ]2023-06-16 23:32:26.706[main]LoggerUtility-The selected movie page opens with a "check mark"
+[INFO ]2023-06-16 23:32:26.874[main]LoggerUtility-Remove from watchlist button is displayed
+[INFO ]2023-06-16 23:32:26.890[main]LoggerUtility-My List is displayed next to check mark Sign- TEST PASSED
+[INFO ]2023-06-16 23:32:26.946[main]LoggerUtility-Item is removed from watchlist
+[INFO ]2023-06-16 23:32:27.260[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-16 23:32:28.441[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-16 23:32:36.855[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-16 23:32:36.887[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-16 23:32:36.902[main]LoggerUtility-Sign in CTA is displayed in the top right hand corner- TEST PASSED
+[INFO ]2023-06-16 23:32:37.077[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-16 23:32:38.051[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-16 23:32:52.267[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-16 23:33:18.734[main]LoggerUtility-Header and sub-header text verified- TEST PASSED
+[INFO ]2023-06-16 23:33:18.975[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-16 23:33:20.039[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-16 23:33:27.733[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-16 23:33:54.312[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-16 23:33:54.860[main]LoggerUtility-Non-bundle user- Signed in successfully
+[ERROR]2023-06-16 23:34:24.882[main]LoggerUtility-Who is watching page not displayed
+[INFO ]2023-06-16 23:34:24.882[main]LoggerUtility-User landed on home page
+[INFO ]2023-06-16 23:35:55.874[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-16 23:35:56.797[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-16 23:36:05.468[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-16 23:36:34.239[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-16 23:36:34.777[main]LoggerUtility-Bundle user- Signed in successfully
+[ERROR]2023-06-16 23:37:04.846[main]LoggerUtility-Who is watching page not displayed
+[INFO ]2023-06-16 23:37:04.846[main]LoggerUtility-User landed on home page
+[INFO ]2023-06-16 23:37:11.703[main]LoggerUtility-KidsUser profile is selected, TEST PASSED
+[INFO ]2023-06-16 23:37:12.044[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-16 23:37:13.153[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-16 23:37:21.535[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-16 23:37:44.507[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-16 23:37:45.061[main]LoggerUtility-Bundle user- Signed in successfully
+[ERROR]2023-06-16 23:38:15.110[main]LoggerUtility-Who is watching page not displayed
+[INFO ]2023-06-16 23:38:15.110[main]LoggerUtility-User landed on home page
+[INFO ]2023-06-16 23:38:15.643[main]LoggerUtility-Add profile page is displayed
+[INFO ]2023-06-16 23:38:15.841[main]LoggerUtility-Test3955 profile is created
+[INFO ]2023-06-16 23:38:17.538[main]LoggerUtility-User is taken to the New Account Show Picker page- C2355860-Test passed
+[INFO ]2023-06-16 23:38:18.345[main]LoggerUtility-Three shows selected- C1543386-Test passed
+[INFO ]2023-06-16 23:38:18.668[main]LoggerUtility-Clicked on next CTA- C1543387 - Test Passed
+[INFO ]2023-06-16 23:38:24.311[main]LoggerUtility-User is landed on who's watching page
+[INFO ]2023-06-16 23:38:32.161[main]LoggerUtility-test3955 profile added successfully, TEST PASSED
+[INFO ]2023-06-16 23:38:32.458[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-16 23:38:33.632[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-16 23:38:42.122[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-16 23:39:07.714[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-16 23:39:08.286[main]LoggerUtility-Bundle user- Signed in successfully
+[ERROR]2023-06-16 23:39:38.312[main]LoggerUtility-Who is watching page not displayed
+[INFO ]2023-06-16 23:39:38.312[main]LoggerUtility-User landed on home page
+[INFO ]2023-06-16 23:39:39.386[main]LoggerUtility-Test3955 Profile is Deleted, TEST PASSED
+[INFO ]2023-06-16 23:39:39.671[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-16 23:39:40.910[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-16 23:39:48.908[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-16 23:40:16.675[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-16 23:40:17.237[main]LoggerUtility-Bundle user- Signed in successfully
+[ERROR]2023-06-16 23:40:47.269[main]LoggerUtility-Who is watching page not displayed
+[INFO ]2023-06-16 23:40:47.269[main]LoggerUtility-User landed on home page
+[INFO ]2023-06-16 23:40:48.669[main]LoggerUtility-OlderKids5432 profile is created
+[INFO ]2023-06-16 23:40:48.735[main]LoggerUtility-User is landed on who's watching page
+[INFO ]2023-06-16 23:40:50.777[main]LoggerUtility-automation does not contains olderkids
+[INFO ]2023-06-16 23:40:50.785[main]LoggerUtility-AdultUser does not contains olderkids
+[INFO ]2023-06-16 23:40:50.793[main]LoggerUtility-KidsUser does not contains olderkids
+[INFO ]2023-06-16 23:41:01.735[main]LoggerUtility-olderkids5432 Profile created- No show picker page shown- TEST PASSED
+[INFO ]2023-06-16 23:41:01.984[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-16 23:41:03.143[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-16 23:41:11.375[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-16 23:41:35.803[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-16 23:41:36.359[main]LoggerUtility-Bundle user- Signed in successfully
+[ERROR]2023-06-16 23:42:06.395[main]LoggerUtility-Who is watching page not displayed
+[INFO ]2023-06-16 23:42:06.395[main]LoggerUtility-User landed on home page
+[INFO ]2023-06-16 23:42:07.343[main]LoggerUtility-OlderKids5432 profile is deleted, TEST PASSED
+[INFO ]2023-06-16 23:42:07.686[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-16 23:42:08.792[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-16 23:42:16.661[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-16 23:42:42.431[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-16 23:42:42.972[main]LoggerUtility-Bundle user- Signed in successfully
+[ERROR]2023-06-16 23:43:13.026[main]LoggerUtility-Who is watching page not displayed
+[INFO ]2023-06-16 23:43:13.026[main]LoggerUtility-User landed on home page
+[INFO ]2023-06-16 23:43:24.295[main]LoggerUtility-Switch your plan page is displayed
+[INFO ]2023-06-16 23:43:24.376[main]LoggerUtility-"Essential", "Premium", "Essential with Showtime" and "Premium with Showtime" plans are displayed
+[INFO ]2023-06-16 23:43:24.411[main]LoggerUtility-Essential and Premium plan have different price
+[INFO ]2023-06-16 23:43:24.697[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-17 02:18:07.013[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-17 02:18:15.492[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-17 02:18:22.118[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-17 02:18:22.550[main]LoggerUtility-Non-bundle user- Signed in successfully
+[INFO ]2023-06-17 02:18:48.238[main]LoggerUtility-Who is watching page displayed
+[INFO ]2023-06-17 02:18:48.239[main]LoggerUtility-User landed on home page
+[INFO ]2023-06-17 02:18:57.091[main]LoggerUtility-AdultUser profile is selected, PASSED
+[INFO ]2023-06-17 02:18:57.398[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-17 02:19:39.423[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-17 02:20:01.660[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-17 02:20:42.739[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-17 02:20:43.378[main]LoggerUtility-Bundle user- Signed in successfully
+[ERROR]2023-06-17 02:21:13.423[main]LoggerUtility-Who is watching page not displayed
+[INFO ]2023-06-17 02:21:13.423[main]LoggerUtility-User landed on home page
+[INFO ]2023-06-17 02:21:52.390[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-17 02:40:48.741[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-17 02:40:56.307[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-17 02:41:22.747[main]LoggerUtility-Login page displayed
+[INFO ]2023-06-17 02:41:23.288[main]LoggerUtility-Bundle user- Signed in successfully
+[ERROR]2023-06-17 02:41:53.361[main]LoggerUtility-Who is watching page not displayed
+[INFO ]2023-06-17 02:41:53.362[main]LoggerUtility-User landed on home page
+[INFO ]2023-06-17 02:41:56.532[main]LoggerUtility-Shows page displayed
+[INFO ]2023-06-17 02:41:56.675[main]LoggerUtility-Kids subnav is displayed at 8th position
+[INFO ]2023-06-17 02:41:56.980[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-17 02:51:11.249[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-17 02:51:19.604[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-17 02:51:30.714[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-17 02:52:30.170[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-17 02:52:38.833[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-17 02:52:49.147[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-17 02:53:55.430[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-17 02:54:02.889[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-17 02:54:14.713[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-17 02:55:08.851[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-17 02:55:19.742[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-17 02:56:25.457[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-17 03:00:29.703[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-17 03:00:37.813[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-17 03:00:47.577[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-17 03:04:29.689[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-17 03:04:37.167[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-17 03:05:12.152[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-17 03:06:32.895[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-17 03:06:41.470[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-17 03:07:17.693[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-17 03:12:35.115[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-17 03:12:43.418[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-17 03:12:53.354[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-17 03:22:39.114[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-17 03:22:47.966[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-17 03:22:55.161[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-17 03:25:28.091[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-17 03:25:36.596[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-17 03:25:43.232[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-17 03:27:29.724[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-17 03:27:38.350[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-17 03:27:46.419[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-17 03:31:26.818[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-17 03:31:35.315[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-17 03:32:12.147[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-17 03:33:31.233[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-17 03:33:39.623[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-17 03:34:17.561[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-17 03:36:21.936[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-17 03:36:30.337[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-17 03:36:37.376[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-17 04:16:33.305[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-17 04:16:41.828[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-17 04:16:49.680[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-17 04:18:37.701[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-17 04:18:46.176[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-17 04:19:44.170[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-17 04:29:25.266[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-17 04:29:34.796[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-17 04:29:42.815[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-17 05:20:10.394[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-17 05:20:33.423[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-17 05:21:01.513[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-17 05:24:29.257[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-17 05:24:37.683[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-17 05:24:50.313[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-21 01:17:49.717[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-21 01:17:58.464[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-21 01:18:40.649[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-21 01:20:11.544[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-21 01:20:19.187[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-21 01:21:02.350[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-21 01:22:41.750[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-21 01:22:50.057[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-21 01:23:32.652[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-21 01:27:33.693[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-21 01:27:41.048[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-21 01:28:24.494[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-21 01:29:39.794[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-21 01:29:49.071[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-21 01:30:31.644[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-21 01:34:43.965[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-21 01:34:53.201[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-21 01:35:05.291[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-21 01:40:17.614[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-21 01:40:26.023[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-21 01:41:04.634[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-21 01:42:49.404[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-21 01:42:57.637[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-21 01:43:35.367[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-21 01:52:48.788[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-21 01:52:57.275[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-21 01:53:10.001[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-21 01:59:27.895[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-21 01:59:36.715[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-21 01:59:48.698[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-21 02:01:35.365[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-21 02:01:44.716[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-21 02:02:06.813[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-21 02:08:07.124[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-21 02:08:18.381[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-21 02:08:56.781[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-21 02:11:21.430[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-21 02:11:29.665[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-21 02:12:30.396[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-21 02:13:52.548[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-21 02:14:01.432[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-21 02:14:38.867[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-21 04:29:10.238[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-21 04:29:19.201[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-21 04:29:56.531[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-21 04:34:26.368[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-21 04:34:34.688[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-21 04:35:02.042[main]LoggerUtility-Account created user is taken to payment page
+[INFO ]2023-06-21 04:35:17.361[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-21 04:36:36.656[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-21 04:36:45.415[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-21 04:37:24.534[main]LoggerUtility-Account is not created
+[INFO ]2023-06-21 04:37:39.796[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-21 04:43:18.480[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-21 04:43:26.832[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-21 04:43:37.385[main]LoggerUtility-Account created user is taken to payment page
+[INFO ]2023-06-21 04:43:52.717[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-21 05:04:55.843[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-21 05:05:04.472[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-21 05:05:42.099[main]LoggerUtility-Account is not created
+[INFO ]2023-06-21 05:05:57.365[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-21 05:10:38.271[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-21 05:10:59.784[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-21 05:11:08.013[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-21 05:11:45.607[main]LoggerUtility-Account is not created
+[INFO ]2023-06-21 05:12:16.638[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-21 05:22:28.813[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-21 05:22:37.038[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-21 05:23:04.834[main]LoggerUtility-Account created user is taken to payment page
+[INFO ]2023-06-21 05:23:10.111[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-21 05:24:09.323[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-21 05:24:17.702[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-21 05:24:54.471[main]LoggerUtility-Account is not created
+[INFO ]2023-06-21 05:25:25.417[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-21 05:25:41.046[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-21 05:25:49.479[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-21 05:26:52.564[main]LoggerUtility-Account is not created
+[INFO ]2023-06-21 05:27:23.493[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-21 05:30:07.401[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-21 05:30:56.990[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-21 05:32:08.145[main]LoggerUtility-Account created user is taken to payment page
+[INFO ]2023-06-21 05:32:14.015[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-21 05:40:20.944[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-21 05:40:29.149[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-21 05:40:57.807[main]LoggerUtility-Account is not created
+[INFO ]2023-06-21 05:41:27.943[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-21 05:41:55.649[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-21 05:42:05.064[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-21 05:42:41.379[main]LoggerUtility-Account is not created
+[INFO ]2023-06-21 05:43:12.310[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-21 05:50:49.047[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-21 05:50:59.709[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-21 05:52:03.162[main]LoggerUtility-Account created user is taken to payment page
+[INFO ]2023-06-21 05:52:09.004[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-21 05:52:57.070[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-21 05:53:05.798[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-21 05:53:49.496[main]LoggerUtility-Account created user is taken to payment page
+[INFO ]2023-06-21 05:53:55.351[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-21 05:59:07.478[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-21 05:59:16.024[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-21 05:59:37.586[main]LoggerUtility-Account created user is taken to payment page
+[INFO ]2023-06-21 05:59:43.452[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-21 06:09:35.877[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-21 06:09:44.782[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-21 06:10:37.936[main]LoggerUtility-Account created user is taken to payment page
+[INFO ]2023-06-21 06:10:43.964[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-21 06:15:47.305[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-21 06:15:55.412[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-21 06:17:14.756[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-21 06:17:22.541[main]LoggerUtility-Account is not created
+[INFO ]2023-06-21 06:17:23.266[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-21 06:17:52.978[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-21 06:18:38.527[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-21 06:18:48.906[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-21 06:19:00.808[main]LoggerUtility-Account is not created
+[INFO ]2023-06-21 06:19:31.217[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-21 06:21:19.532[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-21 06:21:28.400[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-21 06:23:35.500[main]LoggerUtility-Account is not created
+[INFO ]2023-06-21 06:26:13.198[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-21 06:26:26.673[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-21 06:27:33.652[main]LoggerUtility-Account is not created
+[INFO ]2023-06-21 06:28:05.028[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-21 23:11:56.236[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-21 23:16:28.466[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-21 23:16:36.536[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-21 23:16:49.064[main]LoggerUtility-Account created user is taken to payment page
+[INFO ]2023-06-21 23:16:54.425[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-22 00:29:27.973[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-22 01:44:30.072[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-22 01:54:23.184[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-22 01:54:35.547[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-22 01:55:52.051[main]LoggerUtility-Account is not created
+[INFO ]2023-06-22 01:56:22.871[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-22 02:10:39.700[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-22 02:10:47.650[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-22 02:11:25.394[main]LoggerUtility-Account is not created
+[INFO ]2023-06-22 02:11:56.141[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-22 02:18:33.706[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-22 02:18:41.197[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-22 02:18:59.792[main]LoggerUtility-Account is not created
+[INFO ]2023-06-22 02:19:10.598[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-22 02:25:24.064[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-22 02:25:32.630[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-22 02:25:49.550[main]LoggerUtility-Account is not created
+[INFO ]2023-06-22 02:25:50.188[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-22 02:35:58.194[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-22 02:36:06.782[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-22 02:36:25.089[main]LoggerUtility-Account is not created
+[INFO ]2023-06-22 02:36:25.595[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-22 02:41:16.025[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-22 02:41:23.754[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-22 02:42:03.995[main]LoggerUtility-Account is not created
+[INFO ]2023-06-22 02:42:04.483[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-22 02:44:43.293[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-22 02:44:51.301[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-22 02:45:09.579[main]LoggerUtility-Account is not created
+[INFO ]2023-06-22 02:45:10.040[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-22 02:50:43.276[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-22 02:50:50.674[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-22 02:51:09.377[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-22 02:53:00.113[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-22 02:53:07.135[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-22 02:53:24.896[main]LoggerUtility-Account is not created
+[INFO ]2023-06-22 02:53:25.347[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-22 02:58:48.612[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-22 02:58:58.386[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-22 02:59:17.060[main]LoggerUtility-Account is not created
+[INFO ]2023-06-22 02:59:17.510[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-22 03:06:06.120[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-22 03:06:14.576[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-22 03:06:32.895[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-22 03:16:40.362[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-22 03:16:47.966[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-22 03:17:07.067[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-22 03:26:58.309[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-22 03:27:06.071[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-22 03:27:13.891[main]LoggerUtility-Account created user is taken to payment page
+[INFO ]2023-06-22 03:27:19.228[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-22 03:29:35.405[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-22 03:29:43.515[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-22 03:30:24.792[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-22 03:36:26.445[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-22 03:36:34.429[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-22 03:36:54.334[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-22 03:45:06.630[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-22 03:45:21.639[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-22 03:45:34.250[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-22 03:47:47.136[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-22 03:47:55.787[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-22 03:48:44.418[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-22 03:51:34.623[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-22 03:51:42.725[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-22 03:52:09.990[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-22 04:00:35.329[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-22 04:00:42.783[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-22 04:00:55.075[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-22 04:05:13.568[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-22 04:05:20.839[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-22 04:05:39.275[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-22 04:12:56.381[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-22 04:13:04.796[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-22 04:13:24.916[main]LoggerUtility-User is not taken to payment page
+[INFO ]2023-06-22 04:13:37.230[main]LoggerUtility-User is not taken to payment page
+[INFO ]2023-06-22 04:13:49.588[main]LoggerUtility-User is not taken to payment page
+[INFO ]2023-06-22 04:13:54.935[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-22 04:46:42.980[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-22 04:46:50.896[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-22 04:47:13.185[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-22 04:54:03.483[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-22 04:54:11.468[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-22 04:54:34.685[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-22 05:04:12.030[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-22 05:04:20.202[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-22 05:04:43.116[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-22 05:08:23.222[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-22 05:08:30.888[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-22 05:08:37.429[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-22 05:09:50.576[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-22 05:09:58.381[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-22 05:10:10.123[main]LoggerUtility-User is not taken to the payment screen
+[INFO ]2023-06-22 05:10:15.199[main]LoggerUtility-User is not taken to the payment screen
+[INFO ]2023-06-22 05:10:20.298[main]LoggerUtility-User is not taken to the payment screen
+[INFO ]2023-06-22 05:10:25.949[main]LoggerUtility-User is not taken to the payment screen
+[INFO ]2023-06-22 05:10:31.031[main]LoggerUtility-User is not taken to the payment screen
+[INFO ]2023-06-22 05:10:36.090[main]LoggerUtility-User is not taken to the payment screen
+[INFO ]2023-06-22 05:10:41.175[main]LoggerUtility-User is not taken to the payment screen
+[INFO ]2023-06-22 05:10:46.229[main]LoggerUtility-User is not taken to the payment screen
+[INFO ]2023-06-22 05:10:51.286[main]LoggerUtility-User is not taken to the payment screen
+[INFO ]2023-06-22 05:10:56.352[main]LoggerUtility-User is not taken to the payment screen
+[INFO ]2023-06-22 05:11:01.680[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-23 14:51:19.788[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-23 14:51:26.072[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-23 14:51:48.830[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-23 15:06:35.931[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-23 15:06:42.697[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-23 15:07:02.240[main]LoggerUtility-User is not taken to payment page
+[INFO ]2023-06-23 15:07:15.643[main]LoggerUtility-User is not taken to payment page
+[INFO ]2023-06-23 15:07:29.545[main]LoggerUtility-User is not taken to payment page
+[INFO ]2023-06-23 15:07:34.886[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-23 15:10:30.813[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-23 15:10:37.743[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-23 15:10:50.829[main]LoggerUtility-User is taken to payment page
+[INFO ]2023-06-23 15:10:56.088[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-23 15:11:21.368[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-23 15:11:30.163[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-23 15:12:09.814[main]LoggerUtility-User is not taken to payment page
+[INFO ]2023-06-23 15:12:23.170[main]LoggerUtility-User is not taken to payment page
+[INFO ]2023-06-23 15:12:36.521[main]LoggerUtility-User is not taken to payment page
+[INFO ]2023-06-23 15:12:41.848[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-23 15:17:25.949[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-23 15:17:32.821[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-23 15:17:51.086[main]LoggerUtility-User is not taken to payment page
+[INFO ]2023-06-23 15:18:01.495[main]LoggerUtility-User is not taken to payment page
+[INFO ]2023-06-23 15:18:11.876[main]LoggerUtility-User is not taken to payment page
+[INFO ]2023-06-23 15:18:22.232[main]LoggerUtility-User is not taken to payment page
+[INFO ]2023-06-23 15:18:32.616[main]LoggerUtility-User is not taken to payment page
+[INFO ]2023-06-23 15:18:37.874[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-23 15:25:22.063[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-23 15:25:31.488[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-23 15:25:47.418[main]LoggerUtility-User is not taken to payment page
+[INFO ]2023-06-23 15:25:57.797[main]LoggerUtility-User is not taken to payment page
+[INFO ]2023-06-23 15:26:08.194[main]LoggerUtility-User is not taken to payment page
+[INFO ]2023-06-23 15:26:18.574[main]LoggerUtility-User is not taken to payment page
+[INFO ]2023-06-23 15:26:28.921[main]LoggerUtility-User is not taken to payment page
+[INFO ]2023-06-23 15:26:34.231[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-23 15:27:38.598[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-23 15:27:46.191[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-23 15:28:03.023[main]LoggerUtility-User is not taken to payment page
+[INFO ]2023-06-23 15:28:13.377[main]LoggerUtility-User is not taken to payment page
+[INFO ]2023-06-23 15:28:23.735[main]LoggerUtility-User is not taken to payment page
+[INFO ]2023-06-23 15:28:34.129[main]LoggerUtility-User is not taken to payment page
+[INFO ]2023-06-23 15:28:44.547[main]LoggerUtility-User is not taken to payment page
+[INFO ]2023-06-23 15:28:49.805[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-23 15:29:34.032[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-23 15:29:42.031[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-23 15:30:11.193[main]LoggerUtility-User is taken to payment page
+[INFO ]2023-06-23 15:30:16.437[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-23 15:30:28.468[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-23 15:30:36.391[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-23 15:30:53.394[main]LoggerUtility-User is not taken to payment page
+[INFO ]2023-06-23 15:31:03.765[main]LoggerUtility-User is not taken to payment page
+[INFO ]2023-06-23 15:31:14.135[main]LoggerUtility-User is not taken to payment page
+[INFO ]2023-06-23 15:31:24.566[main]LoggerUtility-User is not taken to payment page
+[INFO ]2023-06-23 15:31:34.945[main]LoggerUtility-User is not taken to payment page
+[INFO ]2023-06-23 15:31:40.218[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-23 15:44:59.318[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-23 15:45:09.605[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-23 15:45:28.746[main]LoggerUtility-User is not taken to payment page
+[INFO ]2023-06-23 15:45:39.105[main]LoggerUtility-User is not taken to payment page
+[INFO ]2023-06-23 15:45:49.450[main]LoggerUtility-User is not taken to payment page
+[INFO ]2023-06-23 15:45:59.876[main]LoggerUtility-User is not taken to payment page
+[INFO ]2023-06-23 15:46:10.226[main]LoggerUtility-User is not taken to payment page
+[INFO ]2023-06-23 15:46:15.545[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-23 15:49:31.820[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-23 15:49:39.508[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-23 15:49:58.919[main]LoggerUtility-User is not taken to payment page
+[INFO ]2023-06-23 15:50:11.293[main]LoggerUtility-User is not taken to payment page
+[INFO ]2023-06-23 15:50:23.631[main]LoggerUtility-User is not taken to payment page
+[INFO ]2023-06-23 15:50:35.925[main]LoggerUtility-User is not taken to payment page
+[INFO ]2023-06-23 15:50:48.213[main]LoggerUtility-User is not taken to payment page
+[INFO ]2023-06-23 15:50:53.530[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-23 15:54:27.247[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-23 15:54:35.393[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-23 15:54:57.975[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-23 15:57:21.788[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-23 15:57:30.043[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-23 15:57:51.990[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-23 16:08:42.012[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-23 16:08:49.903[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-23 16:09:22.369[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-23 16:11:16.754[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-23 16:11:24.471[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-23 16:11:35.038[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-23 16:13:38.094[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-23 16:13:45.096[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-23 16:14:22.071[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-23 16:19:47.322[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-23 16:19:55.470[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-23 16:20:33.867[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-23 16:34:20.484[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-23 16:34:28.216[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-23 16:35:05.645[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-23 16:37:23.058[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-23 16:37:32.394[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-23 16:38:19.629[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-23 16:41:28.695[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-23 16:41:36.579[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-23 16:42:14.415[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-23 16:49:42.064[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-23 16:49:51.530[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-23 16:50:39.665[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-23 16:51:56.581[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-23 16:52:07.389[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-23 16:52:44.001[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-23 20:23:32.462[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-23 20:23:41.928[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-23 20:24:32.036[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-23 20:27:59.619[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-23 20:28:11.292[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-23 20:28:38.295[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-23 20:29:23.020[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-23 20:29:31.495[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-23 20:30:03.527[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-23 20:32:58.827[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-23 20:33:07.932[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-23 20:33:58.557[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-24 02:18:38.863[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-24 02:18:46.141[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-24 02:19:02.076[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-24 02:19:43.423[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-24 02:19:51.141[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-24 02:20:02.758[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-24 02:21:55.273[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-24 02:22:02.833[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-24 02:22:16.628[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-24 02:39:23.021[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-24 02:39:30.570[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-24 02:39:55.319[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-24 02:44:54.925[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-24 02:45:02.204[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-24 02:45:26.686[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-24 03:04:42.427[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-24 03:04:50.017[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-24 03:05:14.605[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-24 03:10:15.129[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-24 03:10:22.976[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-24 03:10:49.250[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-24 03:15:11.975[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-24 03:15:19.468[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-24 03:15:29.634[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-24 03:18:11.556[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-24 03:18:19.160[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-24 03:18:58.796[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-24 03:33:36.887[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-24 03:33:45.053[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-24 03:34:09.475[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-24 03:36:23.399[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-24 03:36:31.531[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-24 03:36:58.274[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-24 03:38:21.833[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-24 03:38:29.123[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-24 03:38:40.744[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-24 03:40:18.178[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-24 03:40:25.615[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-24 03:40:51.767[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-24 03:45:09.481[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-24 03:45:18.103[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-24 03:45:44.331[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-24 03:47:10.291[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-24 03:47:18.212[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-24 03:47:44.899[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-24 03:49:24.492[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-24 03:49:32.195[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-24 03:49:58.554[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-24 03:52:59.454[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-24 03:53:07.107[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-24 03:53:23.596[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-24 03:58:45.373[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-24 03:58:52.735[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-24 03:59:20.662[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-24 04:07:43.920[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-24 04:07:51.888[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-24 04:08:18.771[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-24 04:09:26.403[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-24 04:09:33.942[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-24 04:09:59.750[main]LoggerUtility-Browser closed successfully
+[INFO ]2023-06-24 04:16:03.299[main]LoggerUtility-Chrome browser launched
+[INFO ]2023-06-24 04:16:10.791[main]LoggerUtility-Upsell page displayed
+[INFO ]2023-06-24 04:16:37.780[main]LoggerUtility-Browser closed successfully

@@ -26,7 +26,7 @@ public class VerifyKidsCategoryPosition extends BaseClass {
 		
 		HomePage homePage= new HomePage(driver);
 		homePage.getShowsTab().click();
-		boolean flag = wLib.waitTillcurrectURLContains(driver, "shows");
+		boolean flag = wLib.waitTillcurrectURLContains(driver, "browse");
 		Assert.assertTrue(flag);
 		LoggerUtility.info("Shows page displayed");
 

@@ -5,14 +5,12 @@
 		<parameter name="browserName" value="chrome" />
 		<parameter name="author" value="Rahul" />
 		<classes>
-			<!--<class name="userProfile.VerifyAdultUserProfile" />
-			<class name="userProfile.VerifyKidsUserProfile" />-->
-			<class name="userProfile.VerifyNewProfileShowPicker" />
-			<class name="userProfile.VerifyDeleteNewProfile"/>
+			<class name="userProfile.VerifyAdultUserProfile" />
+			<!--<class name="userProfile.VerifyKidsUserProfile" />-->
+			<!--<class name="userProfile.VerifyNewProfileShowPicker" />-->
+			<!--<class name="userProfile.VerifyDeleteNewProfile"/>-->
 			<!--<class name="userProfile.VerifyNoShowPickerForKidsProfile" />
 			<class name="userProfile.VerifyDeleteKidsProfile"/>-->
 		</classes>
-	</test> <!--
-	Test -->
-</suite> <!--
-Suite -->
+	</test> 
+</suite> 

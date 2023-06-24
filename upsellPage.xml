@@ -6,5 +6,5 @@
       <class name="upsellPage.VerifyStudentsUpsellCopy"/>
       <class name="upsellPage.VerifySignInCTA"/>
     </classes>
-  </test> <!-- upsellPage -->
-</suite> <!-- Suite -->
+  </test> 
+</suite> 

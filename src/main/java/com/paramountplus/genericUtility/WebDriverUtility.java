@@ -8,8 +8,10 @@ import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
+import java.util.function.Function;
 
 import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptException;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
@@ -19,10 +21,13 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import com.google.common.base.Predicate;
 
 import io.netty.handler.timeout.TimeoutException;
 
@@ -59,18 +64,21 @@ public class WebDriverUtility {
 		driver.manage().timeouts().pageLoadTimeout(300, TimeUnit.SECONDS);
 	}
 	/**
-	 * Javascript Executor for page ready state
+	 * waits for backgrounds processes on the browser to complete
 	 * @param driver
+	 * @param timeOutInSeconds
 	 */
-	public void waitForCompletePageLoad(WebDriver driver)
-	{
-		try{
-
-			JavascriptExecutor j = (JavascriptExecutor)driver;
-			if (j.executeScript("return document.readyState").toString().equals("complete")){
-				System.out.println("Page in ready state"); }
-		} catch(Exception exe) {
-			System.out.println("Page not in ready state");
+	public static void waitForPageToLoad(WebDriver driver, Duration timeOutInSeconds) {
+		ExpectedCondition<Boolean> expectation = new ExpectedCondition<Boolean>() {
+			public Boolean apply(WebDriver driver) {
+				return ((JavascriptExecutor) driver).executeScript("return document.readyState").equals("complete");
+			}
+		};
+		try {
+			WebDriverWait wait = new WebDriverWait(driver, timeOutInSeconds);
+			wait.until(expectation);
+		} catch (Throwable error) {
+			error.printStackTrace();
 		}
 	}
 	/**
@@ -92,6 +100,16 @@ public class WebDriverUtility {
 	{
 		WebDriverWait wait= new WebDriverWait(driver, Duration.ofSeconds(45));
 		wait.until(ExpectedConditions.visibilityOf(element));
+	}
+	/**
+	 * Used to wait for element to be invisible on the GUI
+	 * @param driver
+	 * @param element
+	 */
+	public void waitForElementToBeInvisible(WebDriver driver, WebElement element)
+	{
+		WebDriverWait wait= new WebDriverWait(driver, Duration.ofSeconds(45));
+		wait.until(ExpectedConditions.invisibilityOf(element));
 	}
 	/**
 	 * Used to check the visibility of all elements
@@ -210,6 +228,20 @@ public class WebDriverUtility {
 	{
 		Select s= new Select(element);
 		s.selectByVisibleText(text);
+	}
+	/**
+	 * 
+	 * @param driver
+	 * @param selectioNId
+	 */
+	public void waitUntilSelectOptionsPopulated(WebDriver driver, WebElement element) 
+	{
+
+		WebDriverWait wait= new WebDriverWait(driver, Duration.ofSeconds(30));
+		wait.until(
+				ExpectedConditions
+				.presenceOfNestedElementLocatedBy(element, By.tagName("option"))
+				);
 	}
 	/**
 	 * Used to right click on specific element
@@ -491,7 +523,7 @@ public class WebDriverUtility {
 	public void waitForElementToBeSelectable(WebDriver driver, WebElement element)
 	{
 		WebDriverWait wait= new WebDriverWait(driver, Duration.ofSeconds(30));
-		wait.until(ExpectedConditions.elementSelectionStateToBe(element, false));
+		wait.until(ExpectedConditions.elementSelectionStateToBe(element, true));
 	}
 	/**
 	 * Used to check the current URL using partial URL text
@@ -500,11 +532,14 @@ public class WebDriverUtility {
 	 */
 	public boolean waitTillcurrectURLContains(WebDriver driver, String partialURL)
 	{
-		try {
+		try
+		{
 			WebDriverWait wait= new WebDriverWait(driver, Duration.ofSeconds(30));
 			wait.until(ExpectedConditions.urlContains(partialURL));
-			return true;}
-		catch (TimeoutException e) {
+			return true;
+		}
+		catch (TimeoutException e)
+		{
 			e.printStackTrace();
 			return false;
 		}

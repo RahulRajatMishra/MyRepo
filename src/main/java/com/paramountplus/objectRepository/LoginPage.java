@@ -18,7 +18,6 @@ public class LoginPage {
 	FileUtility fLib= new FileUtility();
 	WebDriverUtility wLib= new WebDriverUtility();
 	UpsellPage upsellPage= new UpsellPage(driver);
-	//	LoginPage loginPage= new LoginPage(driver);
 
 	@FindBy(id="email")
 	private WebElement userNameInputField;
@@ -34,6 +33,9 @@ public class LoginPage {
 
 	@FindBy(xpath="//a[contains(text(),'Sign Up')]")
 	private WebElement signUpLink;
+
+	@FindBy(xpath="//a[@aria-label='Paramount+ Home']")
+	private WebElement paramountLogo;
 
 	public LoginPage(WebDriver driver)
 	{
@@ -59,6 +61,10 @@ public class LoginPage {
 
 	public WebElement getSignUpLink() {
 		return signUpLink;
+	}
+
+	public WebElement getParamountLogo() {
+		return paramountLogo;
 	}
 
 	//	Library functions
@@ -134,6 +140,29 @@ public class LoginPage {
 		LoggerUtility.info(" Ex-subscriber- Signed in successfully");
 	}
 
+	public void loginWithRegisteredUser() throws IOException
+	{
+		upsellPage.getSignInButton().click();
+		LoggerUtility.info("Login page displayed");
+		getUserNameInputField().sendKeys("rahulrajat.mishra+1@paramount.com");
+		getPasswordInputField().sendKeys("123456");
+		for(int i=0; i<3;i++)
+		{
+			try {
+				getContinueButton().click();
+				if(!getSignUpLink().isDisplayed())
+				{
+					break;
+				}
+			}
+			catch(Exception e)
+			{
+				e.printStackTrace();
+				wLib.waitForElementToBeClickable(driver, getContinueButton());
+			}
+		}
+		LoggerUtility.info("Registered User- Signed in successfully");
+	}
 	//	Sign out to the application
 	public void logout()
 	{

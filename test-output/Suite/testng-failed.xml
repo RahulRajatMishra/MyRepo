@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="MoviesPage(failed)">
+  <listeners>
+    <listener class-name="com.paramountplus.genericUtility.ListenerImplementation"/>
+  </listeners>
+  <test thread-count="5" name="NewAccount(failed)">
     <parameter name="author" value="Rahul"/>
     <parameter name="browserName" value="chrome"/>
     <classes>
-      <class name="moviesPage.VerifyNonWatchlistSelectedMovie">
+      <class name="newAccount.VerifyCreateEssentialUser">
         <methods>
           <include name="initialiseExtentReports"/>
           <include name="afterClass"/>
           <include name="afterMethod"/>
-          <include name="verifyNonWatchlistSelectMovie"/>
           <include name="generateExtentReports"/>
           <include name="beforeClass"/>
+          <include name="verifyCreateEssentialUser"/>
         </methods>
-      </class> <!-- moviesPage.VerifyNonWatchlistSelectedMovie -->
+      </class> <!-- newAccount.VerifyCreateEssentialUser -->
     </classes>
-  </test> <!-- MoviesPage(failed) -->
+  </test> <!-- NewAccount(failed) -->
 </suite> <!-- Failed suite [Suite] -->
