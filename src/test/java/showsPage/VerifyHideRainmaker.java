@@ -15,7 +15,7 @@ import com.paramountplus.objectRepository.WhosWatchingPage;
 
 public class VerifyHideRainmaker extends BaseClass {
 
-	@Test(groups= {"Smoke"})
+	@Test(groups= {"Smoke"}, description = "C1503128_Show_page_Hide_Rainmaker")
 	public void verifyHideRainmaker() throws IOException
 	{
 		LoginPage login= new LoginPage(driver);
@@ -28,7 +28,7 @@ public class VerifyHideRainmaker extends BaseClass {
 		LoggerUtility.info("Navigated to shows page");
 
 		ShowsPage showsPage= new ShowsPage(driver);
-		showsPage.getPopularShows().get(0).click();
+		showsPage.getPopularShows().get(1).click();
 		LoggerUtility.info("Navigated to show detail page");
 
 		ShowsDetailsPage showsDetailsPage= new ShowsDetailsPage(driver);

@@ -12,12 +12,18 @@ public class UpsellPage {
 	@FindBy(xpath="//img[@alt='Showtime bundle logo']")
 	private WebElement showtimeBundleLogo;
 
+	@FindBy(css=".padded-container.showtime-bundle-padded-container div div .upsell-text div")
+	private WebElement upsellText;
+
 	@FindBy(css=".flexWrapper.links ul:nth-child(1) li:nth-child(3)")
 	private WebElement showsFooterLink;
-	
+
 	@FindBy(css=".hero__cta>a")
 	private WebElement tryItFreeCTA;
-	
+
+	@FindBy(xpath="//div[@class='icon siteLogo']")
+	public WebElement footerSiteLogo;
+
 	public UpsellPage(WebDriver driver)
 	{
 		PageFactory.initElements(driver, this);
@@ -38,7 +44,15 @@ public class UpsellPage {
 	public WebElement getTryItFreeCTA() {
 		return tryItFreeCTA;
 	}
-	
+
+	public WebElement getUpsellText() {
+		return upsellText;
+	}
+
+	public WebElement getFooterSiteLogo() {
+		return footerSiteLogo;
+	}
+
 }
 
 

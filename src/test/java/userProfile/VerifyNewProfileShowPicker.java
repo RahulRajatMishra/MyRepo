@@ -32,7 +32,7 @@ public class VerifyNewProfileShowPicker extends BaseClass{
 
 		WhosWatchingPage whosWatching= new WhosWatchingPage(driver);
 		whosWatching.selectMainProfile();
-
+		
 		HomePage homePage= new HomePage(driver);
 		wLib.waitForElementToBeVisible(driver, homePage.getAvatarImage());
 		wLib.mouseHoverAndClick(driver, homePage.getAvatarImage(), homePage.getAddProfileLink());
@@ -59,7 +59,8 @@ public class VerifyNewProfileShowPicker extends BaseClass{
 		//C1556664- User is landed on who's watching page after the show picker-New Profile
 		boolean flag2= wLib.waitTillcurrectURLContains(driver, "whos-watching");
 		Assert.assertTrue(flag2);
-		whosWatching.selectTestProfile();
+		wLib.waitForElementToBeClickable(driver, whosWatching.getTestProfile());
+		whosWatching.getTestProfile().click();
 		wLib.waitTillcurrectURLContains(driver, "home");
 		String currentProfile= homePage.checkCurrentProfileContains(profileName);
 		Assert.assertEquals(profileName, currentProfile);

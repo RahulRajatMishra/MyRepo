@@ -19,22 +19,22 @@ public class SwitchPlanPage {
 	@FindBy(xpath="//span[normalize-space(text())='Cancel']")
 	private WebElement cancelbtn;
 	
-	@FindBy(xpath="//div[text()='Essential']")
+	@FindBy(xpath="//div[contains(text(), 'Paramount+ Essential')]")
 	private WebElement essentialPlantxt;
 	
 	@FindBy(xpath="//div[text()='Essential']/ancestor::label/div[1]/span")
 	private WebElement essentialPlanRadiobtn;
 	
-	@FindBy(xpath="//div[text()='Essential']/ancestor::label/div[2]/div/div[2]/span")
+	@FindBy(xpath="//div[contains(text(), 'Paramount+ Essential')]/ancestor::label/div[2]/div/div[2]/span")
 	private WebElement essentialPlanPrice;
 	
-	@FindBy(xpath="//div[text()='Premium']")
+	@FindBy(xpath="//div/div/div/div[contains(text(), 'Paramount+ with SHOWTIME®')]")
 	private WebElement premiumPlantxt;
 	
 	@FindBy(xpath="//div[text()='Premium']/ancestor::label/div[1]/span")
 	private WebElement premiumPlanRadiobtn;
 
-	@FindBy(xpath="//div[text()='Premium']/ancestor::label/div[2]/div/div[2]/span")
+	@FindBy(xpath="//div/div/div/div[contains(text(), 'Paramount+ with SHOWTIME®')]/ancestor::label/div[2]/div/div[2]/span")
 	private WebElement premiumPlanPrice;
 	
 	@FindBy(xpath="//div[text()='Essential w/ SHOWTIME®']")

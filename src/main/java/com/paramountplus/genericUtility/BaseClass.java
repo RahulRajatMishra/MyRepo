@@ -8,10 +8,7 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.HashMap;
 
-import javax.naming.spi.DirectoryManager;
-
 import org.apache.commons.io.FileUtils;
-import org.apache.poi.poifs.filesystem.DirectoryEntry;
 import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -22,7 +19,6 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
-import org.openqa.selenium.io.TemporaryFilesystem;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.ITestContext;
 import org.testng.ITestResult;
@@ -30,25 +26,16 @@ import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Optional;
-import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
-import com.paramountplus.objectRepository.HomePage;
-import com.paramountplus.objectRepository.LoginPage;
-import com.paramountplus.objectRepository.PlanPage;
-import com.paramountplus.objectRepository.UpsellPage;
-import com.paramountplus.objectRepository.WhosWatchingPage;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 @Listeners(com.paramountplus.genericUtility.ListenerImplementation.class)
@@ -58,7 +45,7 @@ public class BaseClass {
 	public JavaUtility jLib= new JavaUtility();
 	public ExcelUtility eLib= new ExcelUtility();
 	public FileUtility fLib= new FileUtility();
-	public WebDriver driver;
+	public static WebDriver driver;
 	public static WebDriver sdriver;
 	public static String screenshotSubFolderName;
 	public static ExtentReports extentRepots;
@@ -83,12 +70,12 @@ public class BaseClass {
 		extentRepots.setSystemInfo("OS","Windows");
 		extentRepots.setSystemInfo("Java Version", System.getProperty("java.version"));
 	}
-	@Parameters("browserName")
+	//	@Parameters("browserName")
 	@BeforeClass
 	public void beforeClass(ITestContext context,@Optional("chrome") String browserName) throws IOException, InterruptedException
 	{
 		//		read values from properties file
-		//		String browserName= fLib.getPropertyValue("browser");
+		browserName= fLib.getPropertyValue("browser");
 		String url= fLib.getPropertyValue("url");
 
 		//		Instantiating browser respective options class
@@ -107,19 +94,23 @@ public class BaseClass {
 		prefs.put("profile", profile);
 
 		chromeOptions.setExperimentalOption("prefs", prefs);
-//		fireFoxOptions.setCapability("prefs", prefs);
-		edgeOptions.setExperimentalOption("prefs", prefs);
+		//		fireFoxOptions.setCapability("prefs", prefs);
+		//	edgeOptions.setExperimentalOption("prefs", prefs);
 
 		// Launching browser based on the parameter passed
 		switch(browserName.toLowerCase())
 		{
 		case "chrome":
 			//			chromeOptions.addArguments("--headless=new");
-//						chromeOptions.addArguments("--incognito");
+			//			chromeOptions.addArguments("--incognito");
 			chromeOptions.addArguments("--remote-allow-origins=*");
 			//			chromeOptions.addArguments("--disable-notifications");
 			//			chromeOptions.addArguments("disable-geolocation");
+			System.setProperty("webdriver.http.factory", "jdk-http-client");
 			WebDriverManager.chromedriver().setup();
+
+			//			System.setProperty("webdriver.chrome.driver", "C:\\Users\\rahulrajat.m.360NDCLP414\\Downloads\\chromedriver-win64 (1)\\chromedriver-win64\\chromedriver.exe");
+			//			chromeOptions.setBinary("C:\\Users\\rahulrajat.m.360NDCLP414\\Downloads\\chrome-win64 (1)\\chrome-win64\\chrome.exe");
 			driver= new ChromeDriver(chromeOptions);
 			LoggerUtility.info("Chrome browser launched");
 			break;
@@ -143,50 +134,26 @@ public class BaseClass {
 		sdriver= driver;
 		//		Extent Report implementation
 		Capabilities capabilities= ((RemoteWebDriver) driver).getCapabilities();
-		String device= capabilities.getBrowserName()+" "+capabilities.getBrowserVersion().substring(0,capabilities.getBrowserVersion().indexOf("."));
-		String author= context.getCurrentXmlTest().getParameter("author");
+		//		String device= capabilities.getBrowserName()+" "+capabilities.getBrowserVersion().substring(0,capabilities.getBrowserVersion().indexOf("."));
+		//		String author= context.getCurrentXmlTest().getParameter("author");
 
+		String device= "Window";
+		String author= "Rahul";
 		extentTest= extentRepots.createTest(context.getName());
 		extentTest.assignAuthor(author);
 		extentTest.assignDevice(device);
 
 		wLib.maximizeWindow(driver);
-		//		wLib.ClearBrowserCache(driver);
-		wLib.pageLoadTimeout(driver);
+		wLib.ClearBrowserCache(driver);
+//		wLib.pageLoadTimeout(driver);
 		WebDriverUtility.waitForPageToLoad(driver, Duration.ofSeconds(30));
 		wLib.waitForPageToLoad(driver);
-		
+
 		driver.get(url);
 		wLib.executeJavaScript(driver, "let d = new Date(); d.setDate(d.getDate()+365); document.cookie = \"ovvuid=growth-qa-65b30329-0043-450c-b148-c6db0175acaf;path=/;expires=\"+d;");
 		LoggerUtility.info("Upsell page displayed");
 	}
-	//	@Parameters({"userName", "pwd"})
-	//	@BeforeMethod(alwaysRun= true)
-	//	public void beforeMethod(@Optional String userName,@Optional String pwd) throws IOException, InterruptedException
-	//	{
-	//				Sign in to the application
-	//				String userName= fLib.getPropertyValue("userName");
-	//				String pwd= fLib.getPropertyValue("password");
-	//				UpsellPage upsellPage= new UpsellPage(driver);
-	//				upsellPage.getSignInButton().click();
-	//				LoggerUtility.info("Login page displayed");
-	//				LoginPage loginPage= new LoginPage(driver);
-	//				loginPage.getUserNameInputField().sendKeys(userName);
-	//				loginPage.getPasswordInputField().sendKeys(pwd);
-	//				for(int i=0; i<3;i++)
-	//				{
-	//					try {
-	//						loginPage.getContinueButton().click();
-	//					}
-	//					catch(Exception e)
-	//					{
-	//						e.printStackTrace();
-	//						wLib.waitForElementToBeClickable(driver, loginPage.getContinueButton());
-	//						loginPage.getContinueButton().click();
-	//					}
-	//				}
-	//				LoggerUtility.info("Signed in successfully - Home page displayed ");
-	//	}
+
 	@AfterMethod
 	public void afterMethod(Method m, ITestResult result)
 	{

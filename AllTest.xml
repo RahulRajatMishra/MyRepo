@@ -13,7 +13,7 @@
 			<class name="homePage.VerifyNewBadge" />
 			<class name="homePage.VerifyMyListCarouselNotDisplayed" />
 			<class name="homePage.VerifyMyListCarouselDisplayed" />
-			<class name="homePage.VerifyGoAddFreeCTA"/>
+			<class name="homePage.VerifyGoAddFreeCTA" />
 		</classes>
 	</test>
 
@@ -32,6 +32,11 @@
 		<parameter name="author" value="Rahul" />
 		<classes>
 			<class name="newAccount.VerifyPlanPage" />
+			<class name="newAccount.VerifyMonthlyEssentialUserCreation" />
+			<class name="newAccount.VerifyAnnualEssentialUserCreation" />
+			<class name="newAccount.VerifyMonthlyPremiumUserCreation" />
+			<class name="newAccount.VerifyAnnualPremiumUserCreation" />
+			<class name="newAccount.VerifyShowpickerForNewProfile" />
 		</classes>
 	</test>
 
@@ -52,8 +57,10 @@
 			<class name="showsPage.VerifyNonWatchlistSelectedShow" />
 			<class name="showsPage.VerifyWatchlistSelectedShow" />
 			<class name="showsPage.VerifyAnonymousUserSeeRainmaker" />
-			<class name="showsPage.VerifyRegisteredUserSeeRainmaker"/>
+			<class name="showsPage.VerifyRegisteredUserSeeRainmaker" />
 			<class name="showsPage.VerifyHideRainmaker" />
+			<class name="showsPage.VerifyToolTipsOnShowDetailPage" />
+			<class name="showsPage.VerifyLockedEpisodes" />
 		</classes>
 	</test>
 
@@ -72,6 +79,7 @@
 		<classes>
 			<class name="upsellPage.VerifySignInCTA" />
 			<class name="upsellPage.VerifyStudentsUpsellCopy" />
+			<class name="upsellPage.VerifyUpsellPage" />
 		</classes>
 	</test>
 
@@ -85,7 +93,8 @@
 			<class name="userProfile.VerifyDeleteNewProfile" />
 			<class name="userProfile.VerifyNoShowPickerForKidsProfile" />
 			<class name="userProfile.VerifyDeleteKidsProfile" />
-			<class name="homePage.VerifyGoAddFreeCTA"></class>
+			<class name="userProfile.VerifyProfileNameCappedAt16Chars" />
+			<class name="userProfile.VerifyProfileNameAndAvatarImg" />
 		</classes>
 	</test>
 </suite>

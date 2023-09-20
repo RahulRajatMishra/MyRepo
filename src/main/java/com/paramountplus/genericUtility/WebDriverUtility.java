@@ -44,7 +44,7 @@ public class WebDriverUtility {
 
 	public void waitForPageToLoad(WebDriver driver)
 	{
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(45));
 	}
 	/**
 	 * wait for page to load before identifying any assynchronized [Java script actions] element in DOM
@@ -251,7 +251,7 @@ public class WebDriverUtility {
 	public void mouseHoverOnElement(WebDriver driver, WebElement element)
 	{
 		Actions a= new Actions(driver);
-		a.moveToElement(element).perform();
+		a.moveToElement(element).build().perform();
 	}
 	/**
 	 * Mouse hover and click on sub menu item
@@ -274,7 +274,7 @@ public class WebDriverUtility {
 			}
 			catch(Exception e)
 			{
-				Thread.sleep(1000);
+				Thread.sleep(2000);
 				LoggerUtility.info("Submenu is not found");
 				e.printStackTrace();
 			}
@@ -337,23 +337,25 @@ public class WebDriverUtility {
 	public void scrollTillAllElementsLoaded(WebDriver driver)
 	{
 		//		long lastHeight = (long) ((JavascriptExecutor) driver).executeScript("document.body.scrollHeight");
-		int cont=100;
+		int cont=500;
 		while (true)
 		{
 			try {
-				//((JavascriptExecutor) driver).executeScript("window.scrollTo(0, "+cont+");");
+				//				((JavascriptExecutor) driver).executeScript("window.scrollTo(0, "+cont+");");
 				executeJavaScript(driver, "window.scrollTo(0, "+cont+");");
 				Thread.sleep(3000);
 
+				//				long newHeight = (long) ((JavascriptExecutor) driver).executeScript("return document.documentElement.scrollHeight");
 				long newHeight = (long) ((JavascriptExecutor) driver).executeScript("return document.documentElement.scrollHeight");
 				if (newHeight <= cont) {
 					break;
 				}
+				cont+=500;
 			}
 			catch (Exception e) {
 				e.printStackTrace();
 			}
-			cont+=500;
+			//			cont+=500;
 		}
 	}
 	/**
@@ -398,16 +400,20 @@ public class WebDriverUtility {
 		int cont=500;
 		while (true) 
 		{
+			System.out.println(cont);
 			try {
+				//				((JavascriptExecutor) driver).executeScript("window.scrollTo(0, "+cont+");");
 				executeJavaScript(driver, "window.scrollTo(0, "+cont+");");
-				if (element.isDisplayed()) {
+				boolean flag=element.isDisplayed();
+				System.out.println(flag);
+				if (flag==true) {
 					break;
 				}
 			}
 			catch (Exception e) {
 				e.printStackTrace();
-				cont+=300;
-			} 
+			}
+			cont+=200;
 		}
 	}
 	/**
@@ -505,7 +511,7 @@ public class WebDriverUtility {
 		{
 			try {
 				driver.navigate().refresh();
-				WebDriverWait wait= new WebDriverWait(driver, Duration.ofSeconds(5));
+				WebDriverWait wait= new WebDriverWait(driver, Duration.ofSeconds(3));
 				wait.until(ExpectedConditions.visibilityOf(element));
 				break;
 			}
@@ -534,7 +540,7 @@ public class WebDriverUtility {
 	{
 		try
 		{
-			WebDriverWait wait= new WebDriverWait(driver, Duration.ofSeconds(30));
+			WebDriverWait wait= new WebDriverWait(driver, Duration.ofSeconds(60));
 			wait.until(ExpectedConditions.urlContains(partialURL));
 			return true;
 		}
@@ -543,5 +549,15 @@ public class WebDriverUtility {
 			e.printStackTrace();
 			return false;
 		}
+	}
+	/**
+	 * Java script code to click on an element
+	 * @param driver
+	 * @param element
+	 */
+	public void jsClick(WebDriver driver, WebElement element)
+	{
+		((JavascriptExecutor) driver).executeScript("return arguments[0].click();", element);
+
 	}
 }

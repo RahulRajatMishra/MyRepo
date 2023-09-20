@@ -10,8 +10,8 @@
 		<parameter name="browserName" value="chrome" />
 		<parameter name="author" value="Rahul" />
 		<classes>
-			<!--<class name="myListPage.VerifyMyListShowsSelectedContent" />
-			<class name="myListPage.VerifyEditMyListContent" />-->
+			<class name="myListPage.VerifyMyListShowsSelectedContent" />
+			<class name="myListPage.VerifyEditMyListContent" />
 			<class name="myListPage.VerifyRecentAdditionToMyList" />
 		</classes>
 	</test>

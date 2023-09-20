@@ -37,7 +37,7 @@ public class VerifyRecentAdditionToMyList extends BaseClass{
 		myList.getFindShowsLink().click();
 
 		ShowsPage shows= new ShowsPage(driver);
-		shows.getPopularShows().get(0).click();
+		shows.getPopularShows().get(1).click();
 
 		ShowsDetailsPage showsDetailsPage= new ShowsDetailsPage(driver);
 		showsDetailsPage.getWatchlistCTA().click();

@@ -37,11 +37,15 @@ public class VerifyMyListShowsSelectedContent extends BaseClass {
 
 		ShowsPage showsPage= new ShowsPage(driver);
 		List<WebElement> popularShows= showsPage.getPopularShows();
-		String name1= popularShows.get(0).getAttribute("alt");
-		popularShows.get(0).click();
-		
+		String name1= popularShows.get(1).getAttribute("alt");
+		popularShows.get(1).click();
+
 		ShowsDetailsPage showsDetailsPage= new ShowsDetailsPage(driver);
-		showsDetailsPage.getWatchlistCTA().click();
+//		wLib.scrollTillElementIsDisplayed(driver, showsDetailsPage.getWatchlistCTA());
+		wLib.mouseHoverOnElement(driver, showsDetailsPage.getWatchlistCTA());
+		wLib.waitForElementToBeClickable(driver, showsDetailsPage.getAddToWatchlistbtn());
+		showsDetailsPage.getAddToWatchlistbtn().click();
+		wLib.scrollToTop(driver);
 		homePage.getMyListTab().click();
 		String name2= myList.getAllMyListItems().get(0).getAttribute("alt");
 		Assert.assertEquals(name1, name2);

@@ -18,7 +18,7 @@ import com.paramountplus.objectRepository.WhosWatchingPage;
 
 public class VerifyEditMyListContent extends BaseClass {
 
-	@Test(groups = {"Smoke"}, description = "C2197010 & C2197009- User_can_edit_content_tile_on_My_list_by_selecting_edit_option & Empty_My_list_Page_has_no_content_tile_selected")
+	@Test(priority = 1, groups = {"Smoke"}, description = "C2197010- User_can_edit_content_tile_on_My_list_by_selecting_edit_option")
 	public void editMyList() throws IOException, InterruptedException
 	{
 		LoginPage login= new LoginPage(driver);
@@ -35,13 +35,17 @@ public class VerifyEditMyListContent extends BaseClass {
 		MyListPage myList= new MyListPage(driver);
 		myList.clickOnEditButton();
 		WebElement item= myList.getAllMyListItems().get(0);
-		wLib.waitForElementToBeSelectable(driver, item);
+		wLib.waitForElementToBeClickable(driver, item);
 		item.click();
 		wLib.waitForElementToBeClickable(driver, myList.getRemovebtn());
 		myList.getRemovebtn().click();
 		wLib.pageRefreshAndWaitForElementVisibilty(driver, myList.getEmptyListText());
 		LoggerUtility.info("Item removed ");
-
+	}
+	@Test(priority = 2, description = "C2197009- Empty_My_list_Page_has_no_content_tile_selected")
+	public void verifyEmptyMyList()
+	{
+		MyListPage myList= new MyListPage(driver);
 		boolean flag= myList.getEmptyListText().isDisplayed();
 		Assert.assertTrue(flag);
 		LoggerUtility.info("My list is empty-TEST PASSED");

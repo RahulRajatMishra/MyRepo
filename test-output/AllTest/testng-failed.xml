@@ -1,10 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [AllTest]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="MyListPage(failed)">
+    <parameter name="author" value="Rahul"/>
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="myListPage.VerifyEditMyListContent">
+        <methods>
+          <include name="initialiseExtentReports"/>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+          <include name="generateExtentReports"/>
+          <include name="editMyList"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- myListPage.VerifyEditMyListContent -->
+      <class name="myListPage.VerifyRecentAdditionToMyList">
+        <methods>
+          <include name="initialiseExtentReports"/>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+          <include name="generateExtentReports"/>
+          <include name="beforeClass"/>
+          <include name="verifyRecentAdditionToMylist"/>
+        </methods>
+      </class> <!-- myListPage.VerifyRecentAdditionToMyList -->
+      <class name="myListPage.VerifyMyListShowsSelectedContent">
+        <methods>
+          <include name="VerifySelectedContentOnMyList"/>
+          <include name="initialiseExtentReports"/>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+          <include name="generateExtentReports"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- myListPage.VerifyMyListShowsSelectedContent -->
+    </classes>
+  </test> <!-- MyListPage(failed) -->
   <test thread-count="5" name="ShowsPage(failed)">
     <parameter name="author" value="Rahul"/>
     <parameter name="browserName" value="chrome"/>
     <classes>
+      <class name="showsPage.VerifyToolTipsOnShowDetailPage">
+        <methods>
+          <include name="initialiseExtentReports"/>
+          <include name="verifyToolTips"/>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+          <include name="generateExtentReports"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- showsPage.VerifyToolTipsOnShowDetailPage -->
       <class name="showsPage.VerifyKidsCategoryPosition">
         <methods>
           <include name="initialiseExtentReports"/>
@@ -15,22 +61,54 @@
           <include name="beforeClass"/>
         </methods>
       </class> <!-- showsPage.VerifyKidsCategoryPosition -->
+      <class name="showsPage.VerifyAnonymousUserSeeRainmaker">
+        <methods>
+          <include name="initialiseExtentReports"/>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+          <include name="generateExtentReports"/>
+          <include name="beforeClass"/>
+          <include name="verifyShowPageRainmaker"/>
+        </methods>
+      </class> <!-- showsPage.VerifyAnonymousUserSeeRainmaker -->
+      <class name="showsPage.VerifyHideRainmaker">
+        <methods>
+          <include name="initialiseExtentReports"/>
+          <include name="afterClass"/>
+          <include name="verifyHideRainmaker"/>
+          <include name="afterMethod"/>
+          <include name="generateExtentReports"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- showsPage.VerifyHideRainmaker -->
+      <class name="showsPage.VerifyRegisteredUserSeeRainmaker">
+        <methods>
+          <include name="verifyRainmaker"/>
+          <include name="initialiseExtentReports"/>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+          <include name="generateExtentReports"/>
+          <include name="beforeClass"/>
+          <include name="clickOnDismissButton"/>
+        </methods>
+      </class> <!-- showsPage.VerifyRegisteredUserSeeRainmaker -->
     </classes>
   </test> <!-- ShowsPage(failed) -->
   <test thread-count="5" name="UserProfile(failed)">
     <parameter name="author" value="Rahul"/>
     <parameter name="browserName" value="chrome"/>
     <classes>
-      <class name="userProfile.VerifyAdultUserProfile">
+      <class name="userProfile.VerifyProfileNameAndAvatarImg">
         <methods>
           <include name="initialiseExtentReports"/>
           <include name="afterClass"/>
           <include name="afterMethod"/>
-          <include name="verifyAdultUserProfilePicker"/>
+          <include name="deleteProfile"/>
           <include name="generateExtentReports"/>
           <include name="beforeClass"/>
+          <include name="verifyNameAndSelectedIconOnShowPicker"/>
         </methods>
-      </class> <!-- userProfile.VerifyAdultUserProfile -->
+      </class> <!-- userProfile.VerifyProfileNameAndAvatarImg -->
     </classes>
   </test> <!-- UserProfile(failed) -->
 </suite> <!-- Failed suite [AllTest] -->

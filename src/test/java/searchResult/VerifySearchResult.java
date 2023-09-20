@@ -42,9 +42,9 @@ public class VerifySearchResult extends BaseClass {
 		js.executeScript("arguments[0].value='Star Trek';", searchPage.getSearchInputField());
 		wLib.pressEnterAndWaitForElement(driver, searchPage.getSearchResults());
 //		wLib.pressEnterKey(driver);
-//		wLib.waitForElementToBeVisible(driver, searchPage.getSearchResults());
+		wLib.waitForElementToBeVisible(driver, searchPage.getSearchResults());
 		boolean flag= searchPage.getSearchResults().isDisplayed();
-		Assert.assertTrue(flag);
+		Assert.assertTrue(flag); //as the search result text is hidden- Updated on 19 Sep - Search result is shown
 		wLib.scrollToBottom(driver);
 		List<WebElement> list = searchPage.getAllStarTrekShows();
 		System.out.println(list.size());

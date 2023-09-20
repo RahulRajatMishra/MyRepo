@@ -15,7 +15,7 @@ import com.paramountplus.objectRepository.WhosWatchingPage;
 
 public class VerifyWatchlistSelectedMovie extends BaseClass {
 
-	@Test(groups= {"Smoke"}, description = "C1534296-Navigate_to_a_selected-watchlist_movie_page_&_C1534298-Remove_Movie_from_the_Watchlist")
+	@Test(priority = 1, groups= {"Smoke"}, description = "C1534296-Navigate_to_a_selected-watchlist_movie_page")
 	public void verifyWatchlistSelectedMovie() throws IOException
 	{
 		LoginPage login= new LoginPage(driver);
@@ -26,12 +26,17 @@ public class VerifyWatchlistSelectedMovie extends BaseClass {
 
 		HomePage homePage= new HomePage(driver);
 		wLib.scrollTillElementIsDisplayed(driver, homePage.getMyListCarousel());
+//		wLib.scrollTillAllElementsLoaded(driver);
 		wLib.scrollIntoView(driver, homePage.getMyListCarousel());
 		WebElement myListItem= homePage.getAllItemsInMyListCarousel().get(0);
-		wLib.waitForElementToBeClickable(driver, myListItem);
+//		wLib.waitForElementToBeVisible(driver, myListItem);
 		myListItem.click();
 		LoggerUtility.info("Navigate to a selected-watchlist movie details page");
+	}
 
+	@Test(priority = 2,description = "C1534298-Remove_Movie_from_the_Watchlist")
+	public void removeMovieFromMyList()
+	{
 		MoviesDetailsPage moviesDetailsPage= new MoviesDetailsPage(driver);
 		boolean flag1=  moviesDetailsPage.getWatchNowCTA().isDisplayed();
 		Assert.assertTrue(flag1);

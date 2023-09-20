@@ -18,6 +18,12 @@ public class ShowsPickerPage {
 	@FindBy(css=".show-picker-grid.grid.portrait>article")
 	private List<WebElement> showPickerGrid;
 
+	@FindBy(css=".show-picker-header-left div:nth-child(1)")
+	private WebElement showPickerTitle;
+
+	@FindBy(css=".avimg-show-picker img")
+	private WebElement avImgShowPicker;
+
 	public ShowsPickerPage(WebDriver driver)
 	{
 		PageFactory.initElements(driver, this);
@@ -30,6 +36,15 @@ public class ShowsPickerPage {
 	public List<WebElement> getShowPickerGrid() {
 		return showPickerGrid;
 	}
+
+	public WebElement getShowPickerTitle() {
+		return showPickerTitle;
+	}
+
+	public WebElement getAvImgShowPicker() {
+		return avImgShowPicker;
+	}
+
 	//Library functions
 	public void selectThreeShows()
 	{

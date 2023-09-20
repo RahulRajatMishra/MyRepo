@@ -12,7 +12,7 @@ public class Edu_OfferPage {
 	@FindBy(xpath="//h1[normalize-space(text())= 'STUDENTS GET 25% OFF']")
 	private WebElement upsellHeadertxt;
 
-	@FindBy(xpath="//div[text()[normalize-space()='Work hard. Play harder. Students get an Essential monthly plan for just $3.75/mo.! Cancel anytime.']]")
+	@FindBy(xpath="//div[text()[normalize-space()='Work hard. Play harder. Students get a Paramount+ Essential monthly plan for just $4.50/mo.! Cancel anytime.']]")
 	private WebElement upsellSubHeadertxt;
 	
 	@FindBy(xpath="//div[normalize-space(text())= 'GET 25% OFF']")

@@ -1,18 +1,14 @@
 package homePage;
 
-import static org.testng.Assert.assertNotNull;
-import static org.testng.Assert.assertTrue;
-
 import java.io.IOException;
 import java.util.List;
 
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.paramountplus.genericUtility.BaseClass;
 import com.paramountplus.genericUtility.LoggerUtility;
-import com.paramountplus.genericUtility.LoginUtility;
 import com.paramountplus.objectRepository.HomePage;
 import com.paramountplus.objectRepository.LoginPage;
 import com.paramountplus.objectRepository.WhosWatchingPage;
@@ -27,12 +23,13 @@ public class VerifyJustAddedBadge extends BaseClass{
 
 		WhosWatchingPage whosWatching= new WhosWatchingPage(driver);
 		whosWatching.selectMainProfile();
-		
+
 		HomePage homePage= new HomePage(driver);
+		wLib.waitForElementToBeVisible(driver, homePage.getShowsTab());
 		wLib.scrollTillAllElementsLoaded(driver);
 		List<WebElement> list= homePage.getJustAdded();
 		System.out.println(list.size());
-		assertNotNull(list);
+		Assert.assertFalse(list.isEmpty());
 		LoggerUtility.info(" *Just Added* badge displayed");
 
 		String text=null;

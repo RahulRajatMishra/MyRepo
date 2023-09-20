@@ -7,7 +7,6 @@ import org.testng.annotations.Test;
 
 import com.paramountplus.genericUtility.BaseClass;
 import com.paramountplus.genericUtility.LoggerUtility;
-import com.paramountplus.genericUtility.LoginUtility;
 import com.paramountplus.objectRepository.LoginPage;
 import com.paramountplus.objectRepository.PlanPage;
 
@@ -25,5 +24,4 @@ public class VerifyPlanPage extends BaseClass {
 		LoggerUtility.info("<---Plan page displayed--->");
 		planPage.logout();
 	}
-
 }

@@ -25,15 +25,22 @@ public class FileUtility {
 		return p.getProperty(key);
 
 	}
-	public void writePropertyValue(String key, String value)
+	public void writePropertyValue(String key, String value, String fileName)
 	{
 		Properties properties = new Properties();
 		try {
-			FileOutputStream outputStream = new FileOutputStream(path+"userData.properties");  
+			FileOutputStream outputStream = new FileOutputStream(path+fileName);  
 			properties.setProperty(key, value);
 			properties.store(outputStream, null);
 		} catch (IOException e) {
 			e.printStackTrace();
 		} 
+	}
+	public String getDataFromFile(String key, String value, String fileName) throws Exception
+	{
+		FileInputStream fis= new FileInputStream(path+fileName);
+		Properties p= new Properties();
+		p.load(fis);
+		return p.getProperty(key);
 	}
 }

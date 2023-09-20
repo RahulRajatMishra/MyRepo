@@ -9,14 +9,14 @@
 		<parameter name="browserName" value="chrome" />
 		<parameter name="author" value="Rahul" />
 		<classes>
-			<!--<class name="homePage.VerifyFooterParamountLogo" />-->
-			<!--<class name="homePage.VerifyHomePage" />-->
-			<!--<class name="homePage.VerifyJustAddedBadge"/>-->
-			<!--<class name="homePage.VerifyKeepWatchingCarousel" />-->
-			<!--<class name="homePage.VerifyNewBadge" /> -->
-			<!--<class name="homePage.VerifyMyListCarouselNotDisplayed" />
-			<class name="homePage.VerifyMyListCarouselDisplayed" />-->
-			<class name="homePage.VerifyGoAddFreeCTA"/>
+			<class name="homePage.VerifyFooterParamountLogo" />
+			<class name="homePage.VerifyHomePage" />
+			<class name="homePage.VerifyJustAddedBadge" />
+			<class name="homePage.VerifyKeepWatchingCarousel" />
+			<class name="homePage.VerifyNewBadge" />
+			<class name="homePage.VerifyMyListCarouselNotDisplayed" />
+			<class name="homePage.VerifyMyListCarouselDisplayed" />
+			<class name="homePage.VerifyGoAddFreeCTA" />
 		</classes>
 	</test>
 </suite> 

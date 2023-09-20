@@ -5,7 +5,7 @@
 		<parameter name="browserName" value="chrome" />
 		<parameter name="author" value="Rahul" />
 		<classes>
-			<!--<class name="moviesPage.VerifyNonWatchlistSelectedMovie" />-->
+			<class name="moviesPage.VerifyNonWatchlistSelectedMovie" />
 			<class name="moviesPage.VerifyWatchlistSelectedMovie" />
 		</classes>
 	</test> 

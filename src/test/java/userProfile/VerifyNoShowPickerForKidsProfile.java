@@ -21,7 +21,6 @@ import com.paramountplus.objectRepository.UserProfileEnterPinPage;
 import com.paramountplus.objectRepository.WhosWatchingPage;
 
 public class VerifyNoShowPickerForKidsProfile extends BaseClass {
-	//	HomePage homePage= new HomePage(driver);
 
 	@Test(groups={"Smoke"}, description = "C1693080 - Kids profile Should not see the show picker")
 	public void noShowPickerForKidsProfile() throws IOException, InterruptedException

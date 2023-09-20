@@ -35,13 +35,6 @@ public class VerifyGoAddFreeCTA extends BaseClass {
 		boolean flag3= switchPlanPage.getPremiumPlantxt().isDisplayed();
 		Assert.assertTrue(flag3);
 
-		boolean flag4= switchPlanPage.getEssentialWithShowtimetxt().isDisplayed();
-		Assert.assertTrue(flag4);
-
-		boolean flag5= switchPlanPage.getPremiumWithShowtimetxt().isDisplayed();
-		Assert.assertTrue(flag5);
-		LoggerUtility.info("\"Essential\", \"Premium\", \"Essential with Showtime\" and \"Premium with Showtime\" plans are displayed");
-
 		String essentialPrice=switchPlanPage.getEssentialPlanPrice().getText();
 		String premiunPrice= switchPlanPage.getPremiumPlanPrice().getText();
 		Assert.assertNotSame(essentialPrice, premiunPrice);

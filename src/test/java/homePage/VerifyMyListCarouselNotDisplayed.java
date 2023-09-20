@@ -25,6 +25,5 @@ public class VerifyMyListCarouselNotDisplayed extends BaseClass {
 		boolean flag= wLib.isElementFound(driver, homePage.getMyListCarousel());
 		Assert.assertFalse(flag);
 		LoggerUtility.info("My List carousel is not displayed- TEST PASSED");
-
 	}
 }

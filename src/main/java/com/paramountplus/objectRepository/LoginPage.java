@@ -98,21 +98,22 @@ public class LoginPage {
 		LoggerUtility.info("Login page displayed");
 		getUserNameInputField().sendKeys("AutoM.Essential@withoutBundle1.com");
 		getPasswordInputField().sendKeys("123456");
-		for(int i=0; i<3;i++)
-		{
-			try {
-				getContinueButton().click();
-				if(!getSignUpLink().isDisplayed())
-				{
-					break;
-				}
-			}
-			catch(Exception e)
-			{
-				e.printStackTrace();
-				wLib.waitForElementToBeClickable(driver, getContinueButton());
-			}
-		}
+		//		for(int i=0; i<3;i++)
+		//		{
+		//			try {
+		//				getContinueButton().click();
+		//				if(!getSignUpLink().isDisplayed())
+		//				{
+		//					break;
+		//				}
+		//			}
+		//			catch(Exception e)
+		//			{
+		//				e.printStackTrace();
+		//				wLib.waitForElementToBeClickable(driver, getContinueButton());
+		//			}
+		//		}
+		getContinueButton().click();
 		LoggerUtility.info("Non-bundle user- Signed in successfully");
 	}
 	public void loginExSubscriber() throws IOException
@@ -163,6 +164,32 @@ public class LoginPage {
 		}
 		LoggerUtility.info("Registered User- Signed in successfully");
 	}
+
+	public void login(String userName, String pwd) throws IOException
+	{
+		wLib.waitForElementToBeClickable(driver, upsellPage.getSignInButton());
+		upsellPage.getSignInButton().click();
+		LoggerUtility.info("Login page displayed");
+		getUserNameInputField().sendKeys(userName);
+		getPasswordInputField().sendKeys(pwd);
+		for(int i=0; i<3;i++)
+		{
+			try {
+				getContinueButton().click();
+				if(!getSignUpLink().isDisplayed())
+				{
+					break;
+				}
+			}
+			catch(Exception e)
+			{
+				e.printStackTrace();
+				wLib.waitForElementToBeClickable(driver, getContinueButton());
+			}
+		}
+		LoggerUtility.info("Signed in successfully");
+	}
+
 	//	Sign out to the application
 	public void logout()
 	{

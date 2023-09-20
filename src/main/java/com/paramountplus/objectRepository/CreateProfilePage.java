@@ -29,6 +29,9 @@ public class CreateProfilePage {
 	@FindBy(xpath="//span[contains(text(),'Save Profile')]")
 	private WebElement saveProfileButton;
 
+	@FindBy(css=".edit-loc")
+	private WebElement chooseAvatar;
+
 	public CreateProfilePage(WebDriver driver)
 	{
 		PageFactory.initElements(driver, this);
@@ -49,6 +52,9 @@ public class CreateProfilePage {
 		return youngerKidsRadioButton;
 	}
 
+	public WebElement getChooseAvatar() {
+		return chooseAvatar;
+	}
 	public WebElement getSaveProfileButton() {
 		return saveProfileButton;
 	}
@@ -67,6 +73,15 @@ public class CreateProfilePage {
 		getProfileNametxtField().sendKeys(profileName);
 		getParentalSwitchToggleButton().click();
 		getOlderKidsRadioButton().click();
+		getSaveProfileButton().click();
+		LoggerUtility.info(profileName+" profile is created");
+		return profileName.toLowerCase();
+	}
+
+	public String createProfileWith18Chars()
+	{
+		String profileName= "TestUserWith18"+jLib.getRandomNumber();
+		getProfileNametxtField().sendKeys(profileName);
 		getSaveProfileButton().click();
 		LoggerUtility.info(profileName+" profile is created");
 		return profileName.toLowerCase();

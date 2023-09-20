@@ -5,12 +5,13 @@
 		<parameter name="browserName" value="chrome" />
 		<parameter name="author" value="Rahul" />
 		<classes>
-			<class name="showsPage.VerifyKidsCategoryPosition"/>
-            <!--<class name="showsPage.VerifyNonWatchlistSelectedShow" />
-	        <class name="showsPage.VerifyWatchlistSelectedShow"/>-->
-			<!--<class name="showsPage.VerifyAnonymousUserSeeRainmaker" />-->
-			<!--<class name="showsPage.VerifyRegisteredUserSeeRainmaker"/>-->
-			<!--<class name="showsPage.VerifyHideRainmaker" />-->
+			<class name="showsPage.VerifyKidsCategoryPosition" />
+			<class name="showsPage.VerifyNonWatchlistSelectedShow" />
+			<class name="showsPage.VerifyWatchlistSelectedShow" />
+			<class name="showsPage.VerifyAnonymousUserSeeRainmaker" />
+			<class name="showsPage.VerifyRegisteredUserSeeRainmaker" />
+			<class name="showsPage.VerifyHideRainmaker" />
+			<class name="showsPage.VerifyToolTipsOnShowDetailPage" />
 		</classes>
 	</test>
 </suite> 

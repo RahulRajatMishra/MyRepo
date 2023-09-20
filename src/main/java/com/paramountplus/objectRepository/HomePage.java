@@ -49,6 +49,7 @@ public class HomePage {
 	private WebElement addProfileLink;
 
 	@FindBy(xpath="//a[contains(text(),'Manage Profiles')]")
+	//	@FindBy(css="#user-profiles-menu-app .user-profiles-menu-dropdown li:last-of-type a")
 	private WebElement managePrifile;
 
 	@FindBy(xpath="//a[contains(@data-impression,'NEW')]")
@@ -71,43 +72,49 @@ public class HomePage {
 
 	@FindBy(css="section#my-list div div div div div div div img")
 	private List<WebElement> allItemsInMyListCarousel;
-	
+
 	@FindBy(xpath="//h2[contains(text(),'My List')]")
 	private WebElement myListText;
-	
+
 	@FindBy(xpath="//div[@has-my-list-listener='true']")
 	private WebElement hasMyList; /* This attribute is present if there is no My List carousel*/
- 
+
 	@FindBy(xpath="//section[@id='showtime-shows-&-movies']")
 	private WebElement showtimeShowsMoviesCarousel;
-	
+
 	@FindBy(xpath="//section[@id='showtime-shows-&-movies']/div/div/div/div/div/div/div")
 	private List<WebElement> allItemsInShowtimeShowsMoviesCarousel;
-	
+
 	@FindBy(css="a[aria-label='Next Slides'][aa-link*='showtime']")
 	private WebElement showtimeShowsAndMoviesNextSlideLink;
-	
+
 	@FindBy(css="section#horror-movies")
 	private WebElement horrorMoviesCarousel;
-	
+
 	@FindBy(css="section#horror-movies div div div div div div div a")
 	private List<WebElement> allItemsInHorrorMoviesCarousel;
-	
+
 	@FindBy(css="section#animated-movies")
 	private WebElement annimatedMoviesCarousel;
-	
+
 	@FindBy(css="section#animated-movies div div div div div div div a")
 	private List<WebElement> allItemsInAnnimatedMoviesCarousel;
-	
+
 	@FindBy(css="section#sci-fi-movies")
 	private WebElement sciFiMoviesCarousel;
-	
+
 	@FindBy(css="section#sci-fi-movies div div div div div div div a")
 	private WebElement allItemsInSciFiMoviesCarousel;
-	
+
 	@FindBy(css="#user-profiles-menu-trigger li:nth-child(2) a div")
 	private WebElement goAddFreeCTA;
-	
+
+	@FindBy(css=".flexWrapper.links ul:nth-child(1) li:nth-child(2)")
+	private WebElement footerHomeLink;
+
+	@FindBy(css=".flexWrapper.links ul:nth-child(1) li:nth-child(3)")
+	private WebElement footerShowsLink;
+
 	public HomePage(WebDriver driver)
 	{
 		PageFactory.initElements(driver, this);
@@ -216,6 +223,13 @@ public class HomePage {
 	public WebElement getGoAddFreeCTA() {
 		return goAddFreeCTA;
 	}
+	public WebElement getFooterHomeLink() {
+		return footerHomeLink;
+	}
+
+	public WebElement getFooterShowsLink() {
+		return footerShowsLink;
+	}
 
 	// Library functions
 	public void logout()
@@ -232,20 +246,28 @@ public class HomePage {
 	{
 		String profileName=null;
 		int count=0;
-		while(count<5) 
-		{
-			profileName= getCurrentUserProfile().getText().toLowerCase();
-			if(profileName.contains(currentProfile))
+		try {
+			while(count<5) 
 			{
-				break;
+				profileName= getCurrentUserProfile().getText().toLowerCase();
+				if(profileName.contains(currentProfile))
+				{
+					break;
+				}
+				else
+				{
+					Thread.sleep(1000);
+				}
+				count++;
 			}
-			else
-			{
-				Thread.sleep(1000);
-			}
-			count++;
+			return profileName;
 		}
-		return profileName;
+		catch(Exception e)
+		{
+			LoggerUtility.info("Current profile doesn't contain "+currentProfile);
+			e.printStackTrace();
+			return null;
+		}
 	}
 
 }

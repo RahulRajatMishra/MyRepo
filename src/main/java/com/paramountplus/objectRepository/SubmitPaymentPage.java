@@ -122,7 +122,8 @@ public class SubmitPaymentPage {
 		driver.switchTo().parentFrame();
 		wLib.switchToFrame(driver, 3);
 		getCcCvvtxtField().sendKeys("123");
-		getStartParamountbtn().click();
 		driver.switchTo().parentFrame();
+		getStartParamountbtn().click();
+		
 	}
 }

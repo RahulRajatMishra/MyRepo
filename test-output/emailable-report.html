@@ -8,37 +8,425 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">NewAccount</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">37,123</td><td></td><td></td></tr>
+<tr><th colspan="8">AllTest</th></tr>
+<tr><td><a href="#t0">HomePage</a></td><td class="num">8</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">1,037,309</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">MyListPage</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">317,064</td><td></td><td></td></tr>
+<tr><td><a href="#t2">NewAccount</a></td><td class="num">11</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">289,641</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t3">SearchResult</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">146,448</td><td></td><td></td></tr>
+<tr><td><a href="#t4">ShowsPage</a></td><td class="num">7</td><td class="num">0</td><td class="num">0</td><td class="num attn">6</td><td class="num">813,866</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t5">MoviesPage</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">159,600</td><td></td><td></td></tr>
+<tr><td><a href="#t6">UpsellPage</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">80,068</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t7">UserProfile</a></td><td class="num">8</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">790,004</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">45</th><th class="num">0</th><th class="num">0</th><th class="num attn">11</th><th class="num">3,634,000</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">NewAccount &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">newAccount.VerifyCreateEssentialUser</td><td><a href="#m0">verifyCreateEssentialUser</a></td><td rowspan="1">1687560370798</td><td rowspan="1">26321</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">AllTest</th></tr></tbody><tbody id="t0"><tr><th colspan="4">HomePage &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">homePage.VerifyFooterParamountLogo</td><td><a href="#m0">verifyFooterLogo</a></td><td rowspan="1">1695231027497</td><td rowspan="1">38373</td></tr><tr class="passedodd"><td rowspan="1">homePage.VerifyGoAddFreeCTA</td><td><a href="#m1">verifyGoCommercialFreeCTA</a></td><td rowspan="1">1695232009865</td><td rowspan="1">43452</td></tr><tr class="passedeven"><td rowspan="1">homePage.VerifyHomePage</td><td><a href="#m2">homePage</a></td><td rowspan="1">1695231074220</td><td rowspan="1">42863</td></tr><tr class="passedodd"><td rowspan="1">homePage.VerifyJustAddedBadge</td><td><a href="#m3">verifyJustAddedBadge</a></td><td rowspan="1">1695231125395</td><td rowspan="1">96960</td></tr><tr class="passedeven"><td rowspan="1">homePage.VerifyKeepWatchingCarousel</td><td><a href="#m4">keepWatchingCarouserl</a></td><td rowspan="1">1695231230811</td><td rowspan="1">86918</td></tr><tr class="passedodd"><td rowspan="1">homePage.VerifyMyListCarouselDisplayed</td><td><a href="#m5">verifyMyListCarouselIsDisplayed</a></td><td rowspan="1">1695231601881</td><td rowspan="1">399054</td></tr><tr class="passedeven"><td rowspan="1">homePage.VerifyMyListCarouselNotDisplayed</td><td><a href="#m6">verifyNoMyListCarousel</a></td><td rowspan="1">1695231441981</td><td rowspan="1">151504</td></tr><tr class="passedodd"><td rowspan="1">homePage.VerifyNewBadge</td><td><a href="#m7">verifyNewBadge</a></td><td rowspan="1">1695231326105</td><td rowspan="1">106672</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">MyListPage &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">myListPage.VerifyEditMyListContent</td><td><a href="#m8">editMyList</a></td><td rowspan="1">1695232163503</td><td rowspan="1">89720</td></tr><tr class="failedodd"><td rowspan="1">myListPage.VerifyMyListShowsSelectedContent</td><td><a href="#m9">VerifySelectedContentOnMyList</a></td><td rowspan="1">1695232061296</td><td rowspan="1">93172</td></tr><tr class="failedeven"><td rowspan="1">myListPage.VerifyRecentAdditionToMyList</td><td><a href="#m10">verifyRecentAdditionToMylist</a></td><td rowspan="1">1695232261987</td><td rowspan="1">108244</td></tr><tr><th colspan="4">MyListPage &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">myListPage.VerifyEditMyListContent</td><td><a href="#m11">verifyEmptyMyList</a></td><td rowspan="1">1695232253423</td><td rowspan="1">30</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">NewAccount &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">newAccount.VerifyAnnualEssentialUserCreation</td><td><a href="#m12">makePayment</a></td><td rowspan="1">1695232422890</td><td rowspan="1">8984</td></tr><tr class="passedeven"><td><a href="#m13">verifyAnnualEssentialUserCreation</a></td><td rowspan="1">1695232417113</td><td rowspan="1">5774</td></tr><tr class="passedodd"><td rowspan="2">newAccount.VerifyAnnualPremiumUserCreation</td><td><a href="#m14">makePayment</a></td><td rowspan="1">1695232468620</td><td rowspan="1">8974</td></tr><tr class="passedodd"><td><a href="#m15">verifyAnnualPremiumUserCreation</a></td><td rowspan="1">1695232462368</td><td rowspan="1">6250</td></tr><tr class="passedeven"><td rowspan="2">newAccount.VerifyMonthlyEssentialUserCreation</td><td><a href="#m16">makePayment</a></td><td rowspan="1">1695232399926</td><td rowspan="1">8896</td></tr><tr class="passedeven"><td><a href="#m17">verifyMonthlyEssentialUserCreation</a></td><td rowspan="1">1695232393802</td><td rowspan="1">6123</td></tr><tr class="passedodd"><td rowspan="2">newAccount.VerifyMonthlyPremiumUserCreation</td><td><a href="#m18">makePayment</a></td><td rowspan="1">1695232445979</td><td rowspan="1">8495</td></tr><tr class="passedodd"><td><a href="#m19">verifyMonthlyPremiumUserCreation</a></td><td rowspan="1">1695232440802</td><td rowspan="1">5175</td></tr><tr class="passedeven"><td rowspan="1">newAccount.VerifyPlanPage</td><td><a href="#m20">planPage</a></td><td rowspan="1">1695232379217</td><td rowspan="1">6943</td></tr><tr class="passedodd"><td rowspan="2">newAccount.VerifyShowpickerForNewProfile</td><td><a href="#m21">verifyShowpickerForNewProfile</a></td><td rowspan="2">1695232486279</td><td rowspan="2">91273</td></tr><tr class="passedodd"><td><a href="#m22">verifyShowpickerForNewProfile</a></td></tr></tbody>
+<tbody id="t3"><tr><th colspan="4">SearchResult &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">searchResult.VerifyPreSearchPlaceholder</td><td><a href="#m23">preSearchPlaceholder</a></td><td rowspan="1">1695232667373</td><td rowspan="1">42989</td></tr><tr class="passedodd"><td rowspan="1">searchResult.VerifySearchResult</td><td><a href="#m24">performSearchAndVerifyResult</a></td><td rowspan="1">1695232718510</td><td rowspan="1">87986</td></tr></tbody>
+<tbody id="t4"><tr><th colspan="4">ShowsPage &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">showsPage.VerifyAnonymousUserSeeRainmaker</td><td><a href="#m25">verifyShowPageRainmaker</a></td><td rowspan="1">1695233041586</td><td rowspan="1">98436</td></tr><tr class="failedodd"><td rowspan="1">showsPage.VerifyHideRainmaker</td><td><a href="#m26">verifyHideRainmaker</a></td><td rowspan="1">1695233297512</td><td rowspan="1">143316</td></tr><tr class="failedeven"><td rowspan="1">showsPage.VerifyKidsCategoryPosition</td><td><a href="#m27">verifyKidsCategoryPosition</a></td><td rowspan="1">1695232814402</td><td rowspan="1">95555</td></tr><tr class="failedodd"><td rowspan="2">showsPage.VerifyRegisteredUserSeeRainmaker</td><td><a href="#m28">clickOnDismissButton</a></td><td rowspan="1">1695233282745</td><td rowspan="1">1088</td></tr><tr class="failedodd"><td><a href="#m29">verifyRainmaker</a></td><td rowspan="1">1695233192493</td><td rowspan="1">90061</td></tr><tr class="failedeven"><td rowspan="1">showsPage.VerifyToolTipsOnShowDetailPage</td><td><a href="#m30">verifyToolTips</a></td><td rowspan="1">1695233449187</td><td rowspan="1">153561</td></tr><tr><th colspan="4">ShowsPage &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">showsPage.VerifyLockedEpisodes</td><td><a href="#m31">verifyLockedEpisodes</a></td><td rowspan="1">1695233612407</td><td rowspan="1">8013</td></tr><tr class="passedodd"><td rowspan="2">showsPage.VerifyNonWatchlistSelectedShow</td><td><a href="#m32">addShowToMyList</a></td><td rowspan="1">1695232960212</td><td rowspan="1">1043</td></tr><tr class="passedodd"><td><a href="#m33">verifyNonWatchlistSelectedShow</a></td><td rowspan="1">1695232918010</td><td rowspan="1">42201</td></tr><tr class="passedeven"><td rowspan="2">showsPage.VerifyRegisteredUserSeeRainmaker</td><td><a href="#m34">navigateToShowsPage</a></td><td rowspan="1">1695233149386</td><td rowspan="1">43105</td></tr><tr class="passedeven"><td><a href="#m35">verifyTryItFreeCTA</a></td><td rowspan="1">1695233284042</td><td rowspan="1">6069</td></tr><tr class="passedodd"><td rowspan="2">showsPage.VerifyWatchlistSelectedShow</td><td><a href="#m36">removeShowFromMyList</a></td><td rowspan="1">1695233016200</td><td rowspan="1">17477</td></tr><tr class="passedodd"><td><a href="#m37">verifyWatchlistSelectedShow</a></td><td rowspan="1">1695232969665</td><td rowspan="1">46535</td></tr></tbody>
+<tbody id="t5"><tr><th colspan="4">MoviesPage &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">moviesPage.VerifyNonWatchlistSelectedMovie</td><td><a href="#m38">addMovieToMyList</a></td><td rowspan="1">1695233709298</td><td rowspan="1">1110</td></tr><tr class="passedeven"><td><a href="#m39">verifyNonWatchlistSelectMovie</a></td><td rowspan="1">1695233631107</td><td rowspan="1">78190</td></tr><tr class="passedodd"><td rowspan="2">moviesPage.VerifyWatchlistSelectedMovie</td><td><a href="#m40">removeMovieFromMyList</a></td><td rowspan="1">1695233779716</td><td rowspan="1">307</td></tr><tr class="passedodd"><td><a href="#m41">verifyWatchlistSelectedMovie</a></td><td rowspan="1">1695233718918</td><td rowspan="1">60797</td></tr></tbody>
+<tbody id="t6"><tr><th colspan="4">UpsellPage &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">upsellPage.VerifySignInCTA</td><td><a href="#m42">signInCTA</a></td><td rowspan="1">1695233788823</td><td rowspan="1">59</td></tr><tr class="passedodd"><td rowspan="1">upsellPage.VerifyStudentsUpsellCopy</td><td><a href="#m43">verifySudentUpsellCopy</a></td><td rowspan="1">1695233796143</td><td rowspan="1">4588</td></tr><tr class="passedeven"><td rowspan="2">upsellPage.VerifyUpsellPage</td><td><a href="#m44">verifyUpsellPage</a></td><td rowspan="2">1695233818833</td><td rowspan="2">41228</td></tr><tr class="passedeven"><td><a href="#m45">verifyUpsellPage</a></td></tr></tbody>
+<tbody id="t7"><tr><th colspan="4">UserProfile &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">userProfile.VerifyProfileNameAndAvatarImg</td><td><a href="#m46">deleteProfile</a></td><td rowspan="1">1695234349845</td><td rowspan="1">180013</td></tr><tr class="failedeven"><td><a href="#m47">verifyNameAndSelectedIconOnShowPicker</a></td><td rowspan="1">1695234303545</td><td rowspan="1">46092</td></tr><tr><th colspan="4">UserProfile &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">userProfile.VerifyAdultUserProfile</td><td><a href="#m48">verifyAdultUserProfilePicker</a></td><td rowspan="1">1695233868462</td><td rowspan="1">42530</td></tr><tr class="passedodd"><td rowspan="1">userProfile.VerifyDeleteKidsProfile</td><td><a href="#m49">deleteKidsUserProfile</a></td><td rowspan="1">1695234188989</td><td rowspan="1">42194</td></tr><tr class="passedeven"><td rowspan="1">userProfile.VerifyDeleteNewProfile</td><td><a href="#m50">deleteNewProfile</a></td><td rowspan="1">1695234051539</td><td rowspan="1">40539</td></tr><tr class="passedodd"><td rowspan="1">userProfile.VerifyKidsUserProfile</td><td><a href="#m51">verifyKidsUserProfilePicker</a></td><td rowspan="1">1695233918879</td><td rowspan="1">45377</td></tr><tr class="passedeven"><td rowspan="1">userProfile.VerifyNewProfileShowPicker</td><td><a href="#m52">newProfileShowPicker</a></td><td rowspan="1">1695233972933</td><td rowspan="1">70256</td></tr><tr class="passedodd"><td rowspan="1">userProfile.VerifyNoShowPickerForKidsProfile</td><td><a href="#m53">noShowPickerForKidsProfile</a></td><td rowspan="1">1695234100328</td><td rowspan="1">80294</td></tr><tr class="passedeven"><td rowspan="2">userProfile.VerifyProfileNameCappedAt16Chars</td><td><a href="#m54">VerifyProfileLengthOnShowPicker</a></td><td rowspan="1">1695234240382</td><td rowspan="1">53204</td></tr><tr class="passedeven"><td><a href="#m55">deleteProfile</a></td><td rowspan="1">1695234293587</td><td rowspan="1">1067</td></tr></tbody>
 </table>
-<h2>NewAccount</h2><h3 id="m0">newAccount.VerifyCreateEssentialUser#verifyCreateEssentialUser</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Test started- verifyCreateEssentialUser<br/>Test failed- verifyCreateEssentialUser</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;div button[class=&apos;payment-layout__summary__submit button qt-AAbtn&apos;] span&quot;}
-  (Session info: chrome=114.0.5735.134)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;
+<h2>HomePage</h2><h3 id="m0">homePage.VerifyFooterParamountLogo#verifyFooterLogo</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Test started- verifyFooterLogo<br/>Test completed successfully- verifyFooterLogo</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">homePage.VerifyGoAddFreeCTA#verifyGoCommercialFreeCTA</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Test started- verifyGoCommercialFreeCTA<br/>Test completed successfully- verifyGoCommercialFreeCTA</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">homePage.VerifyHomePage#homePage</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Test started- homePage<br/>Test completed successfully- homePage</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">homePage.VerifyJustAddedBadge#verifyJustAddedBadge</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Test started- verifyJustAddedBadge<br/>Test completed successfully- verifyJustAddedBadge</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">homePage.VerifyKeepWatchingCarousel#keepWatchingCarouserl</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Test started- keepWatchingCarouserl<br/>Test completed successfully- keepWatchingCarouserl</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">homePage.VerifyMyListCarouselDisplayed#verifyMyListCarouselIsDisplayed</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Test started- verifyMyListCarouselIsDisplayed<br/>Test completed successfully- verifyMyListCarouselIsDisplayed</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">homePage.VerifyMyListCarouselNotDisplayed#verifyNoMyListCarousel</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Test started- verifyNoMyListCarousel<br/>Test completed successfully- verifyNoMyListCarousel</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">homePage.VerifyNewBadge#verifyNewBadge</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Test started- verifyNewBadge<br/>Test completed successfully- verifyNewBadge</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>MyListPage</h2><h3 id="m8">myListPage.VerifyEditMyListContent#editMyList</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Test started- editMyList<br/>Test failed- editMyList</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;watch-list-edit-carousel&apos;]&quot;}
+  (Session info: chrome=116.0.5845.188)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a0d752c0036e4e1f82068aa2bcd0898a, findElement {using=css selector, value=div button[class=&apos;payment-layout__summary__submit button qt-AAbtn&apos;] span}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\RAHULR~1.360\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:63100}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63100/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a0d752c0036e4e1f82068aa2bcd0898a
+Command: [63f3545f186dfb705877e8f8a41bbd23, findElement {using=xpath, value=//div[@class=&apos;watch-list-edit-carousel&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.188, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\RAHULR~1.360\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54773}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54773/devtoo..., se:cdpVersion: 116.0.5845.188, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 63f3545f186dfb705877e8f8a41bbd23
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at jdk.proxy2/jdk.proxy2.$Proxy37.click(Unknown Source)
-	at com.paramountplus.objectRepository.SubmitPaymentPage.makePayment(SubmitPaymentPage.java:125)
-	at newAccount.VerifyCreateEssentialUser.verifyCreateEssentialUser(VerifyCreateEssentialUser.java:52)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy34.click(Unknown Source)
+	at com.paramountplus.objectRepository.MyListPage.clickOnEditButton(MyListPage.java:78)
+	at myListPage.VerifyEditMyListContent.editMyList(VerifyEditMyListContent.java:36)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">myListPage.VerifyMyListShowsSelectedContent#VerifySelectedContentOnMyList</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Test started- VerifySelectedContentOnMyList<br/>Test failed- VerifySelectedContentOnMyList</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a13eaab5207f120111eb03d19bc40fca, actions {actions=[org.openqa.selenium.interactions.Sequence@3605ab16]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.188, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\RAHULR~1.360\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64154}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64154/devtoo..., se:cdpVersion: 116.0.5845.188, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a13eaab5207f120111eb03d19bc40fca
+	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:415)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:178)
+	at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:341)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:200)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$23(JsonOutput.java:200)
+	at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:341)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:218)
+	at com.google.common.collect.SingletonImmutableBiMap.forEach(SingletonImmutableBiMap.java:68)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$25(JsonOutput.java:213)
+	at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:341)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:332)
+	at org.openqa.selenium.json.Json.toJson(Json.java:47)
+	at org.openqa.selenium.json.Json.toJson(Json.java:41)
+	at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:273)
+	at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:127)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:179)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:604)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:605)
+	at com.paramountplus.genericUtility.WebDriverUtility.mouseHoverOnElement(WebDriverUtility.java:254)
+	at myListPage.VerifyMyListShowsSelectedContent.VerifySelectedContentOnMyList(VerifyMyListShowsSelectedContent.java:45)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	Suppressed: org.openqa.selenium.json.JsonException: Attempting to close incomplete json stream
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
+Driver info: driver.version: RemoteWebDriver
+		at org.openqa.selenium.json.JsonOutput.close(JsonOutput.java:357)
+		at org.openqa.selenium.json.Json.toJson(Json.java:45)
+		... 39 more
+	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:411)
+	... 60 more
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#watchlistCta&quot;}
+  (Session info: chrome=116.0.5845.188)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a13eaab5207f120111eb03d19bc40fca, findElement {using=css selector, value=#watchlistCta}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.188, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\RAHULR~1.360\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64154}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64154/devtoo..., se:cdpVersion: 116.0.5845.188, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a13eaab5207f120111eb03d19bc40fca
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy34.getWrappedElement(Unknown Source)
+	at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:275)
+	at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:224)
+	at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:72)
+	at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:81)
+	... 65 more
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">myListPage.VerifyRecentAdditionToMyList#verifyRecentAdditionToMylist</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Test started- verifyRecentAdditionToMylist<br/>Test failed- verifyRecentAdditionToMylist</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#watchlistCta&quot;}
+  (Session info: chrome=116.0.5845.188)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [149f3e8e0316b61655f4217b828de70d, findElement {using=css selector, value=#watchlistCta}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.188, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\RAHULR~1.360\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58538}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58538/devtoo..., se:cdpVersion: 116.0.5845.188, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 149f3e8e0316b61655f4217b828de70d
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy34.click(Unknown Source)
+	at myListPage.VerifyRecentAdditionToMyList.verifyRecentAdditionToMylist(VerifyRecentAdditionToMyList.java:43)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">myListPage.VerifyEditMyListContent#verifyEmptyMyList</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Test started- verifyEmptyMyList<br/>Test completed successfully- verifyEmptyMyList</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>NewAccount</h2><h3 id="m12">newAccount.VerifyAnnualEssentialUserCreation#makePayment</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Test started- makePayment<br/>Test completed successfully- makePayment</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">newAccount.VerifyAnnualEssentialUserCreation#verifyAnnualEssentialUserCreation</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Test started- verifyAnnualEssentialUserCreation<br/>Test completed successfully- verifyAnnualEssentialUserCreation</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">newAccount.VerifyAnnualPremiumUserCreation#makePayment</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Test started- makePayment<br/>Test completed successfully- makePayment</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">newAccount.VerifyAnnualPremiumUserCreation#verifyAnnualPremiumUserCreation</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Test started- verifyAnnualPremiumUserCreation<br/>Test completed successfully- verifyAnnualPremiumUserCreation</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">newAccount.VerifyMonthlyEssentialUserCreation#makePayment</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Test started- makePayment<br/>Test completed successfully- makePayment</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">newAccount.VerifyMonthlyEssentialUserCreation#verifyMonthlyEssentialUserCreation</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Test started- verifyMonthlyEssentialUserCreation<br/>Test completed successfully- verifyMonthlyEssentialUserCreation</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m18">newAccount.VerifyMonthlyPremiumUserCreation#makePayment</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Test started- makePayment<br/>Test completed successfully- makePayment</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m19">newAccount.VerifyMonthlyPremiumUserCreation#verifyMonthlyPremiumUserCreation</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Test started- verifyMonthlyPremiumUserCreation<br/>Test completed successfully- verifyMonthlyPremiumUserCreation</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m20">newAccount.VerifyPlanPage#planPage</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Test started- planPage<br/>Test completed successfully- planPage</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m21">newAccount.VerifyShowpickerForNewProfile#verifyShowpickerForNewProfile</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Essential@auto5779.com</td><td>123456</td></tr><tr><th colspan="2">Messages</th></tr><tr><td colspan="2"><div class="messages">Test started- verifyShowpickerForNewProfile<br/>Test completed successfully- verifyShowpickerForNewProfile</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m22">newAccount.VerifyShowpickerForNewProfile#verifyShowpickerForNewProfile</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Premium@auto9249.com</td><td>123456</td></tr><tr><th colspan="2">Messages</th></tr><tr><td colspan="2"><div class="messages">Test started- verifyShowpickerForNewProfile<br/>Test completed successfully- verifyShowpickerForNewProfile</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>SearchResult</h2><h3 id="m23">searchResult.VerifyPreSearchPlaceholder#preSearchPlaceholder</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Test started- preSearchPlaceholder<br/>Test completed successfully- preSearchPlaceholder</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m24">searchResult.VerifySearchResult#performSearchAndVerifyResult</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Test started- performSearchAndVerifyResult<br/>Test completed successfully- performSearchAndVerifyResult</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>ShowsPage</h2><h3 id="m25">showsPage.VerifyAnonymousUserSeeRainmaker#verifyShowPageRainmaker</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Test started- verifyShowPageRainmaker<br/>Test failed- verifyShowPageRainmaker</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //div[contains(text(),&apos;WATCH NOW&apos;)]&apos; (tried for 45 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at com.paramountplus.genericUtility.WebDriverUtility.waitForElementToBeVisible(WebDriverUtility.java:102)
+	at showsPage.VerifyAnonymousUserSeeRainmaker.verifyShowPageRainmaker(VerifyAnonymousUserSeeRainmaker.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[contains(text(),&apos;WATCH NOW&apos;)]&quot;}
+  (Session info: chrome=116.0.5845.188)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2729bff83f84561cbe88ea3355a9f61d, findElement {using=xpath, value=//div[contains(text(),&apos;WATCH NOW&apos;)]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.188, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\RAHULR~1.360\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60175}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60175/devtoo..., se:cdpVersion: 116.0.5845.188, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2729bff83f84561cbe88ea3355a9f61d
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy34.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:37)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205)
+	... 30 more
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m26">showsPage.VerifyHideRainmaker#verifyHideRainmaker</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Test started- verifyHideRainmaker<br/>Test failed- verifyHideRainmaker</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //div[contains(text(),&apos;WATCH NOW&apos;)]&apos; (tried for 45 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at com.paramountplus.genericUtility.WebDriverUtility.waitForElementToBeVisible(WebDriverUtility.java:102)
+	at showsPage.VerifyHideRainmaker.verifyHideRainmaker(VerifyHideRainmaker.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[contains(text(),&apos;WATCH NOW&apos;)]&quot;}
+  (Session info: chrome=116.0.5845.188)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [03c153fde44213182c0ea9213ae65015, findElement {using=xpath, value=//div[contains(text(),&apos;WATCH NOW&apos;)]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.188, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\RAHULR~1.360\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50456}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50456/devtoo..., se:cdpVersion: 116.0.5845.188, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 03c153fde44213182c0ea9213ae65015
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy34.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:37)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205)
+	... 30 more
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m27">showsPage.VerifyKidsCategoryPosition#verifyKidsCategoryPosition</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Test started- verifyKidsCategoryPosition<br/>Test failed- verifyKidsCategoryPosition</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.navigation.header__nav--items&gt;li:first-of-type&quot;}
+  (Session info: chrome=116.0.5845.188)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [29a6f5d570f92c5baee4dc5207be46e1, findElement {using=css selector, value=.navigation.header__nav--items&gt;li:first-of-type}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.188, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\RAHULR~1.360\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53964}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53964/devtoo..., se:cdpVersion: 116.0.5845.188, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 29a6f5d570f92c5baee4dc5207be46e1
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy34.click(Unknown Source)
+	at showsPage.VerifyKidsCategoryPosition.verifyKidsCategoryPosition(VerifyKidsCategoryPosition.java:28)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m28">showsPage.VerifyRegisteredUserSeeRainmaker#clickOnDismissButton</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Test started- clickOnDismissButton<br/>Test failed- clickOnDismissButton</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (56, 647)
+  (Session info: chrome=116.0.5845.188)
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c18f84f8d14a4b33d49e2491f39b1f43, clickElement {id=68455687A9072CF0CF99A99009280A22_element_163}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.188, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\RAHULR~1.360\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49887}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49887/devtoo..., se:cdpVersion: 116.0.5845.188, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c18f84f8d14a4b33d49e2491f39b1f43)] -&gt; css selector: #js-rainmaker-close-out]
+Session ID: c18f84f8d14a4b33d49e2491f39b1f43
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy34.click(Unknown Source)
+	at showsPage.VerifyRegisteredUserSeeRainmaker.clickOnDismissButton(VerifyRegisteredUserSeeRainmaker.java:50)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m29">showsPage.VerifyRegisteredUserSeeRainmaker#verifyRainmaker</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Test started- verifyRainmaker<br/>Test failed- verifyRainmaker</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //div[contains(text(),&apos;WATCH NOW&apos;)]&apos; (tried for 45 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at com.paramountplus.genericUtility.WebDriverUtility.waitForElementToBeVisible(WebDriverUtility.java:102)
+	at showsPage.VerifyRegisteredUserSeeRainmaker.verifyRainmaker(VerifyRegisteredUserSeeRainmaker.java:31)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[contains(text(),&apos;WATCH NOW&apos;)]&quot;}
+  (Session info: chrome=116.0.5845.188)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c18f84f8d14a4b33d49e2491f39b1f43, findElement {using=xpath, value=//div[contains(text(),&apos;WATCH NOW&apos;)]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.188, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\RAHULR~1.360\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49887}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49887/devtoo..., se:cdpVersion: 116.0.5845.188, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c18f84f8d14a4b33d49e2491f39b1f43
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy34.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:37)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205)
+	... 30 more
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m30">showsPage.VerifyToolTipsOnShowDetailPage#verifyToolTips</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Test started- verifyToolTips<br/>Test failed- verifyToolTips</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //button[@title=&apos;Unmute Audio&apos; and @class=&apos;hero-volume muted&apos;]&apos; (tried for 45 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at com.paramountplus.genericUtility.WebDriverUtility.waitForElementToBeVisible(WebDriverUtility.java:102)
+	at showsPage.VerifyToolTipsOnShowDetailPage.verifyToolTips(VerifyToolTipsOnShowDetailPage.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@title=&apos;Unmute Audio&apos; and @class=&apos;hero-volume muted&apos;]&quot;}
+  (Session info: chrome=116.0.5845.188)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [88cef655f451642bbfdc987260d1d5ab, findElement {using=xpath, value=//button[@title=&apos;Unmute Audio&apos; and @class=&apos;hero-volume muted&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.188, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\RAHULR~1.360\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51128}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51128/devtoo..., se:cdpVersion: 116.0.5845.188, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 88cef655f451642bbfdc987260d1d5ab
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy34.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:37)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205)
+	... 30 more
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m31">showsPage.VerifyLockedEpisodes#verifyLockedEpisodes</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Test started- verifyLockedEpisodes<br/>Test completed successfully- verifyLockedEpisodes</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m32">showsPage.VerifyNonWatchlistSelectedShow#addShowToMyList</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Test started- addShowToMyList<br/>Test completed successfully- addShowToMyList</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m33">showsPage.VerifyNonWatchlistSelectedShow#verifyNonWatchlistSelectedShow</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Test started- verifyNonWatchlistSelectedShow<br/>Test completed successfully- verifyNonWatchlistSelectedShow</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m34">showsPage.VerifyRegisteredUserSeeRainmaker#navigateToShowsPage</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Test started- navigateToShowsPage<br/>Test completed successfully- navigateToShowsPage</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m35">showsPage.VerifyRegisteredUserSeeRainmaker#verifyTryItFreeCTA</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Test started- verifyTryItFreeCTA<br/>Test completed successfully- verifyTryItFreeCTA</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m36">showsPage.VerifyWatchlistSelectedShow#removeShowFromMyList</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Test started- removeShowFromMyList<br/>Test completed successfully- removeShowFromMyList</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m37">showsPage.VerifyWatchlistSelectedShow#verifyWatchlistSelectedShow</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Test started- verifyWatchlistSelectedShow<br/>Test completed successfully- verifyWatchlistSelectedShow</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>MoviesPage</h2><h3 id="m38">moviesPage.VerifyNonWatchlistSelectedMovie#addMovieToMyList</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Test started- addMovieToMyList<br/>Test completed successfully- addMovieToMyList</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m39">moviesPage.VerifyNonWatchlistSelectedMovie#verifyNonWatchlistSelectMovie</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Test started- verifyNonWatchlistSelectMovie<br/>Test completed successfully- verifyNonWatchlistSelectMovie</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m40">moviesPage.VerifyWatchlistSelectedMovie#removeMovieFromMyList</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Test started- removeMovieFromMyList<br/>Test completed successfully- removeMovieFromMyList</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m41">moviesPage.VerifyWatchlistSelectedMovie#verifyWatchlistSelectedMovie</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Test started- verifyWatchlistSelectedMovie<br/>Test completed successfully- verifyWatchlistSelectedMovie</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>UpsellPage</h2><h3 id="m42">upsellPage.VerifySignInCTA#signInCTA</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Test started- signInCTA<br/>Test completed successfully- signInCTA</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m43">upsellPage.VerifyStudentsUpsellCopy#verifySudentUpsellCopy</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Test started- verifySudentUpsellCopy<br/>Test completed successfully- verifySudentUpsellCopy</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m44">upsellPage.VerifyUpsellPage#verifyUpsellPage</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>rahulrajat.mishra+1@paramount.com</td><td>123456</td></tr><tr><th colspan="2">Messages</th></tr><tr><td colspan="2"><div class="messages">Test started- verifyUpsellPage<br/>Test completed successfully- verifyUpsellPage</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m45">upsellPage.VerifyUpsellPage#verifyUpsellPage</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>exsub@stage5.com</td><td>aaaaaa</td></tr><tr><th colspan="2">Messages</th></tr><tr><td colspan="2"><div class="messages">Test started- verifyUpsellPage<br/>Test completed successfully- verifyUpsellPage</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>UserProfile</h2><h3 id="m46">userProfile.VerifyProfileNameAndAvatarImg#deleteProfile</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Test started- deleteProfile<br/>Test failed- deleteProfile</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [507140aadcc023176e4d8c63bc8e95bf, goBack {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.188, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\RAHULR~1.360\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59987}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59987/devtoo..., se:cdpVersion: 116.0.5845.188, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 507140aadcc023176e4d8c63bc8e95bf
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:391)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:347)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:188)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.back(RemoteWebDriver.java:997)
+	at userProfile.VerifyProfileNameAndAvatarImg.deleteProfile(VerifyProfileNameAndAvatarImg.java:72)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:374)
+	... 39 more
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m47">userProfile.VerifyProfileNameAndAvatarImg#verifyNameAndSelectedIconOnShowPicker</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Test started- verifyNameAndSelectedIconOnShowPicker<br/>Test failed- verifyNameAndSelectedIconOnShowPicker</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.split(String)&quot; because &quot;srcImg1&quot; is null
+	at userProfile.VerifyProfileNameAndAvatarImg.verifyNameAndSelectedIconOnShowPicker(VerifyProfileNameAndAvatarImg.java:47)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m48">userProfile.VerifyAdultUserProfile#verifyAdultUserProfilePicker</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Test started- verifyAdultUserProfilePicker<br/>Test completed successfully- verifyAdultUserProfilePicker</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m49">userProfile.VerifyDeleteKidsProfile#deleteKidsUserProfile</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Test started- deleteKidsUserProfile<br/>Test completed successfully- deleteKidsUserProfile</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m50">userProfile.VerifyDeleteNewProfile#deleteNewProfile</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Test started- deleteNewProfile<br/>Test completed successfully- deleteNewProfile</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m51">userProfile.VerifyKidsUserProfile#verifyKidsUserProfilePicker</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Test started- verifyKidsUserProfilePicker<br/>Test completed successfully- verifyKidsUserProfilePicker</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m52">userProfile.VerifyNewProfileShowPicker#newProfileShowPicker</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Test started- newProfileShowPicker<br/>Test completed successfully- newProfileShowPicker</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m53">userProfile.VerifyNoShowPickerForKidsProfile#noShowPickerForKidsProfile</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Test started- noShowPickerForKidsProfile<br/>Test completed successfully- noShowPickerForKidsProfile</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m54">userProfile.VerifyProfileNameCappedAt16Chars#VerifyProfileLengthOnShowPicker</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Test started- VerifyProfileLengthOnShowPicker<br/>Test completed successfully- VerifyProfileLengthOnShowPicker</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m55">userProfile.VerifyProfileNameCappedAt16Chars#deleteProfile</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Test started- deleteProfile<br/>Test completed successfully- deleteProfile</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

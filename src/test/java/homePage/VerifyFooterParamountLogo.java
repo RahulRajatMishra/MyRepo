@@ -2,15 +2,11 @@ package homePage;
 
 import java.io.IOException;
 
-import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.paramountplus.genericUtility.BaseClass;
 import com.paramountplus.genericUtility.LoggerUtility;
-import com.paramountplus.genericUtility.LoginUtility;
-import com.paramountplus.genericUtility.RetryAnalyzer;
-import com.paramountplus.genericUtility.WebDriverUtility;
 import com.paramountplus.objectRepository.HomePage;
 import com.paramountplus.objectRepository.LoginPage;
 import com.paramountplus.objectRepository.WhosWatchingPage;

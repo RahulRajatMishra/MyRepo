@@ -20,7 +20,7 @@ public class PlanPage {
 	@FindBy(xpath="//a[contains(@aa-link,'global header|user|sign out|')]")
 	private WebElement signOutButton;
 
-	@FindBy(xpath="//div[contains(text(),'pick your plan')]")
+	@FindBy(xpath="//div[contains(text(),'Pick Your Plan')]")
 	private WebElement pickYourPlanText;
 
 	@FindBy(xpath="//a[@aria-label='Paramount+ Home']")

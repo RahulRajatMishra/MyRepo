@@ -25,7 +25,7 @@ public class VerifyAnonymousUserSeeRainmaker extends BaseClass{
 
 		ShowsPage showsPage= new ShowsPage(driver);
 		showsPage.closePrompt();
-		showsPage.getPopularShows().get(0).click();
+		showsPage.getPopularShows().get(1).click();
 		LoggerUtility.info("Navigated to Show deatail page");
 
 		//C1503127- Show page - Anonymous user - See Rainmaker

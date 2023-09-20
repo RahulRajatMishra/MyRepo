@@ -1,9 +1,5 @@
 package moviesPage;
 
-import static org.testng.Assert.assertTrue;
-
-import java.io.IOException;
-
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -17,7 +13,7 @@ import com.paramountplus.objectRepository.WhosWatchingPage;
 
 public class VerifyNonWatchlistSelectedMovie extends BaseClass{
 
-	@Test(groups = {"Smoke"}, description = "C1533414_Navigate_to_movie_page_&_C1534297_Add_Movie_to_the_Watchlist")
+	@Test(priority = 1, groups = {"Smoke"}, description = "C1533414_Navigate_to_movie_page")
 	public void verifyNonWatchlistSelectMovie() throws Exception
 	{
 		LoginPage login= new LoginPage(driver);
@@ -31,8 +27,12 @@ public class VerifyNonWatchlistSelectedMovie extends BaseClass{
 		wLib.scrollIntoView(driver, homePage.getHorrorMoviesCarousel());
 		WebElement firstMovie= homePage.getAllItemsInHorrorMoviesCarousel().get(0);
 		firstMovie.click();
+		wLib.waitTillcurrectURLContains(driver, "movies");
 		LoggerUtility.info("User is taken to movie details page");
-
+	}
+	@Test(priority = 2,description = "C1534297_Add_Movie_to_the_Watchlist")
+	public void addMovieToMyList()
+	{ 
 		MoviesDetailsPage moviesDetailsPage= new MoviesDetailsPage(driver);
 		boolean flag1= moviesDetailsPage.getWatchNowCTA().isDisplayed();
 		Assert.assertTrue(flag1);
@@ -46,7 +46,7 @@ public class VerifyNonWatchlistSelectedMovie extends BaseClass{
 		boolean flag3= moviesDetailsPage.getAddToWatchlistbtn().isDisplayed();
 		Assert.assertTrue(flag3);
 		LoggerUtility.info("Movie is not in watchlist-\"plus Sign\" displayed");
-		//Prepare pre condition for VerifyWatchListSelectedMovie
+
 		//C1534297_Add_Movie_to_the_Watchlist
 		moviesDetailsPage.getAddToWatchlistbtn().click();
 		wLib.mouseHoverOnElement(driver, moviesDetailsPage.getMyListCTA());

@@ -19,7 +19,7 @@ public class VerifyStudentsUpsellCopy extends BaseClass{
 		Assert.assertTrue(flag1);
 		String subHeadertxt= studentUpsellPage.getUpsellSubHeadertxt().getText();
 		System.out.println(subHeadertxt);
-		boolean flag2= subHeadertxt.equalsIgnoreCase("Work hard. Play harder. Students get an Essential monthly plan for just $3.75/mo.! Cancel anytime.");
+		boolean flag2= subHeadertxt.equalsIgnoreCase("Work hard. Play harder. Students get a Paramount+ Essential monthly plan for just $4.50/mo.! Cancel anytime.");
 		Assert.assertTrue(flag2);
 		LoggerUtility.info("Header and sub-header text verified- TEST PASSED");
 	}

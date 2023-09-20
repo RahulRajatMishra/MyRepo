@@ -16,7 +16,7 @@ import com.paramountplus.objectRepository.WhosWatchingPage;
 
 public class VerifyNonWatchlistSelectedShow extends BaseClass {
 
-	@Test(groups = {"Smoke"}, description = "C1533413-Navigate_to_a_non-watchlist_selected_show_page_&_C1533533- Add_Show_to_the_Watchlist")
+	@Test(priority = 1, groups = {"Smoke"}, description = "C1533413-Navigate_to_a_non-watchlist_selected_show_page")
 	public void verifyNonWatchlistSelectedShow() throws Exception
 	{
 		LoginPage login= new LoginPage(driver);
@@ -26,19 +26,23 @@ public class VerifyNonWatchlistSelectedShow extends BaseClass {
 		whosWatching.selectMainProfile();
 
 		HomePage homePage= new HomePage(driver);
-		wLib.scrollTillElementIsDisplayed(driver, homePage.getShowtimeShowsMoviesCarousel());
-		wLib.scrollIntoView(driver, homePage.getShowtimeShowsMoviesCarousel());
-		WebElement firstShow= homePage.getAllItemsInShowtimeShowsMoviesCarousel().get(0);
+		wLib.scrollTillElementIsDisplayed(driver, homePage.getHorrorMoviesCarousel());
+		wLib.scrollIntoView(driver, homePage.getHorrorMoviesCarousel());
+		WebElement firstShow= homePage.getAllItemsInHorrorMoviesCarousel().get(0);
 		boolean flag1= firstShow.isDisplayed();
 		Assert.assertTrue(flag1);
 		firstShow.click();
+		wLib.waitTillcurrectURLContains(driver, "movies");
 		LoggerUtility.info("First show is selected");
-
+	}
+	@Test(priority = 2, groups = {"Smoke"}, description = "C1533533- Add_Show_to_the_Watchlist")
+	public void addShowToMyList()
+	{
 		ShowsDetailsPage showsDetailsPage= new ShowsDetailsPage(driver);
 		boolean flag2=  showsDetailsPage.getWatchNowCTA().isDisplayed();
 		Assert.assertTrue(flag2);
 		LoggerUtility.info("Watch Now CTA is displayed");
-
+        wLib.waitForElementToBeVisible(driver, showsDetailsPage.getMyListText());
 		wLib.mouseHoverOnElement(driver, showsDetailsPage.getWatchlistCTA());
 		boolean flag3= showsDetailsPage.getAddToWatchlistbtn().isDisplayed();
 		Assert.assertTrue(flag3);
